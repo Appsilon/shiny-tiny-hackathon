@@ -1,0 +1,106 @@
+```{r}
+
+selectInput(
+  inputId = "summary_view",
+  label = "Summary view:",
+  choices = c(
+    "Reports by report type" = "Report_type",
+    "Reports by reporter" = "Reporter",
+    "Reports by region" = "Region",
+    "Reports by seriousness" = "Seriousness",
+    "Reports by sex" = "Gender",
+    "Reports by age group" = "Age_group"
+  ),
+  selected = "Report_type"
+)
+
+```
+
+```{r}
+
+bsCollapse(
+  id = "collapse_year",
+  bsCollapsePanel("Year",
+    checkboxGroupInput(
+      "year_filter", NULL,
+      choices = sort(unique(faers_simulated$Year)),
+      selected = sort(unique(faers_simulated$Year))
+    ),
+    style = "secondary"
+  )
+)
+
+bsCollapse(
+  id = "collapse_report_type",
+  bsCollapsePanel("Report type",
+    checkboxGroupInput(
+      "report_type_filter", NULL,
+      choices = unique(faers_simulated$Report_type),
+      selected = unique(faers_simulated$Report_type)
+    ),
+    style = "secondary"
+  )
+)
+
+bsCollapse(
+  id = "collapse_reporter",
+  bsCollapsePanel("Reporter",
+    checkboxGroupInput(
+      "reporter_filter", NULL,
+      choices = unique(faers_simulated$Reporter),
+      selected = unique(faers_simulated$Reporter)
+    ),
+    style = "secondary"
+  )
+)
+
+bsCollapse(
+  id = "collapse_region",
+  bsCollapsePanel("Reporter Region",
+    checkboxGroupInput(
+      "region_filter", NULL,
+      choices = unique(faers_simulated$Region),
+      selected = unique(faers_simulated$Region)
+    ),
+    style = "secondary"
+  )
+)
+
+bsCollapse(
+  id = "collapse_seriousness",
+  bsCollapsePanel("Report Seriousness",
+    checkboxGroupInput(
+      "seriousness_filter", NULL,
+      choices = unique(faers_simulated$Seriousness),
+      selected = unique(faers_simulated$Seriousness)
+    ),
+    style = "secondary"
+  )
+)
+
+bsCollapse(
+  id = "collapse_gender",
+  bsCollapsePanel("Gender",
+    checkboxGroupInput(
+      "gender_filter", NULL,
+      choices = unique(faers_simulated$Gender),
+      selected = unique(faers_simulated$Gender)
+    ),
+    style = "secondary"
+  )
+)
+
+bsCollapse(
+  id = "collapse_age",
+  bsCollapsePanel("Age group",
+    checkboxGroupInput(
+      "age_filter", NULL,
+      choices =  c("0 to 1 month", "2 months to 2 years", "3 to 11 years", "12 to 17 years", 
+                   "18 to 64 years", "65 to 85 years", "85+", "Not specified"),
+      selected = unique(faers_simulated$Age_group)
+    ),
+    style = "secondary"
+  )
+)
+
+```

@@ -1,0 +1,44 @@
+---
+title: "FDA Adverse Event Reporting System (FAERS) Public Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    logo: logo.jpg
+    theme: cosmo
+    base_font: "Source Sans Pro"
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(shiny)
+library(dplyr)
+library(plotly)
+library(thematic)
+
+library(shinyBS)
+library(reactable)
+
+#thematic::thematic_shiny()
+
+# Simulate dataset
+faers_simulated <- read.csv("faers_simulated.csv")
+```
+
+Sidebar {.sidebar} 
+=====================================
+
+```{r child = '01_sidebar.Rmd'}
+```
+
+Main page
+===================================== 
+
+```{r child = '02_mainpage.Rmd'}
+```
+
+Search by drugs {.tabset}
+=====================================
+```{r child = '03_searchbydrug.Rmd'}
+```
