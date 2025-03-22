@@ -1,0 +1,4 @@
+shiny
+pandas
+numpy
+plotnine
