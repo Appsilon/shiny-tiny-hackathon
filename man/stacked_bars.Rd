@@ -4,7 +4,7 @@
 \alias{stacked_bars}
 \title{Add plotly stacked bar chart}
 \usage{
-stacked_bars(columns_to_use)
+stacked_bars(columns_to_use, years_to_display)
 }
 \arguments{
 \item{columns_to_use}{A vector of column names to be used in the plot. This should be a subset of the columns 

@@ -86,8 +86,8 @@ stacked_bars <- function(columns_to_use, years_to_display) {
       color = ~category,
       colors = selected_colors,
       type = 'bar',
-      text = ~category,
-      hoverinfo = 'text'
+      # text = ~category,
+      hoverinfo = 'category'
     ) %>%
     layout(
       barmode = 'stack',  # Stacked bars
