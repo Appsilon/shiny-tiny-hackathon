@@ -1,0 +1,1001 @@
+Year,Sex,Reporter Region,Reporter,Report Seriousness,Type,Age Group
+2015,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2024,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2021,Female,Foreign,Consumer,Non-Serious,Non-Expedited,Not Specified
+2019,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2012,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2012,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2010,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2023,Female,Foreign,Consumer,Serious,Non-Expedited,12-17 Years
+2019,Male,Domestic,Healthcare Professionnal,Death,Expedited,65-85 Years
+2020,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2009,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2024,Not specified,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2022,Female,Foreign,Consumer,Non-Serious,Expedited,Not Specified
+2013,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2012,Female,Domestic,Healthcare Professionnal,Death,Expedited,18-64 Years
+2012,Female,Domestic,Consumer,Serious,Expedited,More than 85 Years
+2014,Male,Domestic,Healthcare Professionnal,Non-Serious,Direct,18-64 Years
+2018,Female,Foreign,Consumer,Non-Serious,Expedited,65-85 Years
+2016,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2014,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,12-17 Years
+2019,Female,Foreign,Consumer,Serious,Non-Expedited,18-64 Years
+2011,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2014,Female,Foreign,Healthcare Professionnal,Death,Non-Expedited,Not Specified
+2015,Not specified,Domestic,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2017,Female,Domestic,Consumer,Death,Non-Expedited,18-64 Years
+2022,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2012,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2018,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2019,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,65-85 Years
+2009,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2019,Male,Domestic,Consumer,Death,Expedited,65-85 Years
+2012,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2010,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2024,Male,Foreign,Consumer,Non-Serious,Expedited,18-64 Years
+2024,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2022,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2014,Male,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2010,Female,Domestic,Not Specified,Non-Serious,Non-Expedited,Not Specified
+2020,Male,Domestic,Consumer,Death,Non-Expedited,18-64 Years
+2016,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2011,Female,Foreign,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2017,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2009,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Death,Non-Expedited,18-64 Years
+2013,Female,Foreign,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2020,Female,Foreign,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2014,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2018,Male,Foreign,Consumer,Serious,Expedited,65-85 Years
+2018,Female,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2012,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2024,Female,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2021,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2024,Female,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2023,Female,Foreign,Consumer,Serious,Expedited,18-64 Years
+2019,Not specified,Foreign,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2023,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2010,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2012,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2009,Male,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2015,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2016,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2014,Not specified,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2022,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2015,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2014,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2018,Female,Foreign,Consumer,Serious,Direct,Not Specified
+2011,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2022,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2010,Male,Domestic,Consumer,Death,Non-Expedited,18-64 Years
+2024,Male,Domestic,Healthcare Professionnal,Non-Serious,Direct,18-64 Years
+2021,Male,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2012,Male,Domestic,Healthcare Professionnal,Death,Non-Expedited,18-64 Years
+2009,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2022,Male,Foreign,Consumer,Death,Expedited,18-64 Years
+2020,Not specified,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2021,Male,Foreign,Healthcare Professionnal,Serious,Expedited,3-11 Years
+2021,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2010,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2015,Male,Foreign,Consumer,Non-Serious,Expedited,65-85 Years
+2011,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2023,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2019,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2015,Male,Domestic,Consumer,Death,Non-Expedited,18-64 Years
+2010,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2014,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2015,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2021,Female,Domestic,Consumer,Serious,Non-Expedited,More than 85 Years
+2019,Male,Domestic,Consumer,Death,Expedited,18-64 Years
+2023,Not specified,Foreign,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2017,Male,Domestic,Consumer,Serious,Expedited,3-11 Years
+2011,Female,Foreign,Healthcare Professionnal,Non-Serious,Direct,18-64 Years
+2021,Female,Foreign,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2021,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2018,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2021,Male,Domestic,Consumer,Serious,Direct,18-64 Years
+2017,Male,Foreign,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2018,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,12-17 Years
+2016,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2009,Female,Foreign,Consumer,Serious,Expedited,18-64 Years
+2011,Male,Domestic,Consumer,Serious,Direct,Not Specified
+2009,Male,Foreign,Consumer,Death,Expedited,18-64 Years
+2019,Not specified,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2014,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2017,Female,Domestic,Consumer,Serious,Expedited,Not Specified
+2023,Not specified,Foreign,Consumer,Serious,Expedited,18-64 Years
+2013,Male,Domestic,Consumer,Death,Expedited,18-64 Years
+2016,Male,Foreign,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2021,Female,Foreign,Consumer,Serious,Expedited,12-17 Years
+2013,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2010,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2014,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2012,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2024,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2022,Female,Foreign,Consumer,Serious,Non-Expedited,65-85 Years
+2019,Female,Domestic,Consumer,Death,Expedited,18-64 Years
+2023,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2022,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2012,Female,Domestic,Consumer,Serious,Expedited,Not Specified
+2023,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2018,Male,Foreign,Consumer,Non-Serious,Expedited,65-85 Years
+2022,Female,Foreign,Consumer,Serious,Expedited,12-17 Years
+2023,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2014,Female,Foreign,Consumer,Non-Serious,Expedited,0-1 Month
+2011,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2013,Female,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2016,Female,Domestic,Healthcare Professionnal,Death,Expedited,Not Specified
+2022,Male,Domestic,Healthcare Professionnal,Death,Expedited,65-85 Years
+2023,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2009,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2018,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2016,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2013,Female,Domestic,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2011,Male,Domestic,Healthcare Professionnal,Death,Expedited,65-85 Years
+2015,Male,Domestic,Healthcare Professionnal,Death,Direct,12-17 Years
+2024,Female,Foreign,Consumer,Serious,Non-Expedited,2 Months-2 Years
+2014,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2018,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2020,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2015,Female,Domestic,Healthcare Professionnal,Death,Non-Expedited,65-85 Years
+2024,Female,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2024,Female,Foreign,Consumer,Serious,Expedited,18-64 Years
+2013,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2017,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2014,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2014,Male,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2009,Female,Foreign,Consumer,Death,Non-Expedited,18-64 Years
+2019,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2017,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2010,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2014,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2023,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2013,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2011,Female,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,12-17 Years
+2017,Female,Foreign,Consumer,Serious,Non-Expedited,12-17 Years
+2024,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2013,Female,Domestic,Healthcare Professionnal,Serious,Expedited,3-11 Years
+2020,Male,Domestic,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2021,Female,Domestic,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2013,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2021,Male,Foreign,Consumer,Serious,Expedited,Not Specified
+2015,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2019,Male,Domestic,Consumer,Serious,Direct,18-64 Years
+2019,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2018,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2010,Male,Domestic,Consumer,Death,Expedited,18-64 Years
+2022,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2014,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2012,Female,Domestic,Consumer,Serious,Expedited,Not Specified
+2009,Male,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2019,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2020,Female,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2009,Not specified,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2018,Female,Domestic,Consumer,Serious,Direct,12-17 Years
+2013,Male,Foreign,Consumer,Serious,Direct,Not Specified
+2020,Female,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2012,Female,Foreign,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2020,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2016,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2024,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2011,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2015,Not specified,Domestic,Consumer,Serious,Expedited,65-85 Years
+2011,Male,Domestic,Consumer,Death,Non-Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2013,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,3-11 Years
+2020,Female,Foreign,Healthcare Professionnal,Death,Non-Expedited,Not Specified
+2022,Female,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2018,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2018,Male,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2013,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2010,Male,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2023,Female,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,65-85 Years
+2023,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2019,Female,Domestic,Consumer,Non-Serious,Non-Expedited,Not Specified
+2015,Male,Domestic,Consumer,Death,Expedited,65-85 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2021,Not specified,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2023,Not specified,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2023,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2021,Male,Domestic,Consumer,Death,Expedited,12-17 Years
+2020,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2010,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2012,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2023,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,65-85 Years
+2019,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2009,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2010,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2020,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2009,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2012,Not specified,Foreign,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2018,Male,Foreign,Consumer,Serious,Non-Expedited,65-85 Years
+2020,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2020,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2013,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2021,Female,Foreign,Consumer,Death,Expedited,More than 85 Years
+2013,Male,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2015,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2021,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2020,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2022,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2020,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2018,Male,Domestic,Consumer,Death,Expedited,65-85 Years
+2010,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2015,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2013,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2013,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2024,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2016,Male,Domestic,Consumer,Death,Non-Expedited,Not Specified
+2023,Not specified,Domestic,Consumer,Serious,Expedited,Not Specified
+2019,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2022,Female,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,65-85 Years
+2017,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2019,Male,Foreign,Consumer,Serious,Non-Expedited,65-85 Years
+2017,Male,Foreign,Consumer,Non-Serious,Expedited,18-64 Years
+2012,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2021,Male,Domestic,Consumer,Serious,BSR,Not Specified
+2014,Female,Foreign,Consumer,Serious,Non-Expedited,65-85 Years
+2009,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,65-85 Years
+2020,Not specified,Domestic,Healthcare Professionnal,Non-Serious,Direct,Not Specified
+2012,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2024,Female,Foreign,Consumer,Death,Non-Expedited,Not Specified
+2024,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2023,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2015,Female,Not Specified,Healthcare Professionnal,Serious,Non-Expedited,More than 85 Years
+2009,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,More than 85 Years
+2024,Female,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2016,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2024,Male,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2024,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2023,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,12-17 Years
+2014,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2016,Female,Foreign,Consumer,Serious,Non-Expedited,18-64 Years
+2022,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2014,Male,Foreign,Consumer,Serious,Expedited,2 Months-2 Years
+2012,Female,Foreign,Consumer,Serious,Non-Expedited,18-64 Years
+2018,Male,Domestic,Consumer,Death,Expedited,65-85 Years
+2024,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2020,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2018,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2010,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2019,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2024,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2011,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2018,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2023,Male,Domestic,Healthcare Professionnal,Death,Non-Expedited,Not Specified
+2021,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2020,Male,Domestic,Healthcare Professionnal,Death,Expedited,Not Specified
+2020,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2015,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2014,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2022,Female,Domestic,Consumer,Death,Expedited,18-64 Years
+2022,Female,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2023,Female,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2023,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2018,Female,Foreign,Healthcare Professionnal,Death,Expedited,65-85 Years
+2017,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2022,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2020,Not specified,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2020,Male,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2022,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2023,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2015,Female,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2010,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2019,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2009,Female,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2017,Male,Foreign,Consumer,Non-Serious,Non-Expedited,Not Specified
+2018,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2014,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2019,Male,Domestic,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2009,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2009,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2022,Female,Domestic,Consumer,Serious,Direct,Not Specified
+2015,Female,Domestic,Healthcare Professionnal,Non-Serious,Direct,18-64 Years
+2011,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2018,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2021,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2013,Male,Domestic,Consumer,Serious,Expedited,12-17 Years
+2019,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2010,Female,Domestic,Healthcare Professionnal,Serious,Direct,18-64 Years
+2010,Male,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2018,Female,Domestic,Other,Non-Serious,Direct,18-64 Years
+2018,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2019,Female,Domestic,Consumer,Serious,Non-Expedited,More than 85 Years
+2021,Female,Foreign,Consumer,Non-Serious,Expedited,18-64 Years
+2024,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2018,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2014,Female,Domestic,Consumer,Death,Expedited,18-64 Years
+2022,Male,Domestic,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2014,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2016,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2010,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2009,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2024,Female,Foreign,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2022,Male,Not Specified,Consumer,Non-Serious,Expedited,18-64 Years
+2020,Female,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2016,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2012,Female,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2012,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2013,Male,Domestic,Healthcare Professionnal,Serious,Expedited,3-11 Years
+2018,Male,Foreign,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2021,Male,Foreign,Consumer,Non-Serious,Expedited,65-85 Years
+2020,Female,Domestic,Healthcare Professionnal,Death,Expedited,65-85 Years
+2014,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2024,Not specified,Foreign,Healthcare Professionnal,Non-Serious,Expedited,12-17 Years
+2021,Male,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2018,Male,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2019,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2016,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2013,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,12-17 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Expedited,3-11 Years
+2021,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2009,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2011,Not specified,Domestic,Consumer,Death,Expedited,65-85 Years
+2009,Not specified,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2009,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,More than 85 Years
+2023,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2020,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2017,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2010,Male,Domestic,Healthcare Professionnal,Serious,BSR,18-64 Years
+2017,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2017,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2012,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2016,Female,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2016,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2019,Male,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2019,Male,Domestic,Consumer,Non-Serious,Direct,18-64 Years
+2009,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2015,Not specified,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2019,Male,Domestic,Consumer,Death,Non-Expedited,65-85 Years
+2017,Female,Domestic,Consumer,Non-Serious,Non-Expedited,0-1 Month
+2023,Female,Foreign,Consumer,Serious,Non-Expedited,65-85 Years
+2020,Male,Domestic,Healthcare Professionnal,Serious,Expedited,3-11 Years
+2012,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2010,Female,Foreign,Consumer,Serious,Expedited,Not Specified
+2020,Female,Domestic,Consumer,Death,Expedited,Not Specified
+2009,Female,Foreign,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2019,Male,Domestic,Consumer,Death,Non-Expedited,18-64 Years
+2024,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2019,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2016,Female,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2020,Male,Domestic,Consumer,Death,Expedited,18-64 Years
+2017,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2018,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2024,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2016,Male,Domestic,Healthcare Professionnal,Death,Non-Expedited,65-85 Years
+2024,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2012,Male,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2010,Male,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2010,Not specified,Domestic,Consumer,Serious,Expedited,65-85 Years
+2009,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2010,Female,Domestic,Consumer,Serious,Expedited,Not Specified
+2020,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2010,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2014,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,3-11 Years
+2022,Male,Domestic,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2009,Female,Foreign,Consumer,Non-Serious,Expedited,Not Specified
+2022,Male,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2014,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2011,Male,Foreign,Consumer,Serious,Expedited,65-85 Years
+2020,Male,Foreign,Consumer,Serious,Expedited,65-85 Years
+2019,Not specified,Foreign,Consumer,Serious,Expedited,3-11 Years
+2023,Male,Domestic,Consumer,Serious,BSR,18-64 Years
+2021,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2022,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2014,Female,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2012,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,More than 85 Years
+2021,Not specified,Foreign,Consumer,Serious,Expedited,18-64 Years
+2022,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2024,Male,Domestic,Consumer,Serious,Expedited,12-17 Years
+2016,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2015,Male,Domestic,Healthcare Professionnal,Death,Non-Expedited,More than 85 Years
+2021,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2015,Male,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2024,Female,Domestic,Other,Non-Serious,Expedited,18-64 Years
+2023,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2016,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2021,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2021,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2011,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2023,Male,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2017,Male,Domestic,Other,Serious,Non-Expedited,18-64 Years
+2022,Female,Domestic,Consumer,Serious,Expedited,Not Specified
+2014,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,12-17 Years
+2023,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2016,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2009,Female,Domestic,Other,Serious,Expedited,18-64 Years
+2023,Female,Foreign,Consumer,Serious,Expedited,65-85 Years
+2010,Female,Domestic,Consumer,Serious,Expedited,Not Specified
+2014,Male,Domestic,Consumer,Serious,Non-Expedited,3-11 Years
+2024,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2024,Male,Domestic,Consumer,Death,Non-Expedited,Not Specified
+2018,Male,Domestic,Consumer,Death,Expedited,18-64 Years
+2019,Female,Domestic,Healthcare Professionnal,Serious,Direct,18-64 Years
+2017,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2014,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2015,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2020,Male,Domestic,Consumer,Serious,Expedited,More than 85 Years
+2021,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2022,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2022,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2010,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,12-17 Years
+2017,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2010,Not specified,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2018,Not specified,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2016,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2023,Female,Foreign,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2011,Female,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,65-85 Years
+2011,Male,Domestic,Healthcare Professionnal,Death,Expedited,65-85 Years
+2021,Female,Foreign,Other,Serious,Expedited,Not Specified
+2019,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2010,Female,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2010,Male,Foreign,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2020,Male,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2010,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2022,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2020,Male,Domestic,Healthcare Professionnal,Non-Serious,Direct,18-64 Years
+2010,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2010,Not specified,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2024,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,3-11 Years
+2015,Female,Foreign,Consumer,Serious,Expedited,65-85 Years
+2015,Male,Foreign,Other,Serious,Non-Expedited,3-11 Years
+2022,Female,Domestic,Not Specified,Serious,Expedited,65-85 Years
+2024,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2024,Female,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2021,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2010,Female,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2021,Female,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2018,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2016,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2011,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2017,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2009,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2017,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2010,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,3-11 Years
+2011,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2011,Male,Not Specified,Consumer,Serious,Non-Expedited,18-64 Years
+2020,Female,Foreign,Consumer,Serious,Expedited,65-85 Years
+2021,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2019,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2024,Not specified,Domestic,Consumer,Death,Expedited,Not Specified
+2015,Male,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2014,Not specified,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2023,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,12-17 Years
+2013,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2024,Female,Domestic,Consumer,Non-Serious,Expedited,More than 85 Years
+2009,Female,Domestic,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2024,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2009,Female,Foreign,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2023,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2018,Male,Domestic,Healthcare Professionnal,Death,BSR,65-85 Years
+2024,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2010,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2018,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2024,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2018,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2019,Female,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2020,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2017,Female,Foreign,Consumer,Serious,Expedited,65-85 Years
+2019,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,2 Months-2 Years
+2019,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2023,Male,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,65-85 Years
+2009,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2014,Female,Foreign,Consumer,Serious,Non-Expedited,18-64 Years
+2024,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2023,Male,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2017,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2019,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2014,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2012,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2017,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2015,Female,Domestic,Consumer,Death,Expedited,18-64 Years
+2019,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2010,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,3-11 Years
+2024,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2024,Female,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2020,Female,Foreign,Consumer,Serious,Expedited,18-64 Years
+2018,Male,Foreign,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2014,Male,Domestic,Other,Serious,Expedited,18-64 Years
+2022,Male,Foreign,Consumer,Serious,Expedited,0-1 Month
+2020,Male,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2012,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2023,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,More than 85 Years
+2022,Female,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2024,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2021,Female,Foreign,Consumer,Non-Serious,Expedited,65-85 Years
+2019,Female,Domestic,Consumer,Serious,Expedited,12-17 Years
+2016,Female,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2024,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2023,Male,Domestic,Healthcare Professionnal,Death,Non-Expedited,Not Specified
+2009,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2009,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2015,Female,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2022,Female,Domestic,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2024,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2011,Female,Foreign,Consumer,Serious,Expedited,18-64 Years
+2019,Male,Domestic,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2024,Male,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2022,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2022,Female,Foreign,Consumer,Non-Serious,Expedited,12-17 Years
+2017,Male,Domestic,Consumer,Serious,Direct,Not Specified
+2016,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,3-11 Years
+2014,Male,Foreign,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2010,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2023,Female,Not Specified,Consumer,Serious,Expedited,Not Specified
+2022,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2024,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2024,Female,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2018,Male,Domestic,Consumer,Serious,Non-Expedited,0-1 Month
+2021,Male,Foreign,Consumer,Serious,Expedited,12-17 Years
+2024,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2022,Male,Foreign,Consumer,Serious,Expedited,65-85 Years
+2013,Female,Domestic,Consumer,Death,Non-Expedited,Not Specified
+2017,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2011,Female,Foreign,Consumer,Serious,Expedited,65-85 Years
+2024,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2019,Male,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2013,Female,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2020,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2019,Not specified,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2015,Female,Domestic,Consumer,Non-Serious,Expedited,12-17 Years
+2011,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2020,Female,Domestic,Healthcare Professionnal,Death,Direct,65-85 Years
+2018,Male,Domestic,Consumer,Death,Expedited,18-64 Years
+2021,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2018,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2018,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2018,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,0-1 Month
+2023,Male,Domestic,Consumer,Serious,Non-Expedited,More than 85 Years
+2016,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2011,Female,Domestic,Consumer,Death,Expedited,18-64 Years
+2009,Male,Domestic,Healthcare Professionnal,Death,Non-Expedited,12-17 Years
+2021,Female,Domestic,Consumer,Non-Serious,Expedited,More than 85 Years
+2019,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2020,Male,Foreign,Consumer,Non-Serious,Expedited,18-64 Years
+2013,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2011,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2009,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2019,Male,Domestic,Healthcare Professionnal,Non-Serious,Direct,18-64 Years
+2016,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2016,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2023,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2015,Male,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2018,Female,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2022,Male,Foreign,Healthcare Professionnal,Death,Expedited,0-1 Month
+2016,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,12-17 Years
+2019,Female,Domestic,Not Specified,Non-Serious,Expedited,Not Specified
+2023,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,12-17 Years
+2024,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2011,Male,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2024,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2017,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2013,Female,Domestic,Healthcare Professionnal,Death,Expedited,65-85 Years
+2017,Male,Domestic,Healthcare Professionnal,Non-Serious,Direct,Not Specified
+2024,Male,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2017,Female,Domestic,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2015,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,12-17 Years
+2019,Not specified,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2013,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2010,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2011,Male,Domestic,Healthcare Professionnal,Serious,Expedited,3-11 Years
+2011,Male,Domestic,Consumer,Death,Non-Expedited,18-64 Years
+2011,Female,Foreign,Consumer,Non-Serious,Expedited,Not Specified
+2011,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2019,Not specified,Foreign,Consumer,Serious,Expedited,18-64 Years
+2012,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2015,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2023,Female,Domestic,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2017,Female,Foreign,Healthcare Professionnal,Death,Expedited,18-64 Years
+2020,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2012,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2012,Male,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2009,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2012,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2014,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2012,Male,Foreign,Consumer,Non-Serious,Expedited,18-64 Years
+2010,Male,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2011,Male,Domestic,Consumer,Non-Serious,Direct,65-85 Years
+2017,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2012,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2015,Female,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2017,Male,Foreign,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2020,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2009,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2022,Female,Domestic,Consumer,Serious,Non-Expedited,More than 85 Years
+2019,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2010,Male,Foreign,Healthcare Professionnal,Serious,Expedited,3-11 Years
+2023,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2010,Not specified,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2014,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2022,Female,Foreign,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2021,Female,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2012,Male,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2012,Male,Foreign,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2015,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2017,Female,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,65-85 Years
+2019,Male,Domestic,Consumer,Non-Serious,Direct,Not Specified
+2015,Female,Foreign,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2017,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2021,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2009,Male,Domestic,Healthcare Professionnal,Death,Expedited,65-85 Years
+2013,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2021,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2023,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2018,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2018,Female,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2011,Female,Foreign,Consumer,Serious,Expedited,65-85 Years
+2017,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2018,Male,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2013,Male,Foreign,Consumer,Death,Non-Expedited,65-85 Years
+2014,Not specified,Foreign,Consumer,Non-Serious,Direct,12-17 Years
+2015,Female,Foreign,Consumer,Non-Serious,Direct,18-64 Years
+2009,Female,Domestic,Consumer,Non-Serious,Expedited,More than 85 Years
+2014,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2013,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2011,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2019,Male,Foreign,Healthcare Professionnal,Death,Direct,Not Specified
+2020,Female,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2022,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2017,Female,Domestic,Other,Serious,Expedited,Not Specified
+2010,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,12-17 Years
+2018,Male,Domestic,Consumer,Non-Serious,Non-Expedited,Not Specified
+2019,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2021,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2016,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2011,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2014,Female,Foreign,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2015,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2020,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2018,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2024,Female,Foreign,Healthcare Professionnal,Death,Expedited,18-64 Years
+2019,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2013,Female,Domestic,Consumer,Non-Serious,Expedited,More than 85 Years
+2011,Not specified,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2011,Female,Domestic,Consumer,Non-Serious,Non-Expedited,More than 85 Years
+2013,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2012,Female,Domestic,Consumer,Non-Serious,Non-Expedited,More than 85 Years
+2012,Male,Foreign,Consumer,Death,Expedited,18-64 Years
+2014,Female,Domestic,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2012,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2010,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2018,Female,Domestic,Consumer,Serious,Expedited,12-17 Years
+2016,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2024,Male,Domestic,Consumer,Non-Serious,Direct,Not Specified
+2011,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2016,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2024,Male,Domestic,Healthcare Professionnal,Death,Non-Expedited,65-85 Years
+2023,Female,Domestic,Consumer,Death,Expedited,65-85 Years
+2022,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2013,Not specified,Foreign,Consumer,Serious,Expedited,18-64 Years
+2012,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2020,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2024,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2018,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,2 Months-2 Years
+2018,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2014,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2021,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2012,Female,Domestic,Consumer,Non-Serious,Expedited,12-17 Years
+2014,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2016,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2017,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2013,Male,Domestic,Consumer,Serious,Expedited,Not Specified
+2011,Male,Foreign,Consumer,Serious,Non-Expedited,65-85 Years
+2019,Male,Domestic,Consumer,Non-Serious,Expedited,More than 85 Years
+2014,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2019,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2011,Not specified,Foreign,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2017,Female,Foreign,Consumer,Non-Serious,Expedited,18-64 Years
+2018,Not specified,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2010,Male,Foreign,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2015,Male,Domestic,Consumer,Death,Expedited,18-64 Years
+2011,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2010,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2024,Male,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2014,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2022,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2013,Female,Domestic,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2020,Female,Domestic,Healthcare Professionnal,Death,Non-Expedited,Not Specified
+2021,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2019,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2017,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2016,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2015,Male,Domestic,Other,Serious,Non-Expedited,Not Specified
+2024,Not specified,Domestic,Consumer,Serious,Expedited,18-64 Years
+2022,Male,Domestic,Consumer,Serious,Expedited,12-17 Years
+2024,Female,Foreign,Consumer,Non-Serious,Expedited,18-64 Years
+2011,Not specified,Foreign,Consumer,Serious,Expedited,18-64 Years
+2021,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2024,Male,Foreign,Consumer,Serious,Expedited,More than 85 Years
+2012,Male,Foreign,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2010,Male,Foreign,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2021,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2018,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2022,Male,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2011,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2022,Not specified,Domestic,Consumer,Non-Serious,Expedited,12-17 Years
+2012,Female,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2012,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2012,Male,Foreign,Consumer,Serious,Non-Expedited,18-64 Years
+2022,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2020,Female,Domestic,Consumer,Non-Serious,Non-Expedited,Not Specified
+2018,Male,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2015,Male,Foreign,Consumer,Serious,Non-Expedited,18-64 Years
+2023,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2016,Male,Not Specified,Healthcare Professionnal,Serious,Expedited,Not Specified
+2022,Male,Domestic,Healthcare Professionnal,Serious,Expedited,0-1 Month
+2016,Male,Foreign,Healthcare Professionnal,Serious,Direct,18-64 Years
+2015,Male,Domestic,Healthcare Professionnal,Death,Expedited,Not Specified
+2017,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2014,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2021,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2017,Male,Domestic,Consumer,Non-Serious,Non-Expedited,Not Specified
+2013,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2023,Female,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2015,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2018,Male,Domestic,Consumer,Serious,Non-Expedited,12-17 Years
+2023,Female,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2019,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2011,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2024,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2019,Male,Domestic,Consumer,Death,Expedited,18-64 Years
+2015,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,12-17 Years
+2011,Not specified,Foreign,Consumer,Non-Serious,Non-Expedited,0-1 Month
+2022,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2019,Female,Domestic,Consumer,Serious,Expedited,Not Specified
+2018,Female,Foreign,Consumer,Non-Serious,Expedited,65-85 Years
+2023,Male,Foreign,Consumer,Serious,Expedited,Not Specified
+2022,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2011,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2014,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2013,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2021,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2009,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2018,Male,Foreign,Consumer,Non-Serious,Non-Expedited,Not Specified
+2021,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2023,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2015,Male,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2022,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2011,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2022,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2011,Female,Foreign,Consumer,Serious,Expedited,65-85 Years
+2016,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2022,Female,Domestic,Healthcare Professionnal,Serious,Direct,18-64 Years
+2011,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2013,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2021,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2021,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2019,Female,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2020,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2018,Female,Foreign,Consumer,Serious,Expedited,18-64 Years
+2013,Male,Foreign,Consumer,Serious,Expedited,65-85 Years
+2015,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2012,Female,Foreign,Healthcare Professionnal,Serious,Direct,65-85 Years
+2023,Female,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2019,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2016,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2017,Male,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2024,Female,Not Specified,Not Specified,Serious,Expedited,65-85 Years
+2011,Male,Foreign,Consumer,Serious,Expedited,Not Specified
+2019,Female,Foreign,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2017,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2019,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2009,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2023,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2024,Female,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2018,Male,Domestic,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2020,Male,Foreign,Consumer,Serious,Non-Expedited,18-64 Years
+2023,Male,Domestic,Healthcare Professionnal,Death,Expedited,65-85 Years
+2020,Female,Foreign,Consumer,Serious,Expedited,12-17 Years
+2011,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2019,Male,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2019,Male,Foreign,Not Specified,Serious,Non-Expedited,18-64 Years
+2016,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2021,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2024,Female,Foreign,Consumer,Serious,Expedited,65-85 Years
+2024,Male,Domestic,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2017,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2011,Male,Foreign,Consumer,Non-Serious,Expedited,18-64 Years
+2024,Female,Domestic,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2022,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,12-17 Years
+2011,Male,Domestic,Consumer,Serious,Non-Expedited,2 Months-2 Years
+2023,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2023,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2018,Not specified,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2019,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2016,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2010,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2015,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2022,Male,Foreign,Consumer,Serious,Non-Expedited,18-64 Years
+2009,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2016,Female,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2018,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2023,Female,Foreign,Consumer,Serious,Expedited,Not Specified
+2015,Male,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2015,Not specified,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2021,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2017,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2013,Not specified,Domestic,Consumer,Non-Serious,Non-Expedited,Not Specified
+2017,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,12-17 Years
+2011,Female,Domestic,Healthcare Professionnal,Death,Non-Expedited,65-85 Years
+2012,Female,Domestic,Consumer,Serious,Expedited,Not Specified
+2017,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2016,Female,Foreign,Consumer,Serious,Expedited,18-64 Years
+2023,Male,Not Specified,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2015,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2019,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2019,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2009,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2020,Male,Foreign,Consumer,Non-Serious,Expedited,18-64 Years
+2012,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2024,Female,Foreign,Consumer,Serious,Direct,12-17 Years
+2011,Female,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2016,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2010,Male,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2024,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2017,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2019,Female,Domestic,Consumer,Serious,Expedited,12-17 Years
+2010,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2021,Female,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2012,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,Not Specified
+2023,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,Not Specified
+2012,Female,Domestic,Healthcare Professionnal,Death,Expedited,2 Months-2 Years
+2012,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2009,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2017,Male,Domestic,Healthcare Professionnal,Non-Serious,BSR,18-64 Years
+2018,Female,Domestic,Consumer,Non-Serious,Direct,Not Specified
+2010,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2021,Female,Foreign,Healthcare Professionnal,Death,Expedited,12-17 Years
+2017,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2018,Male,Foreign,Consumer,Serious,BSR,Not Specified
+2016,Female,Domestic,Consumer,Serious,Expedited,12-17 Years
+2016,Not specified,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2018,Female,Domestic,Consumer,Death,Expedited,18-64 Years
+2012,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2012,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2023,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2024,Female,Domestic,Consumer,Non-Serious,Expedited,Not Specified
+2015,Female,Foreign,Consumer,Serious,Expedited,65-85 Years
+2014,Male,Foreign,Consumer,Serious,Expedited,12-17 Years
+2020,Female,Foreign,Consumer,Serious,Expedited,65-85 Years
+2016,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2009,Female,Foreign,Consumer,Serious,Expedited,Not Specified
+2012,Female,Domestic,Consumer,Death,Expedited,18-64 Years
+2021,Female,Domestic,Consumer,Death,Non-Expedited,18-64 Years
+2020,Female,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2009,Male,Domestic,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2013,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2013,Female,Domestic,Healthcare Professionnal,Serious,Expedited,More than 85 Years
+2020,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2009,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2011,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2022,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2012,Male,Foreign,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2020,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2013,Male,Domestic,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2010,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2013,Not specified,Foreign,Consumer,Non-Serious,Expedited,65-85 Years
+2021,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2023,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2022,Female,Foreign,Healthcare Professionnal,Death,Expedited,Not Specified
+2016,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2020,Female,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2012,Female,Foreign,Healthcare Professionnal,Serious,Expedited,Not Specified
+2014,Female,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2023,Male,Domestic,Healthcare Professionnal,Serious,Expedited,0-1 Month
+2009,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2010,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2012,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2009,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2012,Female,Domestic,Healthcare Professionnal,Serious,Expedited,3-11 Years
+2019,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2016,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2023,Male,Domestic,Healthcare Professionnal,Serious,Expedited,12-17 Years
+2022,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2015,Male,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2013,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2015,Male,Domestic,Consumer,Serious,Expedited,18-64 Years
+2019,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2014,Female,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2019,Not specified,Foreign,Consumer,Serious,Non-Expedited,18-64 Years
+2016,Male,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2018,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2016,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2014,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2024,Female,Foreign,Consumer,Serious,Non-Expedited,Not Specified
+2021,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2011,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2023,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,Not Specified
+2017,Male,Foreign,Consumer,Non-Serious,Non-Expedited,3-11 Years
+2023,Female,Foreign,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2022,Male,Domestic,Consumer,Non-Serious,Expedited,65-85 Years
+2016,Female,Domestic,Other,Serious,Expedited,65-85 Years
+2009,Male,Foreign,Consumer,Serious,Non-Expedited,3-11 Years
+2014,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2018,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,65-85 Years
+2019,Female,Foreign,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2013,Male,Domestic,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2011,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2022,Female,Domestic,Consumer,Serious,Expedited,18-64 Years
+2024,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2018,Female,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2012,Female,Foreign,Consumer,Serious,Expedited,Not Specified
+2014,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2009,Male,Foreign,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Serious,Expedited,More than 85 Years
+2011,Female,Foreign,Consumer,Non-Serious,Expedited,65-85 Years
+2019,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2014,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2018,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2020,Female,Domestic,Consumer,Non-Serious,Direct,65-85 Years
+2022,Female,Foreign,Consumer,Serious,Non-Expedited,3-11 Years
+2012,Female,Foreign,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2009,Female,Domestic,Consumer,Non-Serious,Expedited,More than 85 Years
+2011,Male,Domestic,Healthcare Professionnal,Death,Expedited,18-64 Years
+2023,Male,Domestic,Healthcare Professionnal,Non-Serious,BSR,18-64 Years
+2023,Male,Domestic,Consumer,Non-Serious,Non-Expedited,Not Specified
+2019,Male,Foreign,Consumer,Non-Serious,Non-Expedited,3-11 Years
+2019,Male,Foreign,Consumer,Serious,Expedited,More than 85 Years
+2020,Male,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2012,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2023,Female,Domestic,Consumer,Death,Expedited,0-1 Month
+2016,Not specified,Foreign,Consumer,Serious,Direct,Not Specified
+2015,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2018,Female,Foreign,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2009,Male,Foreign,Consumer,Death,Expedited,65-85 Years
+2012,Female,Domestic,Consumer,Serious,Non-Expedited,65-85 Years
+2021,Female,Foreign,Consumer,Non-Serious,Non-Expedited,Not Specified
+2010,Male,Domestic,Healthcare Professionnal,Serious,Expedited,65-85 Years
+2019,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2013,Female,Domestic,Consumer,Serious,Expedited,Not Specified
+2016,Male,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,65-85 Years
+2014,Female,Foreign,Consumer,Serious,Expedited,18-64 Years
+2015,Female,Foreign,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2021,Male,Foreign,Consumer,Non-Serious,Non-Expedited,Not Specified
+2014,Male,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2018,Male,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,65-85 Years
+2017,Male,Domestic,Consumer,Serious,Non-Expedited,18-64 Years
+2020,Male,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2024,Female,Domestic,Healthcare Professionnal,Non-Serious,Expedited,65-85 Years
+2021,Male,Foreign,Consumer,Serious,Non-Expedited,12-17 Years
+2013,Female,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,18-64 Years
+2009,Male,Domestic,Consumer,Serious,Expedited,65-85 Years
+2013,Female,Domestic,Healthcare Professionnal,Serious,Non-Expedited,18-64 Years
+2019,Male,Foreign,Consumer,Serious,Direct,More than 85 Years
+2010,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2017,Female,Foreign,Consumer,Serious,Expedited,More than 85 Years
+2019,Female,Foreign,Consumer,Serious,Expedited,3-11 Years
+2015,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2021,Female,Domestic,Healthcare Professionnal,Serious,Direct,65-85 Years
+2011,Male,Foreign,Consumer,Death,Non-Expedited,Not Specified
+2010,Female,Foreign,Consumer,Non-Serious,Direct,Not Specified
+2021,Male,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2017,Male,Foreign,Healthcare Professionnal,Serious,Direct,18-64 Years
+2020,Female,Domestic,Consumer,Non-Serious,Expedited,18-64 Years
+2016,Female,Domestic,Healthcare Professionnal,Death,Non-Expedited,18-64 Years
+2013,Male,Foreign,Consumer,Non-Serious,Non-Expedited,18-64 Years
+2022,Female,Foreign,Healthcare Professionnal,Non-Serious,Non-Expedited,3-11 Years
+2022,Female,Domestic,Consumer,Non-Serious,Direct,Not Specified
+2020,Male,Foreign,Consumer,Serious,Expedited,18-64 Years
+2014,Female,Domestic,Healthcare Professionnal,Serious,Expedited,18-64 Years
+2019,Male,Domestic,Consumer,Death,Expedited,12-17 Years
+2015,Female,Domestic,Healthcare Professionnal,Serious,Expedited,Not Specified
+2010,Female,Foreign,Consumer,Non-Serious,Non-Expedited,65-85 Years
+2023,Female,Domestic,Consumer,Serious,Expedited,65-85 Years
+2011,Male,Domestic,Consumer,Serious,Non-Expedited,Not Specified
+2024,Male,Domestic,Healthcare Professionnal,Non-Serious,Expedited,18-64 Years
+2016,Male,Foreign,Consumer,Serious,Expedited,65-85 Years
