@@ -1,0 +1,66 @@
+# Shiny Application - README
+
+[CHECK THE APP HERE!](https://matcord.shinyapps.io/shiny_hackathon/)
+
+## Overview
+
+This Shiny application provides an interactive dashboard for visualizing and exploring data from an Excel file (`data.xlsx`). It includes structured UI components such as navigation bars, interactive cards, a data table, and a bar plot. The app uses the `highcharter` package for dynamic charting, along with `DT` for an interactive data table.
+
+## Features
+
+-   **Top Navigation Bar:** Displays the app title and logo.
+-   **Secondary Navigation Bar:** Contains interactive menu options.
+-   **Icon Cards:** Provide quick statistical insights.
+-   **Controls Section:** Includes selection inputs and buttons for filtering data.
+-   **Main Panel:** Displays a data table and a bar plot side by side.
+-   **Bottom Panel:** Shows additional information and links.
+-   **Modern UI Design:** Uses Google Fonts (`Poppins`) for a clean look.
+
+## Dependencies
+
+The app requires the following R packages:
+
+``` r
+install.packages(c("shiny", "highcharter", "dplyr", "DT", "readxl"))
+```
+
+Additionally, an external script (`aux_functions.R`) is sourced for helper functions.
+
+## Data Requirements
+
+The application reads data from `data.xlsx`, which should be formatted correctly to ensure smooth functionality.
+
+## File Structure
+
+```         
+shiny_app/
+│-- app.R              # Main Shiny app script
+│-- aux_functions.R    # External helper functions
+│-- data.xlsx          # Data file
+```
+
+## Usage
+
+To run the application, execute:
+
+``` r
+shiny::runApp("path/to/shiny_app")
+```
+
+## UI Structure
+
+The UI is structured using CSS and HTML to ensure a modern and responsive design: - **`.top-nav`**: Fixed height, blue background, contains app title and logo. - **`.secondary-nav`**: Contains navigation links. - **`.icon-cards`**: Displays key metrics. - **`.controls`**: Dropdown and buttons for user interaction. - **`.main-panel`**: Contains the data table and bar plot, flexibly sized. - **`.bottom-panel`**: Footer with additional links.
+
+## Styling
+
+Custom styles are defined in the `tags$head(tags$style(HTML(...)))` section to maintain a modern UI. Overflow handling ensures that the layout remains clean and scroll-free where applicable.
+
+## Future Improvements
+
+-   Add more interactivity (e.g., tooltips, additional filters).
+-   Enhance visualizations with more chart types.
+-   Optimize performance for large datasets.
+
+## License
+
+This project is open-source and available for modification as needed.
