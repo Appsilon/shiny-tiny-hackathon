@@ -1,0 +1,45 @@
+.titlepanel {
+  border-bottom: 1px solid #FFFFFF;
+  color: $app-headercolor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  border-bottom: 1px solid #ccc;
+  height: 60px;
+
+  .logo {
+    max-width: 80px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 80px;
+  }
+
+}
+
+.header-container {
+  background-color: $app-headercolor;
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .btn-outline-light {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+
+  .btn-outline-light:hover {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    text-decoration: underline;
+  }
+}
