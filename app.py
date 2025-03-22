@@ -12,25 +12,34 @@ subjects = list(data.columns)[1:7]
 reports_by_subjects = ["Reports by " + subject for subject in subjects]
 
 # Define the UI
-app_ui = ui.page_fluid(
+app_ui = ui.page_fillable(
     ui.h1("FDA Adverse Events Reporting System (FAERS) Public Dashboard"),
     ui.div(
         ui.div(
             ui.input_select("subject_report", "", reports_by_subjects),
             style="margin-bottom: 20px;"
-        ),
-        ui.div(
-            ui.row(
-                ui.column(6, ui.output_table("table")),
-                ui.column(6, ui.output_plot("plot"))
-            ),
-            style="margin-top: 10px;"
         )
-    )
+    ),
+    ui.layout_columns(
+        ui.card(
+            ui.card_header(ui.output_text("title")),
+            ui.output_table("table"),
+            full_screen=True,
+        ),
+        ui.card(
+            ui.card_header("x"),
+            ui.output_plot("plot"),
+            full_screen=True,
+        ),
+    ),
+    title="x"
 )
 
 # Define the server
 def server(input, output, session):
+
+    @reactive.value
+    
 
     @reactive.Calc
     def get_aggregated_data():
@@ -38,6 +47,13 @@ def server(input, output, session):
         subject = subject_report[11:]
         aggregated = data.groupby(['Year', subject]).size().reset_index(name='Reports')
         return aggregated
+
+    @output
+    @render.text
+    def title():
+        subject_report = input.subject_report()
+        subject = subject_report[11:]
+        return 'Explore the Number of Reports by Year and {}'.format(subject)
 
     @output
     @render.table
