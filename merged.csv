@@ -1,0 +1,1288 @@
+Table,Year,Variable,Value
+Report Type,1968,Non-Expedited,98
+Report Type,1968,Direct,9
+Report Type,1969,Expedited,1
+Report Type,1969,Non-Expedited,2745
+Report Type,1969,Direct,2687
+Report Type,1970,Expedited,5
+Report Type,1970,Non-Expedited,9979
+Report Type,1970,Direct,7963
+Report Type,1971,Expedited,1
+Report Type,1971,Non-Expedited,8238
+Report Type,1971,Direct,4917
+Report Type,1972,Non-Expedited,7603
+Report Type,1972,Direct,2034
+Report Type,1973,Expedited,4
+Report Type,1973,Non-Expedited,7305
+Report Type,1973,Direct,4068
+Report Type,1974,Expedited,1
+Report Type,1974,Non-Expedited,7004
+Report Type,1974,Direct,2248
+Report Type,1975,Non-Expedited,8472
+Report Type,1975,Direct,2143
+Report Type,1976,Non-Expedited,6950
+Report Type,1976,Direct,3870
+Report Type,1976,BSR,1
+Report Type,1977,Expedited,2
+Report Type,1977,Non-Expedited,9919
+Report Type,1977,Direct,3820
+Report Type,1978,Expedited,17
+Report Type,1978,Non-Expedited,7107
+Report Type,1978,Direct,2311
+Report Type,1979,Expedited,91
+Report Type,1979,Non-Expedited,6190
+Report Type,1979,Direct,1962
+Report Type,1980,Expedited,119
+Report Type,1980,Non-Expedited,9891
+Report Type,1980,Direct,2902
+Report Type,1981,Expedited,4721
+Report Type,1981,Non-Expedited,7121
+Report Type,1981,Direct,2658
+Report Type,1982,Expedited,6971
+Report Type,1982,Non-Expedited,12868
+Report Type,1982,Direct,3866
+Report Type,1983,Expedited,8114
+Report Type,1983,Non-Expedited,20209
+Report Type,1983,Direct,3698
+Report Type,1984,Expedited,6756
+Report Type,1984,Non-Expedited,24247
+Report Type,1984,Direct,1620
+Report Type,1985,Expedited,9796
+Report Type,1985,Non-Expedited,26522
+Report Type,1985,Direct,2481
+Report Type,1986,Expedited,15848
+Report Type,1986,Non-Expedited,36006
+Report Type,1986,Direct,4073
+Report Type,1986,BSR,1
+Report Type,1987,Expedited,12972
+Report Type,1987,Non-Expedited,37260
+Report Type,1987,Direct,4527
+Report Type,1988,Expedited,8277
+Report Type,1988,Non-Expedited,37078
+Report Type,1988,Direct,5783
+Report Type,1989,Expedited,9461
+Report Type,1989,Non-Expedited,43096
+Report Type,1989,Direct,8125
+Report Type,1990,Expedited,11405
+Report Type,1990,Non-Expedited,53427
+Report Type,1990,Direct,10367
+Report Type,1990,BSR,2
+Report Type,1991,Expedited,12826
+Report Type,1991,Non-Expedited,52027
+Report Type,1991,Direct,10434
+Report Type,1991,BSR,3
+Report Type,1992,Expedited,15943
+Report Type,1992,Non-Expedited,77071
+Report Type,1992,Direct,12940
+Report Type,1993,Expedited,19111
+Report Type,1993,Non-Expedited,90334
+Report Type,1993,Direct,14752
+Report Type,1993,BSR,1
+Report Type,1994,Expedited,22205
+Report Type,1994,Non-Expedited,89936
+Report Type,1994,Direct,16977
+Report Type,1994,BSR,4
+Report Type,1995,Expedited,21833
+Report Type,1995,Non-Expedited,103344
+Report Type,1995,Direct,16481
+Report Type,1995,BSR,9
+Report Type,1996,Expedited,26312
+Report Type,1996,Non-Expedited,130303
+Report Type,1996,Direct,15569
+Report Type,1996,BSR,20
+Report Type,1997,Expedited,37707
+Report Type,1997,Non-Expedited,144258
+Report Type,1997,Direct,16205
+Report Type,1997,BSR,64
+Report Type,1998,Expedited,70818
+Report Type,1998,Non-Expedited,73682
+Report Type,1998,Direct,15247
+Report Type,1998,BSR,143
+Report Type,1999,Expedited,80970
+Report Type,1999,Non-Expedited,127049
+Report Type,1999,Direct,16175
+Report Type,1999,BSR,169
+Report Type,2000,Expedited,94160
+Report Type,2000,Non-Expedited,89169
+Report Type,2000,Direct,16120
+Report Type,2000,BSR,350
+Report Type,2001,Expedited,113680
+Report Type,2001,Non-Expedited,70176
+Report Type,2001,Direct,19299
+Report Type,2001,BSR,53
+Report Type,2002,Expedited,127770
+Report Type,2002,Non-Expedited,36642
+Report Type,2002,Direct,20447
+Report Type,2002,BSR,20
+Report Type,2003,Expedited,143656
+Report Type,2003,Non-Expedited,58613
+Report Type,2003,Direct,22952
+Report Type,2003,BSR,13
+Report Type,2004,Expedited,161335
+Report Type,2004,Non-Expedited,89834
+Report Type,2004,Direct,21657
+Report Type,2004,BSR,5
+Report Type,2005,Expedited,212087
+Report Type,2005,Non-Expedited,84481
+Report Type,2005,Direct,25306
+Report Type,2005,BSR,5
+Report Type,2006,Expedited,219143
+Report Type,2006,Non-Expedited,95548
+Report Type,2006,Direct,20979
+Report Type,2007,Expedited,229897
+Report Type,2007,Non-Expedited,110397
+Report Type,2007,Direct,23031
+Report Type,2008,Expedited,274092
+Report Type,2008,Non-Expedited,132683
+Report Type,2008,Direct,32896
+Report Type,2009,Expedited,330083
+Report Type,2009,Non-Expedited,126159
+Report Type,2009,Direct,34166
+Report Type,2010,Expedited,409063
+Report Type,2010,Non-Expedited,234633
+Report Type,2010,Direct,28944
+Report Type,2011,Expedited,498420
+Report Type,2011,Non-Expedited,255165
+Report Type,2011,Direct,28042
+Report Type,2012,Expedited,574943
+Report Type,2012,Non-Expedited,326224
+Report Type,2012,Direct,29012
+Report Type,2013,Expedited,631158
+Report Type,2013,Non-Expedited,409045
+Report Type,2013,Direct,28390
+Report Type,2014,Expedited,741482
+Report Type,2014,Non-Expedited,422721
+Report Type,2014,Direct,34230
+Report Type,2015,Expedited,833112
+Report Type,2015,Non-Expedited,845020
+Report Type,2015,Direct,41659
+Report Type,2016,Expedited,863270
+Report Type,2016,Non-Expedited,769112
+Report Type,2016,Direct,50991
+Report Type,2017,Expedited,941777
+Report Type,2017,Non-Expedited,801203
+Report Type,2017,Direct,62030
+Report Type,2018,Expedited,1155290
+Report Type,2018,Non-Expedited,897308
+Report Type,2018,Direct,87551
+Report Type,2019,Expedited,1215041
+Report Type,2019,Non-Expedited,854855
+Report Type,2019,Direct,105388
+Report Type,2020,Expedited,1242171
+Report Type,2020,Non-Expedited,882083
+Report Type,2020,Direct,78560
+Report Type,2021,Expedited,1387985
+Report Type,2021,Non-Expedited,868056
+Report Type,2021,Direct,72549
+Report Type,2022,Expedited,1308258
+Report Type,2022,Non-Expedited,950762
+Report Type,2022,Direct,78079
+Report Type,2023,Expedited,1248041
+Report Type,2023,Non-Expedited,837783
+Report Type,2023,Direct,68631
+Report Type,2024,Expedited,1168649
+Report Type,2024,Non-Expedited,815057
+Report Type,2024,Direct,58123
+Reporter Region,1968,Domestic,107
+Reporter Region,1969,Domestic,5150
+Reporter Region,1969,Foreign,283
+Reporter Region,1970,Domestic,16687
+Reporter Region,1970,Foreign,1259
+Reporter Region,1970,Not Specified,1
+Reporter Region,1971,Domestic,12344
+Reporter Region,1971,Foreign,812
+Reporter Region,1972,Domestic,9214
+Reporter Region,1972,Foreign,423
+Reporter Region,1973,Domestic,11167
+Reporter Region,1973,Foreign,210
+Reporter Region,1974,Domestic,9136
+Reporter Region,1974,Foreign,117
+Reporter Region,1975,Domestic,10370
+Reporter Region,1975,Foreign,245
+Reporter Region,1976,Domestic,10590
+Reporter Region,1976,Foreign,231
+Reporter Region,1977,Domestic,13397
+Reporter Region,1977,Foreign,344
+Reporter Region,1978,Domestic,9284
+Reporter Region,1978,Foreign,151
+Reporter Region,1979,Domestic,8055
+Reporter Region,1979,Foreign,188
+Reporter Region,1980,Domestic,12575
+Reporter Region,1980,Foreign,337
+Reporter Region,1981,Domestic,14021
+Reporter Region,1981,Foreign,479
+Reporter Region,1982,Domestic,22767
+Reporter Region,1982,Foreign,938
+Reporter Region,1983,Domestic,29895
+Reporter Region,1983,Foreign,2125
+Reporter Region,1983,Not Specified,1
+Reporter Region,1984,Domestic,28982
+Reporter Region,1984,Foreign,3640
+Reporter Region,1984,Not Specified,1
+Reporter Region,1985,Domestic,33883
+Reporter Region,1985,Foreign,4916
+Reporter Region,1986,Domestic,47585
+Reporter Region,1986,Foreign,8343
+Reporter Region,1987,Domestic,47001
+Reporter Region,1987,Foreign,7758
+Reporter Region,1988,Domestic,46689
+Reporter Region,1988,Foreign,4449
+Reporter Region,1989,Domestic,56125
+Reporter Region,1989,Foreign,4555
+Reporter Region,1989,Not Specified,2
+Reporter Region,1990,Domestic,70543
+Reporter Region,1990,Foreign,4658
+Reporter Region,1991,Domestic,69759
+Reporter Region,1991,Foreign,5529
+Reporter Region,1991,Not Specified,2
+Reporter Region,1992,Domestic,98584
+Reporter Region,1992,Foreign,7368
+Reporter Region,1992,Not Specified,2
+Reporter Region,1993,Domestic,114839
+Reporter Region,1993,Foreign,9356
+Reporter Region,1993,Not Specified,3
+Reporter Region,1994,Domestic,119443
+Reporter Region,1994,Foreign,9675
+Reporter Region,1994,Not Specified,4
+Reporter Region,1995,Domestic,130486
+Reporter Region,1995,Foreign,11172
+Reporter Region,1995,Not Specified,9
+Reporter Region,1996,Domestic,156589
+Reporter Region,1996,Foreign,15553
+Reporter Region,1996,Not Specified,62
+Reporter Region,1997,Domestic,171016
+Reporter Region,1997,Foreign,20820
+Reporter Region,1997,Not Specified,6398
+Reporter Region,1998,Domestic,119682
+Reporter Region,1998,Foreign,35185
+Reporter Region,1998,Not Specified,5023
+Reporter Region,1999,Domestic,175323
+Reporter Region,1999,Foreign,42735
+Reporter Region,1999,Not Specified,6305
+Reporter Region,2000,Domestic,142433
+Reporter Region,2000,Foreign,52768
+Reporter Region,2000,Not Specified,4598
+Reporter Region,2001,Domestic,133846
+Reporter Region,2001,Foreign,65310
+Reporter Region,2001,Not Specified,4052
+Reporter Region,2002,Domestic,114012
+Reporter Region,2002,Foreign,68454
+Reporter Region,2002,Not Specified,2413
+Reporter Region,2003,Domestic,149977
+Reporter Region,2003,Foreign,74681
+Reporter Region,2003,Not Specified,576
+Reporter Region,2004,Domestic,185710
+Reporter Region,2004,Foreign,86376
+Reporter Region,2004,Not Specified,745
+Reporter Region,2005,Domestic,217506
+Reporter Region,2005,Foreign,103872
+Reporter Region,2005,Not Specified,501
+Reporter Region,2006,Domestic,226474
+Reporter Region,2006,Foreign,108545
+Reporter Region,2006,Not Specified,651
+Reporter Region,2007,Domestic,235346
+Reporter Region,2007,Foreign,127662
+Reporter Region,2007,Not Specified,317
+Reporter Region,2008,Domestic,288421
+Reporter Region,2008,Foreign,150819
+Reporter Region,2008,Not Specified,431
+Reporter Region,2009,Domestic,309756
+Reporter Region,2009,Foreign,180021
+Reporter Region,2009,Not Specified,631
+Reporter Region,2010,Domestic,458185
+Reporter Region,2010,Foreign,213568
+Reporter Region,2010,Not Specified,887
+Reporter Region,2011,Domestic,524608
+Reporter Region,2011,Foreign,255691
+Reporter Region,2011,Not Specified,1328
+Reporter Region,2012,Domestic,629710
+Reporter Region,2012,Foreign,299183
+Reporter Region,2012,Not Specified,1286
+Reporter Region,2013,Domestic,714245
+Reporter Region,2013,Foreign,354003
+Reporter Region,2013,Not Specified,345
+Reporter Region,2014,Domestic,825481
+Reporter Region,2014,Foreign,372509
+Reporter Region,2014,Not Specified,443
+Reporter Region,2015,Domestic,1286196
+Reporter Region,2015,Foreign,431881
+Reporter Region,2015,Not Specified,1714
+Reporter Region,2016,Domestic,1185345
+Reporter Region,2016,Foreign,496222
+Reporter Region,2016,Not Specified,1806
+Reporter Region,2017,Domestic,1252674
+Reporter Region,2017,Foreign,552297
+Reporter Region,2017,Not Specified,39
+Reporter Region,2018,Domestic,1416535
+Reporter Region,2018,Foreign,723599
+Reporter Region,2018,Not Specified,15
+Reporter Region,2019,Domestic,1437654
+Reporter Region,2019,Foreign,737609
+Reporter Region,2019,Not Specified,21
+Reporter Region,2020,Domestic,1482010
+Reporter Region,2020,Foreign,720111
+Reporter Region,2020,Not Specified,693
+Reporter Region,2021,Domestic,1612279
+Reporter Region,2021,Foreign,714730
+Reporter Region,2021,Not Specified,1581
+Reporter Region,2022,Domestic,1559069
+Reporter Region,2022,Foreign,776869
+Reporter Region,2022,Not Specified,1161
+Reporter Region,2023,Domestic,1388324
+Reporter Region,2023,Foreign,766023
+Reporter Region,2023,Not Specified,108
+Reporter Region,2024,Domestic,1261744
+Reporter Region,2024,Foreign,779863
+Reporter Region,2024,Not Specified,222
+Sex,1968,Female,57
+Sex,1968,Male,48
+Sex,1968,Not Specified,2
+Sex,1969,Female,3005
+Sex,1969,Male,2113
+Sex,1969,Not Specified,315
+Sex,1970,Female,9124
+Sex,1970,Male,7674
+Sex,1970,Not Specified,1149
+Sex,1971,Female,6116
+Sex,1971,Male,6104
+Sex,1971,Not Specified,936
+Sex,1972,Female,4187
+Sex,1972,Male,4417
+Sex,1972,Not Specified,1033
+Sex,1973,Female,4386
+Sex,1973,Male,3571
+Sex,1973,Not Specified,3420
+Sex,1974,Female,4244
+Sex,1974,Male,2923
+Sex,1974,Not Specified,2086
+Sex,1975,Female,5011
+Sex,1975,Male,3769
+Sex,1975,Not Specified,1835
+Sex,1976,Female,5329
+Sex,1976,Male,3210
+Sex,1976,Not Specified,2282
+Sex,1977,Female,6853
+Sex,1977,Male,4160
+Sex,1977,Not Specified,2728
+Sex,1978,Female,4552
+Sex,1978,Male,3086
+Sex,1978,Not Specified,1797
+Sex,1979,Female,3721
+Sex,1979,Male,2689
+Sex,1979,Not Specified,1833
+Sex,1980,Female,5750
+Sex,1980,Male,4476
+Sex,1980,Not Specified,2686
+Sex,1981,Female,6469
+Sex,1981,Male,5006
+Sex,1981,Not Specified,3025
+Sex,1982,Female,11095
+Sex,1982,Male,7881
+Sex,1982,Not Specified,4729
+Sex,1983,Female,15657
+Sex,1983,Male,10653
+Sex,1983,Not Specified,5711
+Sex,1984,Female,15330
+Sex,1984,Male,11118
+Sex,1984,Not Specified,6175
+Sex,1985,Female,18233
+Sex,1985,Male,13084
+Sex,1985,Not Specified,7482
+Sex,1986,Female,25685
+Sex,1986,Male,18724
+Sex,1986,Not Specified,11519
+Sex,1987,Female,26192
+Sex,1987,Male,18389
+Sex,1987,Not Specified,10178
+Sex,1988,Female,24644
+Sex,1988,Male,16780
+Sex,1988,Not Specified,9714
+Sex,1989,Female,29293
+Sex,1989,Male,19846
+Sex,1989,Not Specified,11543
+Sex,1990,Female,36161
+Sex,1990,Male,24655
+Sex,1990,Not Specified,14385
+Sex,1991,Female,36159
+Sex,1991,Male,25208
+Sex,1991,Not Specified,13923
+Sex,1992,Female,53193
+Sex,1992,Male,34824
+Sex,1992,Not Specified,17937
+Sex,1993,Female,63204
+Sex,1993,Male,43340
+Sex,1993,Not Specified,17654
+Sex,1994,Female,66125
+Sex,1994,Male,47811
+Sex,1994,Not Specified,15186
+Sex,1995,Female,79989
+Sex,1995,Male,47589
+Sex,1995,Not Specified,14089
+Sex,1996,Female,99937
+Sex,1996,Male,56767
+Sex,1996,Not Specified,15500
+Sex,1997,Female,115513
+Sex,1997,Male,66021
+Sex,1997,Not Specified,16700
+Sex,1998,Female,86873
+Sex,1998,Male,60797
+Sex,1998,Not Specified,12220
+Sex,1999,Female,126667
+Sex,1999,Male,80273
+Sex,1999,Not Specified,17423
+Sex,2000,Female,111843
+Sex,2000,Male,75491
+Sex,2000,Not Specified,12465
+Sex,2001,Female,108531
+Sex,2001,Male,79749
+Sex,2001,Not Specified,14928
+Sex,2002,Female,96758
+Sex,2002,Male,75958
+Sex,2002,Not Specified,12163
+Sex,2003,Female,118354
+Sex,2003,Male,87770
+Sex,2003,Not Specified,19110
+Sex,2004,Female,151431
+Sex,2004,Male,103678
+Sex,2004,Not Specified,17722
+Sex,2005,Female,172862
+Sex,2005,Male,129235
+Sex,2005,Not Specified,19782
+Sex,2006,Female,182831
+Sex,2006,Male,132346
+Sex,2006,Not Specified,20493
+Sex,2007,Female,203281
+Sex,2007,Male,134058
+Sex,2007,Not Specified,25986
+Sex,2008,Female,249260
+Sex,2008,Male,158027
+Sex,2008,Not Specified,32384
+Sex,2009,Female,268365
+Sex,2009,Male,179666
+Sex,2009,Not Specified,42377
+Sex,2010,Female,371449
+Sex,2010,Male,232742
+Sex,2010,Not Specified,68449
+Sex,2011,Female,455420
+Sex,2011,Male,271448
+Sex,2011,Not Specified,54759
+Sex,2012,Female,524961
+Sex,2012,Male,322839
+Sex,2012,Not Specified,82379
+Sex,2013,Female,623344
+Sex,2013,Male,379380
+Sex,2013,Not Specified,65869
+Sex,2014,Female,660015
+Sex,2014,Male,402169
+Sex,2014,Not Specified,136249
+Sex,2015,Female,943403
+Sex,2015,Male,602044
+Sex,2015,Not Specified,174344
+Sex,2016,Female,915942
+Sex,2016,Male,599002
+Sex,2016,Not Specified,168429
+Sex,2017,Female,966007
+Sex,2017,Male,642197
+Sex,2017,Not Specified,196806
+Sex,2018,Female,1143928
+Sex,2018,Male,730936
+Sex,2018,Not Specified,265285
+Sex,2019,Female,1174476
+Sex,2019,Male,720564
+Sex,2019,Not Specified,280244
+Sex,2020,Female,1128736
+Sex,2020,Male,731662
+Sex,2020,Not Specified,342416
+Sex,2021,Female,1177346
+Sex,2021,Male,875649
+Sex,2021,Not Specified,275595
+Sex,2022,Female,1189210
+Sex,2022,Male,841367
+Sex,2022,Not Specified,306522
+Sex,2023,Female,1085982
+Sex,2023,Male,730127
+Sex,2023,Not Specified,338346
+Sex,2024,Female,1007479
+Sex,2024,Male,684574
+Sex,2024,Not Specified,349776
+Age Group,1968,2 Months-2 Years,2
+Age Group,1968,3-11 Years,1
+Age Group,1968,12-17 Years,2
+Age Group,1968,18-64 Years,85
+Age Group,1968,65-85 Years,7
+Age Group,1968,Not Specified,10
+Age Group,1969,0-1 Month,2
+Age Group,1969,2 Months-2 Years,127
+Age Group,1969,3-11 Years,206
+Age Group,1969,12-17 Years,167
+Age Group,1969,18-64 Years,3287
+Age Group,1969,65-85 Years,627
+Age Group,1969,More than 85 Years,31
+Age Group,1969,Not Specified,986
+Age Group,1970,0-1 Month,6
+Age Group,1970,2 Months-2 Years,371
+Age Group,1970,3-11 Years,686
+Age Group,1970,12-17 Years,524
+Age Group,1970,18-64 Years,9740
+Age Group,1970,65-85 Years,2832
+Age Group,1970,More than 85 Years,98
+Age Group,1970,Not Specified,3690
+Age Group,1971,0-1 Month,6
+Age Group,1971,2 Months-2 Years,206
+Age Group,1971,3-11 Years,329
+Age Group,1971,12-17 Years,313
+Age Group,1971,18-64 Years,7156
+Age Group,1971,65-85 Years,2530
+Age Group,1971,More than 85 Years,61
+Age Group,1971,Not Specified,2555
+Age Group,1972,0-1 Month,3
+Age Group,1972,2 Months-2 Years,135
+Age Group,1972,3-11 Years,221
+Age Group,1972,12-17 Years,185
+Age Group,1972,18-64 Years,4441
+Age Group,1972,65-85 Years,1983
+Age Group,1972,More than 85 Years,27
+Age Group,1972,Not Specified,2642
+Age Group,1973,0-1 Month,4
+Age Group,1973,2 Months-2 Years,199
+Age Group,1973,3-11 Years,363
+Age Group,1973,12-17 Years,264
+Age Group,1973,18-64 Years,3784
+Age Group,1973,65-85 Years,1334
+Age Group,1973,More than 85 Years,41
+Age Group,1973,Not Specified,5388
+Age Group,1974,0-1 Month,4
+Age Group,1974,2 Months-2 Years,131
+Age Group,1974,3-11 Years,255
+Age Group,1974,12-17 Years,220
+Age Group,1974,18-64 Years,3531
+Age Group,1974,65-85 Years,824
+Age Group,1974,More than 85 Years,50
+Age Group,1974,Not Specified,4238
+Age Group,1975,0-1 Month,2
+Age Group,1975,2 Months-2 Years,172
+Age Group,1975,3-11 Years,324
+Age Group,1975,12-17 Years,261
+Age Group,1975,18-64 Years,4157
+Age Group,1975,65-85 Years,1491
+Age Group,1975,More than 85 Years,59
+Age Group,1975,Not Specified,4149
+Age Group,1976,0-1 Month,3
+Age Group,1976,2 Months-2 Years,134
+Age Group,1976,3-11 Years,300
+Age Group,1976,12-17 Years,279
+Age Group,1976,18-64 Years,4155
+Age Group,1976,65-85 Years,879
+Age Group,1976,More than 85 Years,66
+Age Group,1976,Not Specified,5005
+Age Group,1977,0-1 Month,6
+Age Group,1977,2 Months-2 Years,159
+Age Group,1977,3-11 Years,349
+Age Group,1977,12-17 Years,402
+Age Group,1977,18-64 Years,5441
+Age Group,1977,65-85 Years,1295
+Age Group,1977,More than 85 Years,62
+Age Group,1977,Not Specified,6027
+Age Group,1978,0-1 Month,4
+Age Group,1978,2 Months-2 Years,104
+Age Group,1978,3-11 Years,281
+Age Group,1978,12-17 Years,219
+Age Group,1978,18-64 Years,3803
+Age Group,1978,65-85 Years,961
+Age Group,1978,More than 85 Years,48
+Age Group,1978,Not Specified,4015
+Age Group,1979,0-1 Month,10
+Age Group,1979,2 Months-2 Years,104
+Age Group,1979,3-11 Years,234
+Age Group,1979,12-17 Years,190
+Age Group,1979,18-64 Years,3249
+Age Group,1979,65-85 Years,999
+Age Group,1979,More than 85 Years,80
+Age Group,1979,Not Specified,3377
+Age Group,1980,0-1 Month,20
+Age Group,1980,2 Months-2 Years,304
+Age Group,1980,3-11 Years,444
+Age Group,1980,12-17 Years,318
+Age Group,1980,18-64 Years,5200
+Age Group,1980,65-85 Years,1585
+Age Group,1980,More than 85 Years,149
+Age Group,1980,Not Specified,4892
+Age Group,1981,0-1 Month,17
+Age Group,1981,2 Months-2 Years,347
+Age Group,1981,3-11 Years,475
+Age Group,1981,12-17 Years,327
+Age Group,1981,18-64 Years,5655
+Age Group,1981,65-85 Years,1803
+Age Group,1981,More than 85 Years,125
+Age Group,1981,Not Specified,5751
+Age Group,1982,0-1 Month,25
+Age Group,1982,2 Months-2 Years,538
+Age Group,1982,3-11 Years,666
+Age Group,1982,12-17 Years,471
+Age Group,1982,18-64 Years,9696
+Age Group,1982,65-85 Years,3190
+Age Group,1982,More than 85 Years,218
+Age Group,1982,Not Specified,8901
+Age Group,1983,0-1 Month,55
+Age Group,1983,2 Months-2 Years,409
+Age Group,1983,3-11 Years,562
+Age Group,1983,12-17 Years,638
+Age Group,1983,18-64 Years,12719
+Age Group,1983,65-85 Years,4362
+Age Group,1983,More than 85 Years,286
+Age Group,1983,Not Specified,12990
+Age Group,1984,0-1 Month,86
+Age Group,1984,2 Months-2 Years,501
+Age Group,1984,3-11 Years,785
+Age Group,1984,12-17 Years,670
+Age Group,1984,18-64 Years,14072
+Age Group,1984,65-85 Years,4659
+Age Group,1984,More than 85 Years,279
+Age Group,1984,Not Specified,11571
+Age Group,1985,0-1 Month,162
+Age Group,1985,2 Months-2 Years,1090
+Age Group,1985,3-11 Years,1161
+Age Group,1985,12-17 Years,906
+Age Group,1985,18-64 Years,15966
+Age Group,1985,65-85 Years,5480
+Age Group,1985,More than 85 Years,392
+Age Group,1985,Not Specified,13642
+Age Group,1986,0-1 Month,199
+Age Group,1986,2 Months-2 Years,1517
+Age Group,1986,3-11 Years,1661
+Age Group,1986,12-17 Years,1237
+Age Group,1986,18-64 Years,22429
+Age Group,1986,65-85 Years,8522
+Age Group,1986,More than 85 Years,553
+Age Group,1986,Not Specified,19810
+Age Group,1987,0-1 Month,171
+Age Group,1987,2 Months-2 Years,1673
+Age Group,1987,3-11 Years,2071
+Age Group,1987,12-17 Years,1437
+Age Group,1987,18-64 Years,23337
+Age Group,1987,65-85 Years,7615
+Age Group,1987,More than 85 Years,516
+Age Group,1987,Not Specified,17939
+Age Group,1988,0-1 Month,192
+Age Group,1988,2 Months-2 Years,1793
+Age Group,1988,3-11 Years,1410
+Age Group,1988,12-17 Years,1123
+Age Group,1988,18-64 Years,20583
+Age Group,1988,65-85 Years,7275
+Age Group,1988,More than 85 Years,491
+Age Group,1988,Not Specified,18271
+Age Group,1989,0-1 Month,285
+Age Group,1989,2 Months-2 Years,2124
+Age Group,1989,3-11 Years,1793
+Age Group,1989,12-17 Years,1148
+Age Group,1989,18-64 Years,24641
+Age Group,1989,65-85 Years,8427
+Age Group,1989,More than 85 Years,627
+Age Group,1989,Not Specified,21637
+Age Group,1990,0-1 Month,241
+Age Group,1990,2 Months-2 Years,1704
+Age Group,1990,3-11 Years,1913
+Age Group,1990,12-17 Years,1484
+Age Group,1990,18-64 Years,30810
+Age Group,1990,65-85 Years,9739
+Age Group,1990,More than 85 Years,616
+Age Group,1990,Not Specified,28694
+Age Group,1991,0-1 Month,242
+Age Group,1991,2 Months-2 Years,1007
+Age Group,1991,3-11 Years,2136
+Age Group,1991,12-17 Years,1548
+Age Group,1991,18-64 Years,31242
+Age Group,1991,65-85 Years,10369
+Age Group,1991,More than 85 Years,691
+Age Group,1991,Not Specified,28055
+Age Group,1992,0-1 Month,208
+Age Group,1992,2 Months-2 Years,1101
+Age Group,1992,3-11 Years,2246
+Age Group,1992,12-17 Years,2041
+Age Group,1992,18-64 Years,42460
+Age Group,1992,65-85 Years,15145
+Age Group,1992,More than 85 Years,1037
+Age Group,1992,Not Specified,41716
+Age Group,1993,0-1 Month,278
+Age Group,1993,2 Months-2 Years,1144
+Age Group,1993,3-11 Years,2500
+Age Group,1993,12-17 Years,2421
+Age Group,1993,18-64 Years,52494
+Age Group,1993,65-85 Years,20324
+Age Group,1993,More than 85 Years,1328
+Age Group,1993,Not Specified,43709
+Age Group,1994,0-1 Month,345
+Age Group,1994,2 Months-2 Years,1775
+Age Group,1994,3-11 Years,3866
+Age Group,1994,12-17 Years,2948
+Age Group,1994,18-64 Years,56393
+Age Group,1994,65-85 Years,23082
+Age Group,1994,More than 85 Years,1537
+Age Group,1994,Not Specified,39176
+Age Group,1995,0-1 Month,386
+Age Group,1995,2 Months-2 Years,1169
+Age Group,1995,3-11 Years,3609
+Age Group,1995,12-17 Years,3403
+Age Group,1995,18-64 Years,67021
+Age Group,1995,65-85 Years,24362
+Age Group,1995,More than 85 Years,1703
+Age Group,1995,Not Specified,40014
+Age Group,1996,0-1 Month,446
+Age Group,1996,2 Months-2 Years,1625
+Age Group,1996,3-11 Years,4534
+Age Group,1996,12-17 Years,3540
+Age Group,1996,18-64 Years,76983
+Age Group,1996,65-85 Years,32401
+Age Group,1996,More than 85 Years,2145
+Age Group,1996,Not Specified,50530
+Age Group,1997,0-1 Month,704
+Age Group,1997,2 Months-2 Years,1825
+Age Group,1997,3-11 Years,4791
+Age Group,1997,12-17 Years,3701
+Age Group,1997,18-64 Years,94179
+Age Group,1997,65-85 Years,39146
+Age Group,1997,More than 85 Years,2547
+Age Group,1997,Not Specified,51341
+Age Group,1998,0-1 Month,1210
+Age Group,1998,2 Months-2 Years,1565
+Age Group,1998,3-11 Years,3389
+Age Group,1998,12-17 Years,3417
+Age Group,1998,18-64 Years,76221
+Age Group,1998,65-85 Years,34936
+Age Group,1998,More than 85 Years,2544
+Age Group,1998,Not Specified,36608
+Age Group,1999,0-1 Month,1475
+Age Group,1999,2 Months-2 Years,2297
+Age Group,1999,3-11 Years,3826
+Age Group,1999,12-17 Years,3691
+Age Group,1999,18-64 Years,106172
+Age Group,1999,65-85 Years,50510
+Age Group,1999,More than 85 Years,3601
+Age Group,1999,Not Specified,52791
+Age Group,2000,0-1 Month,1622
+Age Group,2000,2 Months-2 Years,2044
+Age Group,2000,3-11 Years,3530
+Age Group,2000,12-17 Years,3603
+Age Group,2000,18-64 Years,90885
+Age Group,2000,65-85 Years,49451
+Age Group,2000,More than 85 Years,3827
+Age Group,2000,Not Specified,44837
+Age Group,2001,0-1 Month,2347
+Age Group,2001,2 Months-2 Years,1883
+Age Group,2001,3-11 Years,4158
+Age Group,2001,12-17 Years,4397
+Age Group,2001,18-64 Years,91906
+Age Group,2001,65-85 Years,49665
+Age Group,2001,More than 85 Years,4059
+Age Group,2001,Not Specified,44793
+Age Group,2002,0-1 Month,2123
+Age Group,2002,2 Months-2 Years,1576
+Age Group,2002,3-11 Years,3237
+Age Group,2002,12-17 Years,3586
+Age Group,2002,18-64 Years,86527
+Age Group,2002,65-85 Years,44580
+Age Group,2002,More than 85 Years,3696
+Age Group,2002,Not Specified,39554
+Age Group,2003,0-1 Month,1961
+Age Group,2003,2 Months-2 Years,1771
+Age Group,2003,3-11 Years,5042
+Age Group,2003,12-17 Years,5267
+Age Group,2003,18-64 Years,103025
+Age Group,2003,65-85 Years,50279
+Age Group,2003,More than 85 Years,4202
+Age Group,2003,Not Specified,53687
+Age Group,2004,0-1 Month,1825
+Age Group,2004,2 Months-2 Years,1968
+Age Group,2004,3-11 Years,6264
+Age Group,2004,12-17 Years,6411
+Age Group,2004,18-64 Years,124501
+Age Group,2004,65-85 Years,65620
+Age Group,2004,More than 85 Years,5362
+Age Group,2004,Not Specified,60880
+Age Group,2005,0-1 Month,1888
+Age Group,2005,2 Months-2 Years,2007
+Age Group,2005,3-11 Years,5985
+Age Group,2005,12-17 Years,6308
+Age Group,2005,18-64 Years,144271
+Age Group,2005,65-85 Years,73370
+Age Group,2005,More than 85 Years,5421
+Age Group,2005,Not Specified,82629
+Age Group,2006,0-1 Month,2266
+Age Group,2006,2 Months-2 Years,2236
+Age Group,2006,3-11 Years,4837
+Age Group,2006,12-17 Years,6161
+Age Group,2006,18-64 Years,158636
+Age Group,2006,65-85 Years,78529
+Age Group,2006,More than 85 Years,5844
+Age Group,2006,Not Specified,77161
+Age Group,2007,0-1 Month,2766
+Age Group,2007,2 Months-2 Years,2518
+Age Group,2007,3-11 Years,6273
+Age Group,2007,12-17 Years,6922
+Age Group,2007,18-64 Years,171535
+Age Group,2007,65-85 Years,78461
+Age Group,2007,More than 85 Years,5856
+Age Group,2007,Not Specified,88994
+Age Group,2008,0-1 Month,4639
+Age Group,2008,2 Months-2 Years,2848
+Age Group,2008,3-11 Years,7620
+Age Group,2008,12-17 Years,7742
+Age Group,2008,18-64 Years,202023
+Age Group,2008,65-85 Years,92509
+Age Group,2008,More than 85 Years,7301
+Age Group,2008,Not Specified,114989
+Age Group,2009,0-1 Month,4543
+Age Group,2009,2 Months-2 Years,3109
+Age Group,2009,3-11 Years,8525
+Age Group,2009,12-17 Years,9024
+Age Group,2009,18-64 Years,220204
+Age Group,2009,65-85 Years,103034
+Age Group,2009,More than 85 Years,8341
+Age Group,2009,Not Specified,133628
+Age Group,2010,0-1 Month,2951
+Age Group,2010,2 Months-2 Years,4432
+Age Group,2010,3-11 Years,8210
+Age Group,2010,12-17 Years,8842
+Age Group,2010,18-64 Years,287195
+Age Group,2010,65-85 Years,126823
+Age Group,2010,More than 85 Years,10400
+Age Group,2010,Not Specified,223787
+Age Group,2011,0-1 Month,3855
+Age Group,2011,2 Months-2 Years,4092
+Age Group,2011,3-11 Years,9809
+Age Group,2011,12-17 Years,12833
+Age Group,2011,18-64 Years,343192
+Age Group,2011,65-85 Years,152836
+Age Group,2011,More than 85 Years,14252
+Age Group,2011,Not Specified,240758
+Age Group,2012,0-1 Month,4222
+Age Group,2012,2 Months-2 Years,3980
+Age Group,2012,3-11 Years,11224
+Age Group,2012,12-17 Years,12671
+Age Group,2012,18-64 Years,379152
+Age Group,2012,65-85 Years,172129
+Age Group,2012,More than 85 Years,16119
+Age Group,2012,Not Specified,330682
+Age Group,2013,0-1 Month,2364
+Age Group,2013,2 Months-2 Years,4776
+Age Group,2013,3-11 Years,11479
+Age Group,2013,12-17 Years,12811
+Age Group,2013,18-64 Years,398877
+Age Group,2013,65-85 Years,186877
+Age Group,2013,More than 85 Years,18627
+Age Group,2013,Not Specified,432782
+Age Group,2014,0-1 Month,2891
+Age Group,2014,2 Months-2 Years,4949
+Age Group,2014,3-11 Years,12735
+Age Group,2014,12-17 Years,14115
+Age Group,2014,18-64 Years,440092
+Age Group,2014,65-85 Years,234611
+Age Group,2014,More than 85 Years,23129
+Age Group,2014,Not Specified,465911
+Age Group,2015,0-1 Month,3343
+Age Group,2015,2 Months-2 Years,6347
+Age Group,2015,3-11 Years,17693
+Age Group,2015,12-17 Years,19941
+Age Group,2015,18-64 Years,591307
+Age Group,2015,65-85 Years,350321
+Age Group,2015,More than 85 Years,32553
+Age Group,2015,Not Specified,698286
+Age Group,2016,0-1 Month,3188
+Age Group,2016,2 Months-2 Years,7277
+Age Group,2016,3-11 Years,17921
+Age Group,2016,12-17 Years,21390
+Age Group,2016,18-64 Years,570597
+Age Group,2016,65-85 Years,355970
+Age Group,2016,More than 85 Years,33017
+Age Group,2016,Not Specified,674013
+Age Group,2017,0-1 Month,2962
+Age Group,2017,2 Months-2 Years,7664
+Age Group,2017,3-11 Years,20759
+Age Group,2017,12-17 Years,23198
+Age Group,2017,18-64 Years,566910
+Age Group,2017,65-85 Years,393544
+Age Group,2017,More than 85 Years,36850
+Age Group,2017,Not Specified,753123
+Age Group,2018,0-1 Month,3566
+Age Group,2018,2 Months-2 Years,9544
+Age Group,2018,3-11 Years,23590
+Age Group,2018,12-17 Years,33827
+Age Group,2018,18-64 Years,688679
+Age Group,2018,65-85 Years,473388
+Age Group,2018,More than 85 Years,41702
+Age Group,2018,Not Specified,865853
+Age Group,2019,0-1 Month,4145
+Age Group,2019,2 Months-2 Years,9445
+Age Group,2019,3-11 Years,23365
+Age Group,2019,12-17 Years,42186
+Age Group,2019,18-64 Years,702337
+Age Group,2019,65-85 Years,445080
+Age Group,2019,More than 85 Years,38952
+Age Group,2019,Not Specified,909774
+Age Group,2020,0-1 Month,3867
+Age Group,2020,2 Months-2 Years,9755
+Age Group,2020,3-11 Years,21192
+Age Group,2020,12-17 Years,40427
+Age Group,2020,18-64 Years,687011
+Age Group,2020,65-85 Years,442304
+Age Group,2020,More than 85 Years,38877
+Age Group,2020,Not Specified,959381
+Age Group,2021,0-1 Month,3144
+Age Group,2021,2 Months-2 Years,8903
+Age Group,2021,3-11 Years,22578
+Age Group,2021,12-17 Years,32113
+Age Group,2021,18-64 Years,730806
+Age Group,2021,65-85 Years,457755
+Age Group,2021,More than 85 Years,37045
+Age Group,2021,Not Specified,1036246
+Age Group,2022,0-1 Month,3178
+Age Group,2022,2 Months-2 Years,9801
+Age Group,2022,3-11 Years,25826
+Age Group,2022,12-17 Years,29890
+Age Group,2022,18-64 Years,769089
+Age Group,2022,65-85 Years,486388
+Age Group,2022,More than 85 Years,41010
+Age Group,2022,Not Specified,971917
+Age Group,2023,0-1 Month,2846
+Age Group,2023,2 Months-2 Years,10164
+Age Group,2023,3-11 Years,29486
+Age Group,2023,12-17 Years,31085
+Age Group,2023,18-64 Years,642576
+Age Group,2023,65-85 Years,455531
+Age Group,2023,More than 85 Years,40282
+Age Group,2023,Not Specified,942485
+Age Group,2024,0-1 Month,2752
+Age Group,2024,2 Months-2 Years,12018
+Age Group,2024,3-11 Years,35776
+Age Group,2024,12-17 Years,34713
+Age Group,2024,18-64 Years,658444
+Age Group,2024,65-85 Years,470425
+Age Group,2024,More than 85 Years,40369
+Age Group,2024,Not Specified,787332
+Seriousness,1968,Serious,61
+Seriousness,1968,Death,8
+Seriousness,1968,Non-Serious,38
+Seriousness,1969,Serious,3396
+Seriousness,1969,Death,361
+Seriousness,1969,Non-Serious,1676
+Seriousness,1970,Serious,11002
+Seriousness,1970,Death,1015
+Seriousness,1970,Non-Serious,5930
+Seriousness,1971,Serious,8905
+Seriousness,1971,Death,697
+Seriousness,1971,Non-Serious,3554
+Seriousness,1972,Serious,6479
+Seriousness,1972,Death,499
+Seriousness,1972,Non-Serious,2659
+Seriousness,1973,Serious,6430
+Seriousness,1973,Death,836
+Seriousness,1973,Non-Serious,4111
+Seriousness,1974,Serious,4500
+Seriousness,1974,Death,916
+Seriousness,1974,Non-Serious,3837
+Seriousness,1975,Serious,4979
+Seriousness,1975,Death,1103
+Seriousness,1975,Non-Serious,4533
+Seriousness,1976,Serious,4218
+Seriousness,1976,Death,667
+Seriousness,1976,Non-Serious,5936
+Seriousness,1977,Serious,5860
+Seriousness,1977,Death,951
+Seriousness,1977,Non-Serious,6930
+Seriousness,1978,Serious,4044
+Seriousness,1978,Death,574
+Seriousness,1978,Non-Serious,4817
+Seriousness,1979,Serious,3750
+Seriousness,1979,Death,340
+Seriousness,1979,Non-Serious,4153
+Seriousness,1980,Serious,5243
+Seriousness,1980,Death,1073
+Seriousness,1980,Non-Serious,6596
+Seriousness,1981,Serious,5985
+Seriousness,1981,Death,1284
+Seriousness,1981,Non-Serious,7231
+Seriousness,1982,Serious,9851
+Seriousness,1982,Death,1887
+Seriousness,1982,Non-Serious,11967
+Seriousness,1983,Serious,14886
+Seriousness,1983,Death,2219
+Seriousness,1983,Non-Serious,14916
+Seriousness,1984,Serious,15887
+Seriousness,1984,Death,2556
+Seriousness,1984,Non-Serious,14180
+Seriousness,1985,Serious,18259
+Seriousness,1985,Death,4079
+Seriousness,1985,Non-Serious,16461
+Seriousness,1986,Serious,37178
+Seriousness,1986,Death,6492
+Seriousness,1986,Non-Serious,12258
+Seriousness,1987,Serious,40915
+Seriousness,1987,Death,4883
+Seriousness,1987,Non-Serious,8961
+Seriousness,1988,Serious,40174
+Seriousness,1988,Death,3263
+Seriousness,1988,Non-Serious,7701
+Seriousness,1989,Serious,46548
+Seriousness,1989,Death,3540
+Seriousness,1989,Non-Serious,10594
+Seriousness,1990,Serious,56694
+Seriousness,1990,Death,3959
+Seriousness,1990,Non-Serious,14548
+Seriousness,1991,Serious,56321
+Seriousness,1991,Death,4459
+Seriousness,1991,Non-Serious,14510
+Seriousness,1992,Serious,83838
+Seriousness,1992,Death,5918
+Seriousness,1992,Non-Serious,16198
+Seriousness,1993,Serious,102517
+Seriousness,1993,Death,6580
+Seriousness,1993,Non-Serious,15101
+Seriousness,1994,Serious,78730
+Seriousness,1994,Death,7939
+Seriousness,1994,Non-Serious,42453
+Seriousness,1995,Serious,76539
+Seriousness,1995,Death,7140
+Seriousness,1995,Non-Serious,57988
+Seriousness,1996,Serious,84156
+Seriousness,1996,Death,8184
+Seriousness,1996,Non-Serious,79864
+Seriousness,1997,Serious,90548
+Seriousness,1997,Death,10125
+Seriousness,1997,Non-Serious,97561
+Seriousness,1998,Serious,138890
+Seriousness,1998,Death,15933
+Seriousness,1998,Non-Serious,5067
+Seriousness,1999,Serious,143143
+Seriousness,1999,Death,17255
+Seriousness,1999,Non-Serious,63965
+Seriousness,2000,Serious,140796
+Seriousness,2000,Death,19348
+Seriousness,2000,Non-Serious,39655
+Seriousness,2001,Serious,147755
+Seriousness,2001,Death,23796
+Seriousness,2001,Non-Serious,31657
+Seriousness,2002,Serious,135581
+Seriousness,2002,Death,27954
+Seriousness,2002,Non-Serious,21344
+Seriousness,2003,Serious,147814
+Seriousness,2003,Death,34965
+Seriousness,2003,Non-Serious,42455
+Seriousness,2004,Serious,170577
+Seriousness,2004,Death,34769
+Seriousness,2004,Non-Serious,67485
+Seriousness,2005,Serious,220070
+Seriousness,2005,Death,40117
+Seriousness,2005,Non-Serious,61692
+Seriousness,2006,Serious,230675
+Seriousness,2006,Death,37489
+Seriousness,2006,Non-Serious,67506
+Seriousness,2007,Serious,237186
+Seriousness,2007,Death,37117
+Seriousness,2007,Non-Serious,89022
+Seriousness,2008,Serious,271087
+Seriousness,2008,Death,50293
+Seriousness,2008,Non-Serious,118291
+Seriousness,2009,Serious,312107
+Seriousness,2009,Death,64436
+Seriousness,2009,Non-Serious,113865
+Seriousness,2010,Serious,389776
+Seriousness,2010,Death,83482
+Seriousness,2010,Non-Serious,199382
+Seriousness,2011,Serious,474241
+Seriousness,2011,Death,99290
+Seriousness,2011,Non-Serious,208096
+Seriousness,2012,Serious,536999
+Seriousness,2012,Death,117396
+Seriousness,2012,Non-Serious,275784
+Seriousness,2013,Serious,587142
+Seriousness,2013,Death,116437
+Seriousness,2013,Non-Serious,365014
+Seriousness,2014,Serious,678960
+Seriousness,2014,Death,124059
+Seriousness,2014,Non-Serious,395414
+Seriousness,2015,Serious,799884
+Seriousness,2015,Death,147883
+Seriousness,2015,Non-Serious,772024
+Seriousness,2016,Serious,825736
+Seriousness,2016,Death,141827
+Seriousness,2016,Non-Serious,715810
+Seriousness,2017,Serious,898582
+Seriousness,2017,Death,163210
+Seriousness,2017,Non-Serious,743218
+Seriousness,2018,Serious,1097219
+Seriousness,2018,Death,195354
+Seriousness,2018,Non-Serious,847576
+Seriousness,2019,Serious,1148749
+Seriousness,2019,Death,172094
+Seriousness,2019,Non-Serious,854441
+Seriousness,2020,Serious,1176790
+Seriousness,2020,Death,192769
+Seriousness,2020,Non-Serious,833255
+Seriousness,2021,Serious,1367820
+Seriousness,2021,Death,186922
+Seriousness,2021,Non-Serious,773848
+Seriousness,2022,Serious,1256089
+Seriousness,2022,Death,173907
+Seriousness,2022,Non-Serious,907103
+Seriousness,2023,Serious,1135376
+Seriousness,2023,Death,162694
+Seriousness,2023,Non-Serious,856385
+Seriousness,2024,Serious,1067542
+Seriousness,2024,Death,148463
+Seriousness,2024,Non-Serious,825824
+Reporter,1968,Consumer,97
+Reporter,1968,Healthcare Professional,10
+Reporter,1969,Consumer,3020
+Reporter,1969,Healthcare Professional,2413
+Reporter,1970,Consumer,10138
+Reporter,1970,Healthcare Professional,7809
+Reporter,1971,Consumer,8355
+Reporter,1971,Healthcare Professional,4801
+Reporter,1972,Consumer,7735
+Reporter,1972,Healthcare Professional,1902
+Reporter,1973,Consumer,7480
+Reporter,1973,Healthcare Professional,3897
+Reporter,1974,Consumer,7466
+Reporter,1974,Healthcare Professional,1787
+Reporter,1975,Consumer,9205
+Reporter,1975,Healthcare Professional,1410
+Reporter,1976,Consumer,7627
+Reporter,1976,Healthcare Professional,3194
+Reporter,1977,Consumer,10642
+Reporter,1977,Healthcare Professional,3099
+Reporter,1978,Consumer,7563
+Reporter,1978,Healthcare Professional,1872
+Reporter,1979,Consumer,6508
+Reporter,1979,Healthcare Professional,1735
+Reporter,1980,Consumer,10428
+Reporter,1980,Healthcare Professional,2484
+Reporter,1981,Consumer,12132
+Reporter,1981,Healthcare Professional,2368
+Reporter,1982,Consumer,19927
+Reporter,1982,Healthcare Professional,3778
+Reporter,1983,Consumer,27222
+Reporter,1983,Healthcare Professional,4799
+Reporter,1984,Consumer,27429
+Reporter,1984,Healthcare Professional,5192
+Reporter,1984,Not Specified,2
+Reporter,1985,Consumer,32839
+Reporter,1985,Healthcare Professional,5959
+Reporter,1985,Not Specified,1
+Reporter,1986,Consumer,42052
+Reporter,1986,Healthcare Professional,13875
+Reporter,1986,Not Specified,1
+Reporter,1987,Consumer,39615
+Reporter,1987,Healthcare Professional,15144
+Reporter,1988,Consumer,42443
+Reporter,1988,Healthcare Professional,8695
+Reporter,1989,Consumer,50812
+Reporter,1989,Healthcare Professional,9870
+Reporter,1990,Consumer,63184
+Reporter,1990,Healthcare Professional,12014
+Reporter,1990,Not Specified,3
+Reporter,1991,Consumer,63611
+Reporter,1991,Healthcare Professional,11657
+Reporter,1991,Not Specified,22
+Reporter,1992,Consumer,90796
+Reporter,1992,Healthcare Professional,14768
+Reporter,1992,Not Specified,390
+Reporter,1993,Consumer,105512
+Reporter,1993,Healthcare Professional,18343
+Reporter,1993,Not Specified,343
+Reporter,1994,Consumer,108048
+Reporter,1994,Healthcare Professional,20711
+Reporter,1994,Not Specified,363
+Reporter,1995,Consumer,121072
+Reporter,1995,Healthcare Professional,20337
+Reporter,1995,Not Specified,258
+Reporter,1996,Consumer,151967
+Reporter,1996,Healthcare Professional,20116
+Reporter,1996,Not Specified,121
+Reporter,1997,Consumer,154911
+Reporter,1997,Healthcare Professional,33967
+Reporter,1997,Not Specified,9356
+Reporter,1998,Consumer,23663
+Reporter,1998,Healthcare Professional,82149
+Reporter,1998,Not Specified,54078
+Reporter,1999,Consumer,50043
+Reporter,1999,Healthcare Professional,102782
+Reporter,1999,Not Specified,71538
+Reporter,2000,Consumer,45917
+Reporter,2000,Healthcare Professional,97420
+Reporter,2000,Not Specified,56462
+Reporter,2001,Consumer,38027
+Reporter,2001,Healthcare Professional,106644
+Reporter,2001,Not Specified,58537
+Reporter,2002,Consumer,27647
+Reporter,2002,Healthcare Professional,107365
+Reporter,2002,Not Specified,49867
+Reporter,2003,Consumer,39215
+Reporter,2003,Healthcare Professional,126728
+Reporter,2003,Not Specified,59291
+Reporter,2004,Consumer,61094
+Reporter,2004,Healthcare Professional,144780
+Reporter,2004,Not Specified,66957
+Reporter,2005,Consumer,89294
+Reporter,2005,Healthcare Professional,156681
+Reporter,2005,Not Specified,75904
+Reporter,2006,Consumer,112317
+Reporter,2006,Healthcare Professional,166571
+Reporter,2006,Not Specified,56782
+Reporter,2007,Consumer,146636
+Reporter,2007,Healthcare Professional,171927
+Reporter,2007,Not Specified,44762
+Reporter,2008,Consumer,176219
+Reporter,2008,Healthcare Professional,210898
+Reporter,2008,Not Specified,52554
+Reporter,2009,Consumer,197131
+Reporter,2009,Healthcare Professional,239208
+Reporter,2009,Not Specified,54069
+Reporter,2010,Consumer,308144
+Reporter,2010,Healthcare Professional,311373
+Reporter,2010,Not Specified,53123
+Reporter,2011,Consumer,361641
+Reporter,2011,Healthcare Professional,381842
+Reporter,2011,Not Specified,38144
+Reporter,2012,Consumer,437205
+Reporter,2012,Healthcare Professional,466614
+Reporter,2012,Not Specified,26360
+Reporter,2013,Consumer,500967
+Reporter,2013,Healthcare Professional,549697
+Reporter,2013,Not Specified,17929
+Reporter,2014,Consumer,602225
+Reporter,2014,Healthcare Professional,576221
+Reporter,2014,Not Specified,19987
+Reporter,2015,Consumer,933639
+Reporter,2015,Healthcare Professional,772224
+Reporter,2015,Not Specified,13928
+Reporter,2016,Consumer,843737
+Reporter,2016,Healthcare Professional,831690
+Reporter,2016,Not Specified,7946
+Reporter,2017,Consumer,841445
+Reporter,2017,Healthcare Professional,956209
+Reporter,2017,Not Specified,7356
+Reporter,2018,Consumer,972335
+Reporter,2018,Healthcare Professional,1153858
+Reporter,2018,Not Specified,13956
+Reporter,2019,Consumer,1003427
+Reporter,2019,Healthcare Professional,1150162
+Reporter,2019,Not Specified,21695
+Reporter,2020,Consumer,1123938
+Reporter,2020,Healthcare Professional,1055052
+Reporter,2020,Not Specified,23824
+Reporter,2021,Consumer,1214085
+Reporter,2021,Healthcare Professional,1098605
+Reporter,2021,Not Specified,15898
+Reporter,2021,Other,2
+Reporter,2022,Consumer,1100146
+Reporter,2022,Healthcare Professional,1218515
+Reporter,2022,Not Specified,18436
+Reporter,2022,Other,2
+Reporter,2023,Consumer,1047059
+Reporter,2023,Healthcare Professional,1092125
+Reporter,2023,Not Specified,15151
+Reporter,2023,Other,120
+Reporter,2024,Consumer,925308
+Reporter,2024,Healthcare Professional,1104533
+Reporter,2024,Not Specified,11905
+Reporter,2024,Other,83

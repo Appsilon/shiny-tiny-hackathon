@@ -1,0 +1,42 @@
+/* custom.css: Additional custom styling to mimic FAERS style */
+
+/* General font & background */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 14px; /* Adjust as desired */
+  margin: 0;
+  padding: 0;
+}
+
+/* Title bar (blue top header) */
+#titleBar {
+  background-color: #004489; /* FDA-like navy blue */
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Value boxes */
+.small-label {
+  font-size: 8px; /* smaller label text under the main value */
+}
+.value-box .icon-large {
+  font-size: 32px; /* bigger icon */
+}
+
+/* Box (card) styling around table and plot */
+.box {
+  border: 1px solid #d2d6de;
+  border-radius: 3px;
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.box-header {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}

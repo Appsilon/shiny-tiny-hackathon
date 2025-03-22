@@ -1,0 +1,6 @@
+Author: Mārtiņš Liberts
+AI tool used: OpenAI ChatGPT
+Model: o3-mini-high
+Comments:
+  - I have reduced data amount to 10 % of the original data
+  - It takes some seconds to laod data on app startup
