@@ -6,6 +6,7 @@ bslib::page_fluid(
     ),
     shinyjs::useShinyjs(),
     includeCSS("www/css/main.min.css"),
+    includeScript("www/js/shiny_custom_message.js"),
     h1("FDA Adverse Events Reporting System (FAERS) Public Dashboard"),
     bslib::navset_bar(
         id = "menu",
