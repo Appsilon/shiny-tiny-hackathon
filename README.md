@@ -1,3 +1,11 @@
+# Submission
+
+## Caitlin Mothes, Lead Geospatial Data Scientist
+### Geospatial Centroid, Colorado State University, Fort Collins CO
+
+
+### AI Tools used: Claude 3.7 Sonnet
+
 # Rules
 
 1. Register to the event: [Tiny Shiny AI Hackathon](https://events.ringcentral.com/events/appsilon-s-tiny-shiny-ai-hackathon)
