@@ -10,7 +10,8 @@ disclaimer_ui <- function(id) {
             checkboxInput(
                 inputId = ns("checkbox"),
                 label = "I have read and understand the disclaimer.",
-                value = FALSE
+                value = FALSE,
+                width = "100%"
             )
         ),
         div(

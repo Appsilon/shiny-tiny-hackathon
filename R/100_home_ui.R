@@ -73,12 +73,12 @@ home_ui <- function(id) {
                         div(
                             class = "value-box-content",
                             div(
-                                class = "value-box-value",
+                                class = "value-box-content-value",
                                 id = ns("death_reports"),
                                 "2,722,806"
                             ),
                             div(
-                                class = "value-box-label",
+                                class = "value-box-content-label",
                                 "Death Reports"
                             )
                         )
