@@ -1,14 +1,5 @@
 # app.R
-library(shiny)
-library(shinydashboard)
-library(bslib)
-library(DT)
-library(readxl)
-library(dplyr)
-library(ggplot2)
-library(plotly)
-library(scales)
-library(rmarkdown)
+source("setup.R")
 
 # Create a color-blind friendly palette
 # These colors are distinguishable for most types of color blindness
@@ -178,7 +169,16 @@ ui <- page_navbar(
           )
         ),
         fluidRow(card(plotlyOutput("report_chart"))),
-        fluidRow(card(DTOutput("report_table")))
+        fluidRow(card(DTOutput("report_table"))),
+        # Add footer with FDA logo
+        fluidRow(
+          div(
+            style = "margin-top: 20px; border-top: 1px solid #ddd; padding-top: 15px; display: flex; align-items: center; justify-content: space-between;",
+           # p("© FDA Adverse Event Reporting System (FAERS) ", style = "margin: 0;"),
+            img(src = "https://fis.fda.gov/appcontent/95239e26-e0be-42d9-a960-9a5f7f1c25ee/updated%20FDA%281%29.png", 
+                height = "30px")
+          )
+        )
         
       )
     )
