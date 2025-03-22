@@ -13,63 +13,65 @@ library(tidyr)
 dashboardUI <- function(id) {
   ns <- NS(id)
   tagList(
+    # First row - Value boxes only
     layout_columns(
+      col_widths = c(3, 3, 3, 3),
       fill = FALSE,
-      # Summary cards row
-      layout_columns(
-        col_widths = c(3, 3, 3, 3),
-        value_box(
-          title = "Total Reports",
-          value = textOutput(ns("total_reports")),
-          showcase = bsicons::bs_icon("bar-chart-fill"),
-          theme = value_box_theme(bg = "#4E73DF", fg = "white")
-        ),
-        value_box(
-          title = "Serious Reports",
-          value = textOutput(ns("serious_reports")),
-          showcase = bsicons::bs_icon("exclamation-triangle-fill"),
-          theme = value_box_theme(bg = "#F6C23E", fg = "white")
-        ),
-        value_box(
-          title = "Deaths",
-          value = textOutput(ns("death_reports")),
-          showcase = bsicons::bs_icon("heart-fill"),
-          theme = value_box_theme(bg = "#E74A3B", fg = "white")
-        ),
-        value_box(
-          title = "Hospitalizations",
-          value = textOutput(ns("hosp_reports")),
-          showcase = bsicons::bs_icon("hospital-fill"),
-          theme = value_box_theme(bg = "#36B9CC", fg = "white")
-        )
+      value_box(
+        title = "Total Reports",
+        value = textOutput(ns("total_reports")),
+        showcase = bsicons::bs_icon("bar-chart-fill"),
+        theme = value_box_theme(bg = "#4E73DF", fg = "white")
       ),
-      # Charts row
-      layout_columns(
-        col_widths = c(8, 4),
-        card(
-          card_header("Reports Over Time"),
-          plotlyOutput(ns("time_trend_plot"), height = "300px")
-        ),
-        card(
-          card_header("Top Reactions"),
-          plotlyOutput(ns("top_reactions_plot"), height = "300px")
-        )
+      value_box(
+        title = "Serious Reports",
+        value = textOutput(ns("serious_reports")),
+        showcase = bsicons::bs_icon("exclamation-triangle-fill"),
+        theme = value_box_theme(bg = "#F6C23E", fg = "white")
       ),
-      # Second row of charts
-      layout_columns(
-        col_widths = c(4, 4, 4),
-        card(
-          card_header("Age Distribution"),
-          plotlyOutput(ns("age_distribution"), height = "300px")
-        ),
-        card(
-          card_header("Top Drugs"),
-          plotlyOutput(ns("top_drugs"), height = "300px")
-        ),
-        card(
-          card_header("Outcome Distribution"),
-          plotlyOutput(ns("outcome_distribution"), height = "300px")
-        )
+      value_box(
+        title = "Deaths",
+        value = textOutput(ns("death_reports")),
+        showcase = bsicons::bs_icon("heart-fill"),
+        theme = value_box_theme(bg = "#E74A3B", fg = "white")
+      ),
+      value_box(
+        title = "Hospitalizations",
+        value = textOutput(ns("hosp_reports")),
+        showcase = bsicons::bs_icon("hospital-fill"),
+        theme = value_box_theme(bg = "#36B9CC", fg = "white")
+      )
+    ),
+    
+    # Second row - Charts
+    layout_columns(
+      col_widths = c(8, 4),
+      fill = FALSE,
+      card(
+        card_header("Reports Over Time"),
+        plotlyOutput(ns("time_trend_plot"), height = "300px")
+      ),
+      card(
+        card_header("Top Reactions"),
+        plotlyOutput(ns("top_reactions_plot"), height = "300px")
+      )
+    ),
+    
+    # Third row - More charts
+    layout_columns(
+      col_widths = c(4, 4, 4),
+      fill = FALSE,
+      card(
+        card_header("Age Distribution"),
+        plotlyOutput(ns("age_distribution"), height = "300px")
+      ),
+      card(
+        card_header("Top Drugs"),
+        plotlyOutput(ns("top_drugs"), height = "300px")
+      ),
+      card(
+        card_header("Outcome Distribution"),
+        plotlyOutput(ns("outcome_distribution"), height = "300px")
       )
     )
   )
