@@ -1,10 +1,9 @@
-# Server logic definition
-
+# server.R - Server logic
 server <- function(input, output, session) {
 
   # Filtered data based on user inputs
   filtered_data <- reactive({
-    data <- my_data
+    data <- report_data
 
     # Apply year filter
     data <- data %>% filter(year >= input$yearFilter[1] & year <= input$yearFilter[2])
@@ -38,11 +37,11 @@ server <- function(input, output, session) {
         values_from = report_count,
         values_fill = list(report_count = 0)
       ) %>%
-      mutate(Total = direct + expedited)
+      mutate(Total = rowSums(select(., -year)))
 
-    # Reorder columns to put Total before direct and expedited
+    # Reorder columns to put Total first
     pivoted_data <- pivoted_data %>%
-      select(year, Total, direct, expedited)
+      select(year, Total, everything())
 
     # Convert column names to title case
     names(pivoted_data) <- str_to_title(names(pivoted_data))
@@ -59,23 +58,24 @@ server <- function(input, output, session) {
   # Reset button handler
   observeEvent(input$resetFilters, {
     updateSliderInput(session, "yearFilter",
-                     value = c(min(my_data$year), max(my_data$year)))
+                      value = c(min(report_data$year), max(report_data$year)))
     updateCheckboxGroupInput(session, "typeFilter",
-                            selected = levels(my_data$report_type))
+                             selected = levels(report_data$report_type))
   })
 
-  # Render the data table with columns for report types - removed caption
+  # Render the data table with columns for report types
   output$reportTable <- renderDT({
     datatable(table_data(),
-             options = list(
-               pageLength = 10,
-               lengthMenu = c(5, 10, 15, 20),
-               searching = FALSE,  # Set searching to FALSE to remove the search bar
-               order = list(list(0, 'desc')),
-               dom = 'tlip'  # Removed 'f' from dom to remove the search box
-             ),
-             rownames = FALSE) %>%  # Removed caption parameter
-      formatRound(c('Total', 'Direct', 'Expedited'), digits = 0, mark = ",")
+              options = list(
+                pageLength = 10,
+                lengthMenu = c(5, 10, 15, 20),
+                searching = FALSE,
+                order = list(list(0, 'desc')),
+                dom = 'tlip'
+              ),
+              rownames = FALSE) %>%
+      formatRound(columns = which(sapply(table_data(), is.numeric)),
+                  digits = 0, mark = ",")
   })
 
   # Render the bar plot
@@ -100,10 +100,10 @@ server <- function(input, output, session) {
       geom_bar(stat = "identity", position = "stack") +
       labs(title = "Reports received by Report Type",
            x = NULL,
-           y = "Report Count") +  # Changed from "Number of Reports" to "Report Count"
+           y = "Report Count") +
       theme_minimal() +
-      scale_fill_brewer(palette = "Set1", name = NULL) +  # Removed legend title by setting name = NULL
-      theme(legend.position = "right",  # Changed legend position from "bottom" to "right"
+      scale_fill_brewer(palette = "Set1", name = NULL) +
+      theme(legend.position = "right",
             axis.text.x = element_text(angle = 45, hjust = 1)) +
       scale_y_continuous(labels = scales::comma)
   })

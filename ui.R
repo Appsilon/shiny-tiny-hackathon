@@ -1,7 +1,5 @@
 library(bslib)
-
-# UI components definition
-
+# ui.R - User interface
 ui <- page(
   title = "Reports Dashboard",
 
@@ -13,18 +11,18 @@ ui <- page(
 
         # Year filter - using sliderInput for the large year range
         sliderInput("yearFilter",
-                   "Select Year Range:",
-                   min = min(my_data$year),
-                   max = max(my_data$year),
-                   value = c(min(my_data$year), max(my_data$year)),
-                   step = 1,
-                   sep = ""),
+                    "Select Year Range:",
+                    min = min(report_data$year),
+                    max = max(report_data$year),
+                    value = c(min(report_data$year), max(report_data$year)),
+                    step = 1,
+                    sep = ""),
 
         # Report type filter
         checkboxGroupInput("typeFilter",
                            "Select Report Types:",
-                           choices = levels(my_data$report_type),
-                           selected = levels(my_data$report_type),
+                           choices = levels(report_data$report_type),
+                           selected = levels(report_data$report_type),
                            inline = TRUE),
 
         # Reset button (centered vertically)
