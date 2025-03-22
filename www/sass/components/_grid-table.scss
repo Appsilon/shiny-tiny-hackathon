@@ -1,0 +1,142 @@
+.grid-table {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    height: 45vh;
+  
+    // Header styling
+    .grid-table-header {
+        display: grid;
+        grid-template-columns: 0.8fr repeat(4, 1fr) 1.2fr;
+        background-color: #f8f9fa;
+        border-bottom: 2px solid #e9ecef;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        
+        .grid-table-header-cell {
+            padding: 12px 16px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #023364; // Match your primary color for headers
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        
+        // Right-align all header cells except the first one (year)
+        &:not(:first-child) {
+            text-align: right;
+        }
+        }
+    }
+  
+    // Body styling
+    .grid-table-body {
+        overflow-y: auto;
+        flex-grow: 1;
+        scrollbar-width: thin;
+    
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+        
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background: rgba(2, 51, 100, 0.3); // Semi-transparent primary color
+            border-radius: 4px;
+        }
+        
+        .grid-table-body-row {
+            display: grid;
+            grid-template-columns: 0.8fr repeat(4, 1fr) 1.2fr;
+            border-bottom: 1px solid #f0f0f0;
+            transition: background-color 0.15s ease;
+        
+            &:first-child {
+                border-bottom: none;
+                font-weight: 600;
+                background-color: rgba(2, 51, 100, 0.05); // Very light primary color background
+            }
+        
+            &:nth-child(even):not(:first-child) {
+                background-color: #f9f9f9;
+            }
+            
+            &:hover:not(:first-child) {
+                background-color: rgba(2, 51, 100, 0.04); // Lighter primary color for hover
+            }
+            
+            .grid-table-body-cell {
+                padding: 10px 16px;
+                font-size: 0.85rem;
+                display: flex;
+                align-items: center;
+                
+                // Year column styling
+                &:first-child {
+                font-weight: 500;
+                color: #495057;
+                }
+                
+                // All numeric columns
+                &:not(:first-child) {
+                justify-content: flex-end;
+                font-variant-numeric: tabular-nums;
+                color: #212529;
+                }
+                
+                // Total column styling
+                &:last-child {
+                font-weight: 600;
+                color: #023364; // Primary color for emphasis
+                }
+            }
+        }
+    }
+}
+
+// Format NA values for the total row
+.grid-table-body-row:first-child {
+    .grid-table-body-cell {
+        font-weight: 600;
+        color: #023364 !important;
+    }
+}
+
+// Table container wrapper
+.data-table-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    
+    .table-header {
+        padding: 14px 16px;
+        background-color: white;
+        border-bottom: 1px solid #e9ecef;
+        font-weight: 600;
+        font-size: 1rem;
+        color: #023364;
+        display: flex;
+        align-items: center;
+        
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background-color: rgba(2, 51, 100, 0.1);
+            border-radius: 4px;
+            margin-right: 8px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23023364' viewBox='0 0 16 16'%3E%3Cpath d='M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 2h-4v3h4V4zm0 4h-4v3h4V8zm0 4h-4v3h3a1 1 0 0 0 1-1v-2zm-5 3v-3H6v3h4zm-5 0v-3H1v2a1 1 0 0 0 1 1h3zm-4-4h4V8H1v3zm0-4h4V4H1v3zm5-3v3h4V4H6zm4 4H6v3h4V8z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}

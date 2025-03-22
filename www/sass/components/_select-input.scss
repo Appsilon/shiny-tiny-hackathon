@@ -1,0 +1,23 @@
+
+.select-input {
+    .shiny-input-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        label {
+            margin-right: 24px;
+            margin-bottom: 0;
+            font-size: 3rem;
+        }
+        .shiny-input-select {
+            .selectize-input {
+                padding: 12px 72px;
+                .item {
+                    margin-right: 12px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

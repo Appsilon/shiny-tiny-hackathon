@@ -8,14 +8,16 @@ function(input, output, session) {
     # ------ MODULES -----------------------------------------------------------
 
     # ------ * Disclaimer ------------------------------------------------------
-    showModal(modalDialog(
-        title = NULL,
-        footer = NULL,
-        easyClose = FALSE,
-        size = "l",
-        disclaimer_ui("disclaimer")
-    ))
-    disclaimer_server("disclaimer")
+    if (Sys.getenv("HIDE_DISCLAIMER") != "true") {
+        showModal(modalDialog(
+            title = NULL,
+            footer = NULL,
+            easyClose = FALSE,
+            size = "l",
+            disclaimer_ui("disclaimer")
+        ))
+        disclaimer_server("disclaimer")
+    }
 
     # ------ * Home ------------------------------------------------------------
     home_server("home")

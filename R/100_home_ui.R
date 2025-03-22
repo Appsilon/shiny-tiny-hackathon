@@ -5,53 +5,108 @@ home_ui <- function(id) {
 
     tagList(
         fluidRow(
+            class = "align-items-center",
             column(
                 width = 6,
-                bslib::layout_column_wrap(
-                    bslib::value_box(
-                        value = "30,179,725",
-                        title = "Total Reports",
-                        showcase = bsicons::bs_icon("bar-chart-line")
+                div(
+                    class = "d-flex flex-wrap justify-content-between",
+                    div(
+                        class = "value-box",
+                        div(
+                            class = "value-box-icon",
+                            bsicons::bs_icon("bar-chart-line")
+                        ),
+                        div(
+                            class = "value-box-content",
+                            div(
+                                class = "value-box-content-value",
+                                "30,179,725"
+                            ),
+                            div(
+                                class = "value-box-content-label",
+                                "Total Reports"
+                            )
+                        )
                     ),
-                    bslib::value_box(
-                        value = "16,664,479",
-                        title = "Serious Reports (excluding death)",
-                        showcase = bsicons::bs_icon("exclamation-triangle-fill"),
+                    div(
+                        class = "value-box",
+                        div(
+                            class = "value-box-icon",
+                            bsicons::bs_icon("exclamation-triangle-fill")
+                        ),
+                        div(
+                            class = "value-box-content",
+                            div(
+                                class = "value-box-content-value",
+                                "16,664,479"
+                            ),
+                            div(
+                                class = "value-box-content-label",
+                                "Serious Reports (excluding death)"
+                            )
+                        )
                     ),
-                    bslib::value_box(
-                        value = "2,722,806",
-                        title = "Death Reports",
-                        showcase = bsicons::bs_icon("x-circle-fill")
+                    div(
+                        class = "value-box",
+                        div(
+                            class = "value-box-icon",
+                            bsicons::bs_icon("x-circle-fill")
+                        ),
+                        div(
+                            class = "value-box-content",
+                            div(
+                                class = "value-box-value",
+                                "2,722,806"
+                            ),
+                            div(
+                                class = "value-box-label",
+                                "Death Reports"
+                            )
+                        )
                     )
                 )
             ),
             column(
                 width = 6,
-                selectInput(
-                    inputId = ns("report_category"),
-                    label = "Reports by",
-                    choices = setNames(
-                        ref_list$report_categories$name,
-                        ref_list$report_categories$label
+                div(
+                    class = "select-input",
+                    selectInput(
+                        inputId = ns("report_category"),
+                        label = "Reports by:",
+                        choices = setNames(
+                            ref_list$report_categories$name,
+                            ref_list$report_categories$label
+                        )
                     )
                 )
             )
         ),
         fluidRow(
+            style = "height: 45vh;",
             column(
                 width = 6,
-                DT::DTOutput(ns("table"))
+                uiOutput(ns("table"))
             ),
             column(
                 width = 6,
-                ggiraph::girafeOutput(ns("plot"))
+                ggiraph::girafeOutput(ns("plot"), height = "45vh", width = "100%")
             )
         ),
         fluidRow(
+            class = "footer",
             column(
                 width = 12,
-                h3("Data as of December 31, 2024"),
-                uiOutput(ns("data_description"))
+                div(
+                    class = "footer-content",
+                    div(
+                        class = "footer-content-date",
+                        "Data as of December 31, 2024"
+                    ),
+                    div(
+                        class = "footer-content-description",
+                        uiOutput(ns("data_description"))
+                    )
+                )
             )
         )
     )

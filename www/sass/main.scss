@@ -1,10 +1,15 @@
 
 // Base
+@import "base/variables";
 
 // Components
+@import "components/grid-table";
+@import "components/select-input";
+@import "components/value-box";
 
 // Layout
-
+@import "layout/footer";
+@import "layout/header";
 // Pages
 
 // Utils
