@@ -1,0 +1,27 @@
+meta:
+  name: FDA Theme
+  
+color:
+  background: "#f0f2f5"
+
+  
+typography:
+  fonts:
+    - family: Roboto
+      source: google
+      weight: [300, 400, 700]
+  base: 
+    family: Roboto
+    size: 0.9rem
+  headings:
+    color: "#000"
+  link:
+    color: "#000"
+
+defaults:
+  bootstrap:
+    defaults:
+      navbar-light-bg: "#ffff"
+      card-bg: "#ffff"
+      sidebar-bg-dark: "fffff"
+      card-footer-bg: "ffff"
