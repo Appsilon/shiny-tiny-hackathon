@@ -23,7 +23,8 @@ app_ui = ui.page_fillable(
     ui.layout_columns(
         ui.card(
             ui.card_header(ui.output_text("title")),
-            ui.output_table("table"),
+            #ui.output_table("table"),
+            ui.output_data_frame("number_data", ),
             full_screen=True,
         ),
         ui.card(
@@ -56,13 +57,20 @@ def server(input, output, session):
     def title():
         return 'Explore the Number of Reports by Year and {}'.format(subject_r.get())
 
+    # @output
+    # @render.table
+    # def table():
+    #     long_agg_data = get_aggregated_data()
+    #     wide_agg_data = long_agg_data.pivot(index='Year', columns=subject_r.get()).reset_index()
+    #     return wide_agg_data
+    
     @output
-    @render.table
-    def table():
+    @render.data_frame
+    def number_data():
         long_agg_data = get_aggregated_data()
-        wide_agg_data = long_agg_data.pivot(index='Year', columns=subject_r.get()).reset_index()
+        wide_agg_data = long_agg_data.pivot(index='Year', columns=subject_r.get(), values='Reports').reset_index()
         return wide_agg_data
-
+    
     @output
     @render.text
     def title_plot():
