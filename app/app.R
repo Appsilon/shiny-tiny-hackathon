@@ -7,6 +7,8 @@ library(lubridate)
 library(scales)
 library(tidyr)
 library(writexl)
+library(rmarkdown)
+library(knitr)
 
 
 # UI modules for each tab
@@ -170,6 +172,78 @@ individualReportsUI <- function(id) {
     )
   )
 }
+
+
+##################################### Custom Report UI
+customReportUI <- function(id) {
+  ns <- NS(id)
+  tagList(
+    layout_columns(
+      fill = FALSE,
+      col_widths = c(4, 8),
+      # Left column - configuration options
+      card(
+        card_header("Report Configuration"),
+        card_body(
+          h4("Select elements to include in your report:"),
+          checkboxInput(ns("include_summary"), "Include Summary Statistics", value = TRUE),
+          
+          h5("Time Trends:"),
+          checkboxGroupInput(ns("time_trends"), "", 
+                             choices = c("Reports Over Time" = "time_trend_plot",
+                                         "Yearly Trend" = "yearly_trend", 
+                                         "Quarterly Trend" = "quarterly_trend",
+                                         "Monthly Trend" = "monthly_trend"),
+                             selected = "time_trend_plot"),
+          
+          h5("Demographics:"),
+          checkboxGroupInput(ns("demographics"), "", 
+                             choices = c("Age Distribution" = "age_distribution",
+                                         "Gender Distribution" = "gender_distribution",
+                                         "Country Distribution" = "country_distribution"),
+                             selected = "age_distribution"),
+          
+          h5("Drug Analysis:"),
+          checkboxGroupInput(ns("drug_analysis"), "", 
+                             choices = c("Top Drugs" = "top_drugs",
+                                         "Top Reactions" = "top_reactions_plot",
+                                         "Drug Indications" = "drug_indication",
+                                         "Drug-Reaction Heatmap" = "drug_reaction_heatmap"),
+                             selected = "top_drugs"),
+          
+          h5("Report Options:"),
+          textInput(ns("report_title"), "Report Title", value = "FAERS Custom Report"),
+          textInput(ns("report_subtitle"), "Subtitle", value = paste("Generated on", format(Sys.Date(), "%B %d, %Y"))),
+          textAreaInput(ns("report_notes"), "Additional Notes", rows = 3,
+                        placeholder = "Add any additional notes or context for this report..."),
+          br(),
+          downloadButton(ns("generate_report"), "Generate PDF Report", class = "btn-primary btn-lg w-100")
+        )
+      ),
+      
+      # Right column - preview
+      card(
+        card_header("Report Preview"),
+        card_body(
+          h4(textOutput(ns("preview_title"))),
+          h5(textOutput(ns("preview_subtitle"))),
+          hr(),
+          h5("This report will include:"),
+          uiOutput(ns("preview_contents")),
+          hr(),
+          div(
+            class = "alert alert-info",
+            icon("info-circle"), 
+            "The final PDF will contain the plots based on your current filter selections. 
+            Make sure to set appropriate filters before generating the report."
+          )
+        )
+      )
+    )
+  )
+}
+
+
 
 ##################################### About UI
 aboutUI <- function(id) {
@@ -586,6 +660,170 @@ individualReportsServer <- function(id, filtered_data) {
   })
 }
 
+##################################### Custom Report Server
+customReportServer <- function(id, filtered_data, all_plots) {
+  moduleServer(id, function(input, output, session) {
+    # Preview title and subtitle
+    output$preview_title <- renderText({
+      input$report_title
+    })
+    
+    output$preview_subtitle <- renderText({
+      input$report_subtitle
+    })
+    
+    # Preview of report contents
+    output$preview_contents <- renderUI({
+      items <- c()
+      
+      if(input$include_summary) {
+        items <- c(items, "Summary Statistics")
+      }
+      
+      if(length(input$time_trends) > 0) {
+        time_trend_names <- names(which(c("Reports Over Time", "Yearly Trend", "Quarterly Trend", "Monthly Trend") %in% 
+                                          names(input$time_trends[input$time_trends])))
+        items <- c(items, paste("Time Trends:", paste(time_trend_names, collapse = ", ")))
+      }
+      
+      if(length(input$demographics) > 0) {
+        demographic_names <- names(which(c("Age Distribution", "Gender Distribution", "Country Distribution") %in% 
+                                           names(input$demographics[input$demographics])))
+        items <- c(items, paste("Demographics:", paste(demographic_names, collapse = ", ")))
+      }
+      
+      if(length(input$drug_analysis) > 0) {
+        drug_names <- names(which(c("Top Drugs", "Top Reactions", "Drug Indications", "Drug-Reaction Heatmap") %in% 
+                                    names(input$drug_analysis[input$drug_analysis])))
+        items <- c(items, paste("Drug Analysis:", paste(drug_names, collapse = ", ")))
+      }
+      
+      # Create list items
+      tags$ul(
+        lapply(items, function(item) {
+          tags$li(item)
+        })
+      )
+    })
+    
+    # Generate PDF report
+    output$generate_report <- downloadHandler(
+      filename = function() {
+        sanitized_title <- gsub("[^a-zA-Z0-9]", "-", input$report_title)
+        paste0(sanitized_title, "-", format(Sys.Date(), "%Y-%m-%d"), ".pdf")
+      },
+      content = function(file) {
+        # Temporary file to save the report to
+        temp_report <- tempfile(fileext = ".Rmd")
+        
+        # Create the R Markdown code
+        rmd_content <- paste0(
+          "---\n",
+          "title: \"", input$report_title, "\"\n",
+          "subtitle: \"", input$report_subtitle, "\"\n",
+          "date: \"", format(Sys.Date(), "%B %d, %Y"), "\"\n",
+          "output: pdf_document\n",
+          "---\n\n",
+          
+          "```{r setup, include=FALSE}\n",
+          "knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)\n",
+          "library(dplyr)\n",
+          "library(ggplot2)\n",
+          "library(plotly)\n",
+          "```\n\n"
+        )
+        
+        # Add notes if provided
+        if (nchar(input$report_notes) > 0) {
+          rmd_content <- paste0(
+            rmd_content,
+            "## Notes\n\n",
+            input$report_notes, "\n\n"
+          )
+        }
+        
+        # Add summary statistics if selected
+        if (input$include_summary) {
+          rmd_content <- paste0(
+            rmd_content,
+            "## Summary Statistics\n\n",
+            "Total Reports: ", nrow(filtered_data()), "\n\n",
+            "Serious Reports: ", filtered_data() %>% filter(seriousness == "Serious") %>% nrow(), "\n\n",
+            "Deaths: ", filtered_data() %>% filter(outcome == "Death") %>% nrow(), "\n\n",
+            "Hospitalizations: ", filtered_data() %>% filter(outcome == "Hospitalization") %>% nrow(), "\n\n"
+          )
+        }
+        
+        # Function to add plots
+        add_plots <- function(plot_ids, section_title) {
+          if (length(plot_ids) > 0) {
+            section_content <- paste0("## ", section_title, "\n\n")
+            
+            for (plot_id in plot_ids) {
+              # Get the display name for the plot
+              plot_display_name <- switch(plot_id,
+                                          "time_trend_plot" = "Reports Over Time",
+                                          "yearly_trend" = "Yearly Trend",
+                                          "quarterly_trend" = "Quarterly Trend",
+                                          "monthly_trend" = "Monthly Trend",
+                                          "age_distribution" = "Age Distribution",
+                                          "gender_distribution" = "Gender Distribution",
+                                          "country_distribution" = "Country Distribution",
+                                          "top_drugs" = "Top Drugs",
+                                          "top_reactions_plot" = "Top Reactions",
+                                          "drug_indication" = "Drug Indications",
+                                          "drug_reaction_heatmap" = "Drug-Reaction Heatmap",
+                                          plot_id)
+              
+              section_content <- paste0(
+                section_content,
+                "### ", plot_display_name, "\n\n",
+                "```{r ", plot_id, ", fig.height=5, fig.width=7}\n",
+                "print(all_plots$", plot_id, "())\n",
+                "```\n\n"
+              )
+            }
+            
+            return(section_content)
+          }
+          return("")
+        }
+        
+        # Add time trend plots
+        if (length(input$time_trends) > 0) {
+          rmd_content <- paste0(
+            rmd_content,
+            add_plots(input$time_trends, "Time Trends")
+          )
+        }
+        
+        # Add demographic plots
+        if (length(input$demographics) > 0) {
+          rmd_content <- paste0(
+            rmd_content,
+            add_plots(input$demographics, "Demographics")
+          )
+        }
+        
+        # Add drug analysis plots
+        if (length(input$drug_analysis) > 0) {
+          rmd_content <- paste0(
+            rmd_content,
+            add_plots(input$drug_analysis, "Drug Analysis")
+          )
+        }
+        
+        # Write the R Markdown content to the temp file
+        writeLines(rmd_content, temp_report)
+        
+        # Render the report
+        rmarkdown::render(temp_report, output_file = file)
+      }
+    )
+  })
+}
+
+
 ########################################## About server
 aboutServer <- function(id) {
   moduleServer(id, function(input, output, session) {
@@ -718,6 +956,7 @@ ui <- page_navbar(
   nav_panel("Demographics", demographicsUI("demographics")),
   nav_panel("Drug Analysis", drugAnalysisUI("drugs")),
   nav_panel("Individual Reports", individualReportsUI("reports")),
+  nav_panel("Generate Report", customReportUI("report_generator")),
   nav_panel("About", aboutUI("about"))
 
   
@@ -738,6 +977,189 @@ server <- function(input, output, session) {
   individualReportsServer("reports", filtered_data)
   aboutServer("about")
   
+  # Create a reactive list to store all plots for reporting
+  all_plots <- reactiveValues()
+  
+  # Store dashboard plots
+  all_plots$time_trend_plot <- reactive({
+    time_data <- filtered_data() %>%
+      count(date_received) %>%
+      arrange(date_received)
+    
+    ggplot(time_data, aes(x = date_received, y = n)) +
+      geom_line(color = '#4E73DF') +
+      labs(title = "Reports Over Time",
+           x = "Date",
+           y = "Number of Reports") +
+      theme_minimal()
+  })
+  
+  all_plots$top_reactions_plot <- reactive({
+    top_reactions <- filtered_data() %>%
+      count(reaction, sort = TRUE) %>%
+      top_n(10, n) %>%
+      mutate(reaction = reorder(reaction, n))
+    
+    ggplot(top_reactions, aes(x = n, y = reaction)) +
+      geom_col(fill = '#4E73DF') +
+      labs(title = "Top 10 Adverse Events",
+           x = "Number of Reports",
+           y = "") +
+      theme_minimal()
+  })
+  
+  all_plots$age_distribution <- reactive({
+    age_data <- filtered_data() %>%
+      filter(!is.na(patient_age)) %>%
+      mutate(age_group = cut(patient_age, breaks = seq(0, 100, by = 10),
+                             labels = c("0-9", "10-19", "20-29", "30-39", "40-49", 
+                                        "50-59", "60-69", "70-79", "80-89", "90+"))) %>%
+      count(age_group)
+    
+    ggplot(age_data, aes(x = age_group, y = n)) +
+      geom_col(fill = '#4E73DF') +
+      labs(title = "Age Distribution",
+           x = "Age Group",
+           y = "Number of Reports") +
+      theme_minimal()
+  })
+  
+  all_plots$top_drugs <- reactive({
+    top_drugs <- filtered_data() %>%
+      count(drug_name, sort = TRUE) %>%
+      top_n(10, n) %>%
+      mutate(drug_name = reorder(drug_name, n))
+    
+    ggplot(top_drugs, aes(x = n, y = drug_name)) +
+      geom_col(fill = '#4E73DF') +
+      labs(title = "Top 10 Drugs",
+           x = "Number of Reports",
+           y = "") +
+      theme_minimal()
+  })
+  
+  # Store reports over time plots
+  all_plots$yearly_trend <- reactive({
+    yearly_data <- filtered_data() %>%
+      count(year) %>%
+      arrange(year)
+    
+    ggplot(yearly_data, aes(x = as.factor(year), y = n)) +
+      geom_col(fill = '#4E73DF') +
+      labs(title = "Reports by Year",
+           x = "Year",
+           y = "Number of Reports") +
+      theme_minimal()
+  })
+  
+  all_plots$quarterly_trend <- reactive({
+    quarterly_data <- filtered_data() %>%
+      count(year, quarter) %>%
+      arrange(year, quarter) %>%
+      mutate(quarter_label = paste0(year, " Q", quarter))
+    
+    ggplot(quarterly_data, aes(x = quarter_label, y = n)) +
+      geom_col(fill = '#4E73DF') +
+      labs(title = "Reports by Quarter",
+           x = "Quarter",
+           y = "Number of Reports") +
+      theme_minimal() +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  })
+  
+  all_plots$monthly_trend <- reactive({
+    monthly_data <- filtered_data() %>%
+      count(year, month) %>%
+      arrange(year, month) %>%
+      mutate(month_label = paste0(year, "-", sprintf("%02d", month)))
+    
+    ggplot(monthly_data, aes(x = month_label, y = n)) +
+      geom_col(fill = '#4E73DF') +
+      labs(title = "Reports by Month",
+           x = "Month",
+           y = "Number of Reports") +
+      theme_minimal() +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  })
+  
+  # Store demographic plots
+  all_plots$gender_distribution <- reactive({
+    gender_data <- filtered_data() %>%
+      count(patient_sex) %>%
+      mutate(percentage = n / sum(n) * 100)
+    
+    ggplot(gender_data, aes(x = "", y = n, fill = patient_sex)) +
+      geom_bar(stat = "identity", width = 1) +
+      coord_polar("y", start = 0) +
+      scale_fill_manual(values = c('#4E73DF', '#E74A3B', '#858796')) +
+      labs(title = "Gender Distribution", fill = "Gender") +
+      theme_minimal() +
+      theme(axis.title = element_blank(),
+            axis.text = element_blank(),
+            axis.ticks = element_blank())
+  })
+  
+  all_plots$country_distribution <- reactive({
+    country_data <- filtered_data() %>%
+      count(country, sort = TRUE) %>%
+      top_n(10, n) %>%
+      mutate(country = reorder(country, n))
+    
+    ggplot(country_data, aes(x = n, y = country)) +
+      geom_col(fill = '#4E73DF') +
+      labs(title = "Reports by Country (Top 10)",
+           x = "Number of Reports",
+           y = "") +
+      theme_minimal()
+  })
+  
+  # Store drug analysis plots
+  all_plots$drug_indication <- reactive({
+    indication_data <- filtered_data() %>%
+      count(drug_indication, sort = TRUE) %>%
+      top_n(10, n) %>%
+      mutate(drug_indication = reorder(drug_indication, n))
+    
+    ggplot(indication_data, aes(x = n, y = drug_indication)) +
+      geom_col(fill = '#4E73DF') +
+      labs(title = "Drug Indication Distribution (Top 10)",
+           x = "Number of Reports",
+           y = "") +
+      theme_minimal()
+  })
+  
+  all_plots$drug_reaction_heatmap <- reactive({
+    # Get top 10 drugs and top 10 reactions
+    top_drugs <- filtered_data() %>%
+      count(drug_name, sort = TRUE) %>%
+      top_n(10, n) %>%
+      pull(drug_name)
+    
+    top_reactions <- filtered_data() %>%
+      count(reaction, sort = TRUE) %>%
+      top_n(10, n) %>%
+      pull(reaction)
+    
+    # Create heatmap data
+    heatmap_data <- filtered_data() %>%
+      filter(drug_name %in% top_drugs, reaction %in% top_reactions) %>%
+      count(drug_name, reaction) %>%
+      mutate(drug_name = factor(drug_name, levels = rev(top_drugs)),
+             reaction = factor(reaction, levels = top_reactions))
+    
+    ggplot(heatmap_data, aes(x = reaction, y = drug_name, fill = n)) +
+      geom_tile() +
+      scale_fill_gradient(low = "white", high = "#4E73DF") +
+      labs(title = "Drug-Reaction Heatmap",
+           x = "",
+           y = "",
+           fill = "Count") +
+      theme_minimal() +
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  })
+  
+  # Add report generator server
+  customReportServer("report_generator", filtered_data, all_plots)
 }
 # Run the app
 shinyApp(ui = ui, server = server)
