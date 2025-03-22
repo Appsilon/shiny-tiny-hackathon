@@ -1,0 +1,261 @@
+/* Variables de colores para consistencia */
+:root {
+  --color-primary: #337ab7;
+  --color-report: #000000;
+  --color-warning: #FFA500;
+  --color-death: #FF0000;
+  --color-icon-primary: #337ab7;
+  --color-icon-warning: #f0ad4e;
+  --color-icon-danger: #d9534f;
+  --color-background-light: #f9f9f9;
+  --color-border: #ddd;
+  --color-text-secondary: #000000;
+}
+/* Main header structure with two-part header */
+.header-top {
+  background-color: white;
+  color: var(--color-primary);
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--color-border);
+}
+.header-title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+  color: var(--color-primary);
+}
+.header-logo {
+  height: 35px;
+}
+/* Navigation bar */
+.header-nav {
+  background-color: var(--color-primary);
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+/* Fixed spacing between navigation links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  display: inline-block;
+}
+.nav-right .nav-link:last-child {
+  margin-right: 0;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+/* Stats section */
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  background-color: var(--color-background-light);
+  border-bottom: 1px solid var(--color-border);
+}
+.stat-box {
+  padding: 0 15px;
+}
+/* Estilos para las etiquetas de estadísticas */
+.stat-label-report {
+  font-size: 1rem;
+  color: var(--color-report);
+  margin-bottom: 5px;
+}
+.stat-label-warning {
+  font-size: 1rem;
+  color: var(--color-warning);
+  margin-bottom: 5px;
+}
+.stat-label-death {
+  font-size: 1rem;
+  color: var(--color-death);
+  margin-bottom: 5px;
+}
+/* Estilos para los valores de estadísticas */
+.stat-value-report {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: var(--color-report);
+}
+.stat-value-warning {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: var(--color-warning);
+}
+.stat-value-death {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: var(--color-death);
+}
+.stat-value i {
+  margin-right: 8px;
+}
+/* Icons colors */
+.icon-primary {
+  color: var(--color-icon-primary);
+}
+.icon-warning {
+  color: var(--color-icon-warning);
+}
+.icon-danger {
+  color: var(--color-icon-danger);
+}
+/* Filter dropdown */
+.filter-dropdown {
+  min-width: 300px;
+}
+/* Year filter buttons */
+.year-filters {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 15px;
+}
+.btn-year {
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  margin-left: 10px;
+  font-style: italic;
+}
+.btn-year:hover {
+  background-color: #286090;
+}
+/* Contenedor flexible para tabla y gráfico */
+.content-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.table-container {
+  flex: 1;
+  min-width: 48%;
+  margin-right: 2%;
+}
+.chart-container {
+  flex: 1;
+  min-width: 48%;
+}
+/* Data table styles */
+.data-table-container {
+  margin: 20px 15px;
+}
+.section-header {
+  color: var(--color-text-secondary);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+/* Footer styles */
+.data-date-section {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+.policy-link {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.policy-link:hover {
+  text-decoration: underline;
+}
+
+.footer-description {
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.footer-description ul {
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+.footer-description ol {
+  padding-left: 25px;
+}
+
+.footer-description li {
+  margin-bottom: 8px;
+}
+
+.footer-additional-info {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+/* Table specific styles */
+.data-table th {
+  background-color: #f5f5f5;
+  border: 1px solid var(--color-border);
+}
+.data-table td {
+  border: 1px solid var(--color-border);
+}
+
+
+.info-box {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+.btn-period {
+  width: 100%;
+  margin: 5px 0;
+  font-weight: bold;
+}
+.title-box {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+.dataTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.dataTable td:nth-child(1) {
+  font-weight: bold;
+}
+.year-search, .type-search {
+  padding: 6px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
