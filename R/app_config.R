@@ -12,6 +12,18 @@ app_sys <- function(...) {
   system.file(..., package = "shinyHackathon")
 }
 
+#' @import shiny
+favicon <- function() {
+  favicon <- golem::get_golem_options("favicon")
+  if (!is.null(favicon)) {
+    tags$link(rel = "shortcut icon", href = favicon)
+  } else {
+    # Update this path to your custom favicon
+    tags$link(rel = "icon", 
+              href = "www/favicon.ico")
+  }
+}
+
 
 #' Read App Config
 #'

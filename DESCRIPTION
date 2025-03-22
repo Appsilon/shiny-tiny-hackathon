@@ -2,25 +2,35 @@ Package: shinyHackathon
 Title: An Amazing Shiny App
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
+    person(given = "Julián",
+           family = "Lastname",
            role = c("aut", "cre"),
            email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+Description: This package provides an interactive Shiny app designed for data exploration and visualization, specifically focused on analyzing and visualizing FAERS (FDA Adverse Event Reporting System) data. It includes features for filtering, displaying different chart types, and customizing visualizations, offering a user-friendly interface for data analysis.
+License: MIT
 Imports: 
     attempt,
+    bslib,
     config,
+    dplyr,
     DT,
+    ggplot2,
     glue,
     golem,
     htmltools,
-    shiny
+    magrittr,
+    plotly,
+    shiny,
+    tibble,
+    tidyr,
+    usethis
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
 Suggests: 
     spelling,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Language: en-US
+Depends: 
+    R (>= 3.5)
