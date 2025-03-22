@@ -17,7 +17,7 @@ bslib::page_fluid(
                 alt = "Logo Data Champ’",
                 width = "50px"
             ),
-            h1("FDA Adverse Events Reporting System (FAERS) Public Dashboard")
+            h3("FDA Adverse Events Reporting System (FAERS) Public Dashboard")
         )
     ),
     home_ui("home")

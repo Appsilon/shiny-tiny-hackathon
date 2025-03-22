@@ -6,7 +6,22 @@ home_ui <- function(id) {
     tags$div(
         class = "main-content",
         fluidRow(
-            class = "align-items-center",
+            class = "align-items-center py-4 mb-4",
+            style = "background-color: #F6F6F6;",
+            column(
+                width = 6,
+                div(
+                    class = "select-input",
+                    selectInput(
+                        inputId = ns("report_category"),
+                        label = "Reports by:",
+                        choices = setNames(
+                            ref_list$report_categories$name,
+                            ref_list$report_categories$label
+                        )
+                    )
+                )
+            ),
             column(
                 width = 6,
                 div(
@@ -21,6 +36,7 @@ home_ui <- function(id) {
                             class = "value-box-content",
                             div(
                                 class = "value-box-content-value",
+                                id = ns("total_reports"),
                                 "30,179,725"
                             ),
                             div(
@@ -39,6 +55,7 @@ home_ui <- function(id) {
                             class = "value-box-content",
                             div(
                                 class = "value-box-content-value",
+                                id = ns("serious_reports"),
                                 "16,664,479"
                             ),
                             div(
@@ -57,26 +74,13 @@ home_ui <- function(id) {
                             class = "value-box-content",
                             div(
                                 class = "value-box-value",
+                                id = ns("death_reports"),
                                 "2,722,806"
                             ),
                             div(
                                 class = "value-box-label",
                                 "Death Reports"
                             )
-                        )
-                    )
-                )
-            ),
-            column(
-                width = 6,
-                div(
-                    class = "select-input",
-                    selectInput(
-                        inputId = ns("report_category"),
-                        label = "Reports by:",
-                        choices = setNames(
-                            ref_list$report_categories$name,
-                            ref_list$report_categories$label
                         )
                     )
                 )
