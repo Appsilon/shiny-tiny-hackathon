@@ -1,0 +1,14 @@
+Package: faers
+Title: faers
+Version: 0.0.0.9000
+Authors@R: person("Alexandra", "K", , "alexandra.k@examplemail.com", role = c("aut", "cre"))
+Maintainer: Alexandra K <alexandra.k@examplemail.com>
+Description: FDA Adverse Event Reporting System (FAERS) Public Dashboard
+License: `use_gpl3_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    shiny
+Suggests:
+Config/testthat/edition: 3
