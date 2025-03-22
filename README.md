@@ -1,2 +1,2 @@
 # FAERS
-# I used chatGPT o1 and ShinyAssistant for the task.
+# I used ChatGPT o1 and Shiny Assistant for the task.
