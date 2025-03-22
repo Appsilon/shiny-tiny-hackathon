@@ -1,0 +1,24 @@
+.logofda{
+    width:8rem;
+    height: 2.5rem;
+}
+
+.bslib-page-navbar{
+    padding-top: 65px !important;
+}
+
+/* Apply a soft shadow to Bootstrap 5 cards */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Increase the shadow on hover */
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-header {
+    font-size: 0.8rem !important; /* Change to your desired font size */
+  }
