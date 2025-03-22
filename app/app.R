@@ -6,6 +6,7 @@ library(DT)
 library(lubridate)
 library(scales)
 library(tidyr)
+library(writexl)
 
 
 # UI modules for each tab
@@ -157,7 +158,14 @@ individualReportsUI <- function(id) {
   ns <- NS(id)
   tagList(
     card(
-      card_header("Individual Case Reports"),
+      card_header(
+        "Individual Case Reports",
+        div(
+          class = "float-end",
+          downloadButton(ns("download_csv"), "Download CSV", class = "btn-sm btn-outline-primary me-1"),
+          downloadButton(ns("download_excel"), "Download Excel", class = "btn-sm btn-outline-success")
+        )
+      ),
       DTOutput(ns("case_reports_table"))
     )
   )
@@ -544,6 +552,37 @@ individualReportsServer <- function(id, filtered_data) {
         rownames = FALSE
       )
     })
+    
+    # Download handlers
+    output$download_csv <- downloadHandler(
+      filename = function() {
+        paste("faers-case-reports-", format(Sys.Date(), "%Y-%m-%d"), ".csv", sep = "")
+      },
+      content = function(file) {
+        data_to_save <- filtered_data() %>%
+          select(report_id, date_received, patient_age, patient_sex, drug_name, 
+                 reaction, seriousness, outcome)
+        
+        write.csv(data_to_save, file, row.names = FALSE)
+      }
+    )
+    
+    output$download_excel <- downloadHandler(
+      filename = function() {
+        paste("faers-case-reports-", format(Sys.Date(), "%Y-%m-%d"), ".xlsx", sep = "")
+      },
+      content = function(file) {
+        data_to_save <- filtered_data() %>%
+          select(report_id, date_received, patient_age, patient_sex, drug_name, 
+                 reaction, seriousness, outcome)
+        
+        # Need writexl package
+        if (!requireNamespace("writexl", quietly = TRUE)) {
+          install.packages("writexl")
+        }
+        writexl::write_xlsx(data_to_save, file)
+      }
+    )
   })
 }
 
