@@ -1,61 +1,56 @@
-# Rules
+FDA Adverse Event Reporting System (FAERS) Dashboard
 
-1. Register to the event: [Tiny Shiny AI Hackathon](https://events.ringcentral.com/events/appsilon-s-tiny-shiny-ai-hackathon)
-2. Create a PR back to this repository from the forked one BEFORE THE EVENT END TIME 7 PM CET.
-3. PR needs to contain a working Shiny application with the task solution and the description of the AI tools used in the development.
+Overview
 
-# Task
+This Shiny application recreates the FDA Adverse Event Reporting System (FAERS) public dashboard, utilizing mocked data for rapid prototyping. The objective was to demonstrate how AI-assisted tools can significantly streamline the development process, from data generation and preparation to user interface (UI) design and interaction implementation.
 
-All participants have the same task: to recreate FDA Adverse Event Reporting System (FAERS) Public Dashboard. [Application](https://fis.fda.gov/sense/app/95239e26-e0be-42d9-a960-9a5f7f1c25ee/sheet/7a47a261-d58b-4203-a8aa-6d3021737452/state/analysis), [Description](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers-public-dashboard)
-1. Note that it is not meant to be a pixel-perfect copy. Custom ideas for design, user experience, feature improvements are welcomed and will be taken into consideration during the assessment process.
-2. The data used on the dashboard should be mocked
-3. The task is on purpose too complex to be finalised within the 4 hours time slot. The goal is to use AI-coding tools as a support and showcase the possibilities of the LLM-based development.
+Approach & Reasoning
 
-![image](https://github.com/user-attachments/assets/0d069db5-992c-4c16-b210-c3e7f8ea2955)
+Given the four-hour limit set by the Appsilon Tiny Shiny Hackathon, efficiency was paramount. My approach involved leveraging powerful AI tools (ChatGPT and Shiny Assistant) to rapidly prototype the app, significantly reducing development time. This allowed more focus on enhancing the dashboard’s usability and interactivity, providing valuable insights into the FAERS data structure.
 
+Development Workflow:
 
+Mock Data Creation (AI-Assisted): To emulate realistic FAERS data, a synthetic dataset was programmatically generated using R scripts. AI tools guided the structuring of the data to ensure realistic distribution and relevant fields.
 
-# Appsilon’s Tiny Shiny Hackathon: Build, Compete, and Win!
+Data Wrangling (AI-Assisted): ChatGPT generated scripts to rapidly tidy and prepare the mock data, ensuring it was immediately ready for interactive visualizations and analytical exploration.
 
-We are excited to invite you to the Appsilon Tiny Shiny Hackathon, a four-hour online challenge where developers can showcase their creativity and technical skills by building applications that combine Shiny and AI.
+UI Design & Interaction (AI-Assisted): Using Shiny Assistant and ChatGPT, UI components (KPI cards, interactive tables, charts) were quickly prototyped, ensuring clarity, ease of use, and interactive capability.
 
-Whether you are a seasoned developer or just starting with Shiny, this is a great opportunity to push your limits, learn from others, and gain recognition in the Shiny community.
+How the Code Works
 
-## Why Join?
-This hackathon is not just about coding. It is about innovation, collaboration, and learning. Here is what you can look forward to:
+Data Generation:
 
-* Exclusive prizes for top submissions.
-* A feature at ShinyConf 2025, putting your work in front of the global Shiny community.
-* A one-on-one mentoring session with Appsilon’s Head of Technology, Marcin Dubel.
-* If you are passionate about building with Shiny and want to experiment with AI, this is your chance to put your skills to the test.
+The R script employs randomization techniques to generate synthetic data representative of real-world FAERS data, including variables like dates, event outcomes, patient demographics, drug information, and reporter details.
 
-## What to Expect
-Taking place on Saturday, March 22, 2025, this hackathon runs for just four hours. You will receive access to a GitHub repository with the challenge description at the start, and from there, it is all about designing, developing, and submitting a working Shiny application.
+UI Components:
 
-You can participate solo or team up with a partner. Whether you choose R or Python, the goal is the same. Create an impressive Shiny app that meets the challenge criteria. AI tools like ChatGPT, Copilot, Cursor, and Shiny Assistant are not just allowed. They are encouraged.
+Navbar and Sidebar: Provide intuitive navigation and filtering capability across various criteria including dates, demographics, and event details.
 
-## How to Participate
-1. Register for the event.
-2. Make sure you have an active GitHub account.
-3. (Optional) Join the opening call to get important details.
-4. Once the hackathon begins, access the GitHub repository with the challenge.
-5. Fork the repository and start coding.
-6. Submit your pull request before the deadline with your completed app.
-7. How We Will Evaluate Your Work
-8. Submissions will be reviewed by the Hackathon Committee, made up of Appsilon experts. They will be looking at:
+Value Boxes: Clearly present key metrics such as Total Reports, Serious Reports (excluding deaths), and Death Reports.
 
-  * How well your app meets the challenge objectives.
-  * Any additional features you build.
-  * UI design and user experience.
-  * Code clarity and maintainability.
+Interactive Charts & Tables: Implemented with Plotly and DT for enhanced user interaction, providing dynamic data visualization and exploration.
 
-## Prizes and Recognition
-Winning is not just about prizes. It is about getting your work in front of the right people. Here is what is at stake:
+Server Logic:
 
-* Top winners will get a one-on-one mentoring session with Appsilon’s Head of Technology.
-* Select participants will be invited to an exclusive roundtable discussion on AI in Shiny development.
-* Top three winners will receive a yearly pro-level subscription to an AI tool of their choice.
-* Top ten winners will each get a 25 dollar Amazon Gift Card.
+Reactive Data Filtering: Enables dynamic updates based on user-selected filters.
 
-## Why You Should Join
-This hackathon is a chance to learn, build, and connect. It is about testing ideas, getting feedback, and seeing what is possible when you blend Shiny with AI. Whether you are in it for the challenge, the networking, or the fun, this is an opportunity to grow as a developer while being part of something exciting.
+Data Visualization: Utilizes interactive Plotly charts, offering insights into reporting patterns over time.
+
+Interactive Search: Allows targeted exploration of data based on search terms, dynamically rendering results.
+
+AI Tools Utilized
+
+ChatGPT: Assisted in quickly scripting the data structure and wrangling procedures, significantly accelerating the prototyping phase.
+
+Shiny Assistant: Facilitated rapid UI prototyping, allowing quick visualization and iterative improvements of interface components.
+
+Deployment
+
+The final application is deployed and accessible via Shinyapps.io(https://fdaadverseeventsreportingsystemfaers.shinyapps.io/FAERS/), providing a responsive and user-friendly exploration of the mocked FAERS data.
+
+Conclusion
+
+The integration of AI tools streamlined the development process, allowed for rapid iteration, and enhanced the overall user experience of the FAERS dashboard prototype. This approach highlights the potential of AI to transform traditional development workflows, especially in time-constrained environments like hackathons.
+
+This project submission aligns with the Appsilon Tiny Shiny Hackathon guidelines, showcasing both the capabilities of Shiny combined with AI-driven development.
+
