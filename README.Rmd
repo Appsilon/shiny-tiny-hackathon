@@ -1,0 +1,112 @@
+FAERS Public Dashboard
+
+This Shiny application creates a public dashboard for exploring the FDA Adverse Event Reporting System (FAERS) data. The dashboard provides key summary metrics, data visualizations, and interactive tables to help users analyze adverse event reports.
+
+Overview
+
+The FAERS Public Dashboard includes:
+
+Custom Header and Navigation: A header with a title and logo, along with a navigation bar featuring links for Home, Disclaimer, Report a Problem, FAQ, and Site Feedback. The header and navbar styling are implemented using custom CSS.
+
+Value Boxes: Summary boxes that display the total number of reports, serious reports (excluding deaths), and death reports.
+
+Interactive Controls: Dropdowns and action buttons to filter data by report type and time period (all years or last 10 years).
+
+Data Table: An interactive table (powered by the DT package) summarizing report details by year and report type.
+
+Plotly Visualization: A stacked bar chart showing trends of adverse event reports over time by report type.
+
+Modals: Pop-up dialogs for the Disclaimer, FAQ, Report a Problem, and Feedback sections.
+
+Downloadable Policy: A downloadable Vulnerability Disclosure Policy (dummy PDF) available through a link in the footer.
+
+Project Structure
+
+.
+├── app.R                  # Main Shiny application code
+├── data.csv               # CSV file containing the FAERS data
+├── www/
+│   └── logo.png           # Logo image displayed in the header
+└── dummy_Vulnerability_Disclosure_Policy.pdf  # PDF file for Vulnerability Disclosure Policy download
+
+Dependencies
+
+The application uses several R packages:
+
+shiny: For building interactive web applications.
+
+bslib: For Bootstrap theming and styling.
+
+fontawesome: For icons.
+
+DT: For interactive data tables.
+
+plotly: For interactive charts.
+
+readr: For reading CSV data.
+
+dplyr: For data manipulation.
+
+Install these packages using:
+
+install.packages(c("shiny", "bslib", "fontawesome", "DT", "plotly", "readr", "dplyr"))
+
+Installation & Setup
+
+Clone or Download the Repository:Ensure that all the required files (app.R, data.csv, dummy_Vulnerability_Disclosure_Policy.pdf, and www/logo.png) are in the project folder.
+
+Place Files in the Correct Directories:
+
+The CSV data file (data.csv) should be in the same directory as app.R.
+
+The logo image should be placed in the www folder.
+
+The PDF file should be located at the root or specified path as in the code.
+
+Running the Application
+
+Open the project in RStudio or any R environment and run the following command:
+
+shiny::runApp()
+
+This will start the Shiny application in your default web browser. You can then interact with the dashboard, filter the data, and view the visualizations.
+
+Code Details
+
+UI Definition:The UI is defined using page_fluid and includes custom CSS (inserted via tags$head(tags$style(...))) for styling the header, navigation bar, value boxes, controls, data table, and plot.
+
+Server Logic:The server function handles:
+
+Data reading and filtering based on user inputs.
+
+Reactive values for updating the data set.
+
+Rendering of value boxes, data table, and Plotly chart.
+
+Event handling for modal pop-ups (Disclaimer, FAQ, Report a Problem, Feedback) and file download for the Vulnerability Disclosure Policy.
+
+Interactivity:The dashboard allows users to:
+
+Toggle between all data and data from the last 10 years.
+
+Filter the data table by year and report type using custom search inputs.
+
+View additional information via modals.
+
+Customization
+
+To modify or extend the dashboard:
+
+UI Styling:Update the CSS within the tags$style(HTML("...")) block to change colors, fonts, or layout.
+
+Data Handling:Adjust the reactive data processing in the server function to accommodate additional filtering or data aggregation logic.
+
+Visualization:Customize the Plotly chart by modifying the plot_ly call in the renderPlotly function.
+
+Disclaimer
+
+The dashboard is for informational and educational purposes only. The data comes from the FDA Adverse Event Reporting System (FAERS) and is based on voluntary reports. The presence of a report does not imply causality or safety conclusions. Users should consult professional advice when evaluating drug safety.
+
+Feedback & Contributions
+
+Feedback is welcome via the “Site Feedback” link available in the navigation bar. If you encounter issues or have suggestions for improvements, please open an issue or submit a pull request.
