@@ -1,0 +1,92 @@
+.value-box {
+    background-color: $white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    transition: all 0.2s ease-in-out;
+    min-width: 260px;
+    max-width: 320px;
+  
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    }
+  
+    &-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 12px;
+        margin-right: 1rem;
+        flex-shrink: 0;    
+        .bi-bar-chart-line {
+            color: $light-blue;
+            background-color: rgba(4, 102, 200, 0.1);
+        }        
+        .bi-exclamation-triangle-fill {
+            color: $warning;
+            background-color: rgba(176, 86, 23, 0.1);
+        }        
+        .bi-x-circle-fill {
+            color: $danger;
+            background-color: rgba(183, 27, 27, 0.1);
+        }        
+        svg {
+            width: 24px;
+            height: 24px;
+        }
+    }
+  
+    &-content {
+        flex-grow: 1;        
+        &-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #212529;
+            margin-bottom: 0.3rem;
+        }        
+        &-label {
+            font-size: 0.875rem;
+            color: #6c757d;
+            margin: 0;
+        }
+    }
+  
+    // Specific styling for each type of value box
+    &:nth-child(1) .value-box-icon {
+        background-color: rgba(4, 102, 200, 0.1);
+        color: $light-blue;
+    }
+    
+    &:nth-child(2) .value-box-icon {
+        background-color: rgba(176, 86, 23, 0.1);
+        color: $warning;
+    }
+    
+    &:nth-child(3) .value-box-icon {
+        background-color: rgba(183, 27, 27, 0.1);
+        color: $danger;
+    }
+}
+
+// Media queries for responsive design
+@media (max-width: 992px) {
+    .value-box {
+        min-width: 210px;
+    }
+}
+
+@media (max-width: 768px) {
+    .d-flex.flex-wrap.justify-content-between {
+        justify-content: center !important;
+    }
+    
+    .value-box {
+        margin: 0.75rem;
+    }
+}

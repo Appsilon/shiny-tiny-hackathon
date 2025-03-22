@@ -1,0 +1,455 @@
+year,age_group,count
+1968,2 Months-2 Years,2
+1968,3-11 Years,1
+1968,12-17 Years,2
+1968,18-64 Years,85
+1968,65-85 Years,7
+1968,Not Specified,10
+1969,0-1 Month,2
+1969,2 Months-2 Years,127
+1969,3-11 Years,206
+1969,12-17 Years,167
+1969,18-64 Years,3287
+1969,65-85 Years,627
+1969,More than 85 Years,31
+1969,Not Specified,986
+1970,0-1 Month,6
+1970,2 Months-2 Years,371
+1970,3-11 Years,686
+1970,12-17 Years,524
+1970,18-64 Years,9740
+1970,65-85 Years,2832
+1970,More than 85 Years,98
+1970,Not Specified,3690
+1971,0-1 Month,6
+1971,2 Months-2 Years,206
+1971,3-11 Years,329
+1971,12-17 Years,313
+1971,18-64 Years,7156
+1971,65-85 Years,2530
+1971,More than 85 Years,61
+1971,Not Specified,2555
+1972,0-1 Month,3
+1972,2 Months-2 Years,135
+1972,3-11 Years,221
+1972,12-17 Years,185
+1972,18-64 Years,4441
+1972,65-85 Years,1983
+1972,More than 85 Years,27
+1972,Not Specified,2642
+1973,0-1 Month,4
+1973,2 Months-2 Years,199
+1973,3-11 Years,363
+1973,12-17 Years,264
+1973,18-64 Years,3784
+1973,65-85 Years,1334
+1973,More than 85 Years,41
+1973,Not Specified,5388
+1974,0-1 Month,4
+1974,2 Months-2 Years,131
+1974,3-11 Years,255
+1974,12-17 Years,220
+1974,18-64 Years,3531
+1974,65-85 Years,824
+1974,More than 85 Years,50
+1974,Not Specified,4238
+1975,0-1 Month,2
+1975,2 Months-2 Years,172
+1975,3-11 Years,324
+1975,12-17 Years,261
+1975,18-64 Years,4157
+1975,65-85 Years,1491
+1975,More than 85 Years,59
+1975,Not Specified,4149
+1976,0-1 Month,3
+1976,2 Months-2 Years,134
+1976,3-11 Years,300
+1976,12-17 Years,279
+1976,18-64 Years,4155
+1976,65-85 Years,879
+1976,More than 85 Years,66
+1976,Not Specified,5005
+1977,0-1 Month,6
+1977,2 Months-2 Years,159
+1977,3-11 Years,349
+1977,12-17 Years,402
+1977,18-64 Years,5441
+1977,65-85 Years,1295
+1977,More than 85 Years,62
+1977,Not Specified,6027
+1978,0-1 Month,4
+1978,2 Months-2 Years,104
+1978,3-11 Years,281
+1978,12-17 Years,219
+1978,18-64 Years,3803
+1978,65-85 Years,961
+1978,More than 85 Years,48
+1978,Not Specified,4015
+1979,0-1 Month,10
+1979,2 Months-2 Years,104
+1979,3-11 Years,234
+1979,12-17 Years,190
+1979,18-64 Years,3249
+1979,65-85 Years,999
+1979,More than 85 Years,80
+1979,Not Specified,3377
+1980,0-1 Month,20
+1980,2 Months-2 Years,304
+1980,3-11 Years,444
+1980,12-17 Years,318
+1980,18-64 Years,5200
+1980,65-85 Years,1585
+1980,More than 85 Years,149
+1980,Not Specified,4892
+1981,0-1 Month,17
+1981,2 Months-2 Years,347
+1981,3-11 Years,475
+1981,12-17 Years,327
+1981,18-64 Years,5655
+1981,65-85 Years,1803
+1981,More than 85 Years,125
+1981,Not Specified,5751
+1982,0-1 Month,25
+1982,2 Months-2 Years,538
+1982,3-11 Years,666
+1982,12-17 Years,471
+1982,18-64 Years,9696
+1982,65-85 Years,3190
+1982,More than 85 Years,218
+1982,Not Specified,8901
+1983,0-1 Month,55
+1983,2 Months-2 Years,409
+1983,3-11 Years,562
+1983,12-17 Years,638
+1983,18-64 Years,12719
+1983,65-85 Years,4362
+1983,More than 85 Years,286
+1983,Not Specified,12990
+1984,0-1 Month,86
+1984,2 Months-2 Years,501
+1984,3-11 Years,785
+1984,12-17 Years,670
+1984,18-64 Years,14072
+1984,65-85 Years,4659
+1984,More than 85 Years,279
+1984,Not Specified,11571
+1985,0-1 Month,162
+1985,2 Months-2 Years,1090
+1985,3-11 Years,1161
+1985,12-17 Years,906
+1985,18-64 Years,15966
+1985,65-85 Years,5480
+1985,More than 85 Years,392
+1985,Not Specified,13642
+1986,0-1 Month,199
+1986,2 Months-2 Years,1517
+1986,3-11 Years,1661
+1986,12-17 Years,1237
+1986,18-64 Years,22429
+1986,65-85 Years,8522
+1986,More than 85 Years,553
+1986,Not Specified,19810
+1987,0-1 Month,171
+1987,2 Months-2 Years,1673
+1987,3-11 Years,2071
+1987,12-17 Years,1437
+1987,18-64 Years,23337
+1987,65-85 Years,7615
+1987,More than 85 Years,516
+1987,Not Specified,17939
+1988,0-1 Month,192
+1988,2 Months-2 Years,1793
+1988,3-11 Years,1410
+1988,12-17 Years,1123
+1988,18-64 Years,20583
+1988,65-85 Years,7275
+1988,More than 85 Years,491
+1988,Not Specified,18271
+1989,0-1 Month,285
+1989,2 Months-2 Years,2124
+1989,3-11 Years,1793
+1989,12-17 Years,1148
+1989,18-64 Years,24641
+1989,65-85 Years,8427
+1989,More than 85 Years,627
+1989,Not Specified,21637
+1990,0-1 Month,241
+1990,2 Months-2 Years,1704
+1990,3-11 Years,1913
+1990,12-17 Years,1484
+1990,18-64 Years,30810
+1990,65-85 Years,9739
+1990,More than 85 Years,616
+1990,Not Specified,28694
+1991,0-1 Month,242
+1991,2 Months-2 Years,1007
+1991,3-11 Years,2136
+1991,12-17 Years,1548
+1991,18-64 Years,31242
+1991,65-85 Years,10369
+1991,More than 85 Years,691
+1991,Not Specified,28055
+1992,0-1 Month,208
+1992,2 Months-2 Years,1101
+1992,3-11 Years,2246
+1992,12-17 Years,2041
+1992,18-64 Years,42460
+1992,65-85 Years,15145
+1992,More than 85 Years,1037
+1992,Not Specified,41716
+1993,0-1 Month,278
+1993,2 Months-2 Years,1144
+1993,3-11 Years,2500
+1993,12-17 Years,2421
+1993,18-64 Years,52494
+1993,65-85 Years,20324
+1993,More than 85 Years,1328
+1993,Not Specified,43709
+1994,0-1 Month,345
+1994,2 Months-2 Years,1775
+1994,3-11 Years,3866
+1994,12-17 Years,2948
+1994,18-64 Years,56393
+1994,65-85 Years,23082
+1994,More than 85 Years,1537
+1994,Not Specified,39176
+1995,0-1 Month,386
+1995,2 Months-2 Years,1169
+1995,3-11 Years,3609
+1995,12-17 Years,3403
+1995,18-64 Years,67021
+1995,65-85 Years,24362
+1995,More than 85 Years,1703
+1995,Not Specified,40014
+1996,0-1 Month,446
+1996,2 Months-2 Years,1625
+1996,3-11 Years,4534
+1996,12-17 Years,3540
+1996,18-64 Years,76983
+1996,65-85 Years,32401
+1996,More than 85 Years,2145
+1996,Not Specified,50530
+1997,0-1 Month,704
+1997,2 Months-2 Years,1825
+1997,3-11 Years,4791
+1997,12-17 Years,3701
+1997,18-64 Years,94179
+1997,65-85 Years,39146
+1997,More than 85 Years,2547
+1997,Not Specified,51341
+1998,0-1 Month,1210
+1998,2 Months-2 Years,1565
+1998,3-11 Years,3389
+1998,12-17 Years,3417
+1998,18-64 Years,76221
+1998,65-85 Years,34936
+1998,More than 85 Years,2544
+1998,Not Specified,36608
+1999,0-1 Month,1475
+1999,2 Months-2 Years,2297
+1999,3-11 Years,3826
+1999,12-17 Years,3691
+1999,18-64 Years,106172
+1999,65-85 Years,50510
+1999,More than 85 Years,3601
+1999,Not Specified,52791
+2000,0-1 Month,1622
+2000,2 Months-2 Years,2044
+2000,3-11 Years,3530
+2000,12-17 Years,3603
+2000,18-64 Years,90885
+2000,65-85 Years,49451
+2000,More than 85 Years,3827
+2000,Not Specified,44837
+2001,0-1 Month,2347
+2001,2 Months-2 Years,1883
+2001,3-11 Years,4158
+2001,12-17 Years,4397
+2001,18-64 Years,91906
+2001,65-85 Years,49665
+2001,More than 85 Years,4059
+2001,Not Specified,44793
+2002,0-1 Month,2123
+2002,2 Months-2 Years,1576
+2002,3-11 Years,3237
+2002,12-17 Years,3586
+2002,18-64 Years,86527
+2002,65-85 Years,44580
+2002,More than 85 Years,3696
+2002,Not Specified,39554
+2003,0-1 Month,1961
+2003,2 Months-2 Years,1771
+2003,3-11 Years,5042
+2003,12-17 Years,5267
+2003,18-64 Years,103025
+2003,65-85 Years,50279
+2003,More than 85 Years,4202
+2003,Not Specified,53687
+2004,0-1 Month,1825
+2004,2 Months-2 Years,1968
+2004,3-11 Years,6264
+2004,12-17 Years,6411
+2004,18-64 Years,124501
+2004,65-85 Years,65620
+2004,More than 85 Years,5362
+2004,Not Specified,60880
+2005,0-1 Month,1888
+2005,2 Months-2 Years,2007
+2005,3-11 Years,5985
+2005,12-17 Years,6308
+2005,18-64 Years,144271
+2005,65-85 Years,73370
+2005,More than 85 Years,5421
+2005,Not Specified,82629
+2006,0-1 Month,2266
+2006,2 Months-2 Years,2236
+2006,3-11 Years,4837
+2006,12-17 Years,6161
+2006,18-64 Years,158636
+2006,65-85 Years,78529
+2006,More than 85 Years,5844
+2006,Not Specified,77161
+2007,0-1 Month,2766
+2007,2 Months-2 Years,2518
+2007,3-11 Years,6273
+2007,12-17 Years,6922
+2007,18-64 Years,171535
+2007,65-85 Years,78461
+2007,More than 85 Years,5856
+2007,Not Specified,88994
+2008,0-1 Month,4639
+2008,2 Months-2 Years,2848
+2008,3-11 Years,7620
+2008,12-17 Years,7742
+2008,18-64 Years,202023
+2008,65-85 Years,92509
+2008,More than 85 Years,7301
+2008,Not Specified,114989
+2009,0-1 Month,4543
+2009,2 Months-2 Years,3109
+2009,3-11 Years,8525
+2009,12-17 Years,9024
+2009,18-64 Years,220204
+2009,65-85 Years,103034
+2009,More than 85 Years,8341
+2009,Not Specified,133628
+2010,0-1 Month,2951
+2010,2 Months-2 Years,4432
+2010,3-11 Years,8210
+2010,12-17 Years,8842
+2010,18-64 Years,287195
+2010,65-85 Years,126823
+2010,More than 85 Years,10400
+2010,Not Specified,223787
+2011,0-1 Month,3855
+2011,2 Months-2 Years,4092
+2011,3-11 Years,9809
+2011,12-17 Years,12833
+2011,18-64 Years,343192
+2011,65-85 Years,152836
+2011,More than 85 Years,14252
+2011,Not Specified,240758
+2012,0-1 Month,4222
+2012,2 Months-2 Years,3980
+2012,3-11 Years,11224
+2012,12-17 Years,12671
+2012,18-64 Years,379152
+2012,65-85 Years,172129
+2012,More than 85 Years,16119
+2012,Not Specified,330682
+2013,0-1 Month,2364
+2013,2 Months-2 Years,4776
+2013,3-11 Years,11479
+2013,12-17 Years,12811
+2013,18-64 Years,398877
+2013,65-85 Years,186877
+2013,More than 85 Years,18627
+2013,Not Specified,432782
+2014,0-1 Month,2891
+2014,2 Months-2 Years,4949
+2014,3-11 Years,12735
+2014,12-17 Years,14115
+2014,18-64 Years,440092
+2014,65-85 Years,234611
+2014,More than 85 Years,23129
+2014,Not Specified,465911
+2015,0-1 Month,3343
+2015,2 Months-2 Years,6347
+2015,3-11 Years,17693
+2015,12-17 Years,19941
+2015,18-64 Years,591307
+2015,65-85 Years,350321
+2015,More than 85 Years,32553
+2015,Not Specified,698286
+2016,0-1 Month,3188
+2016,2 Months-2 Years,7277
+2016,3-11 Years,17921
+2016,12-17 Years,21390
+2016,18-64 Years,570597
+2016,65-85 Years,355970
+2016,More than 85 Years,33017
+2016,Not Specified,674013
+2017,0-1 Month,2962
+2017,2 Months-2 Years,7664
+2017,3-11 Years,20759
+2017,12-17 Years,23198
+2017,18-64 Years,566910
+2017,65-85 Years,393544
+2017,More than 85 Years,36850
+2017,Not Specified,753123
+2018,0-1 Month,3566
+2018,2 Months-2 Years,9544
+2018,3-11 Years,23590
+2018,12-17 Years,33827
+2018,18-64 Years,688679
+2018,65-85 Years,473388
+2018,More than 85 Years,41702
+2018,Not Specified,865853
+2019,0-1 Month,4145
+2019,2 Months-2 Years,9445
+2019,3-11 Years,23365
+2019,12-17 Years,42186
+2019,18-64 Years,702337
+2019,65-85 Years,445080
+2019,More than 85 Years,38952
+2019,Not Specified,909774
+2020,0-1 Month,3867
+2020,2 Months-2 Years,9755
+2020,3-11 Years,21192
+2020,12-17 Years,40427
+2020,18-64 Years,687011
+2020,65-85 Years,442304
+2020,More than 85 Years,38877
+2020,Not Specified,959381
+2021,0-1 Month,3144
+2021,2 Months-2 Years,8903
+2021,3-11 Years,22578
+2021,12-17 Years,32113
+2021,18-64 Years,730806
+2021,65-85 Years,457755
+2021,More than 85 Years,37045
+2021,Not Specified,1036246
+2022,0-1 Month,3178
+2022,2 Months-2 Years,9801
+2022,3-11 Years,25826
+2022,12-17 Years,29890
+2022,18-64 Years,769089
+2022,65-85 Years,486388
+2022,More than 85 Years,41010
+2022,Not Specified,971917
+2023,0-1 Month,2846
+2023,2 Months-2 Years,10164
+2023,3-11 Years,29486
+2023,12-17 Years,31085
+2023,18-64 Years,642576
+2023,65-85 Years,455531
+2023,More than 85 Years,40282
+2023,Not Specified,942485
+2024,0-1 Month,2752
+2024,2 Months-2 Years,12018
+2024,3-11 Years,35776
+2024,12-17 Years,34713
+2024,18-64 Years,658444
+2024,65-85 Years,470425
+2024,More than 85 Years,40369
+2024,Not Specified,787332

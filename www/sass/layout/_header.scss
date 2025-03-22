@@ -1,0 +1,14 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: $primary;
+    color: $white;
+    height: 100px;
+    padding: 24px 36px;
+    img {
+        height: 60px;
+        width: auto;
+    }
+}
