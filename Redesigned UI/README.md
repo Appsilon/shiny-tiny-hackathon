@@ -21,7 +21,7 @@ A modern dashboard for analyzing FDA Adverse Events Reporting System (FAERS) dat
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/faers-dashboard-helper.git
+git clone https://github.com/Shaik-mohd-huzaifa/faers-dashboard-helper.git
 cd faers-dashboard-helper
 ```
 
@@ -41,7 +41,7 @@ Get your API key from [OpenAI Platform](https://platform.openai.com/api-keys)
 ```bash
 npm run dev
 ```
-The app will be available at `http://localhost:5173`
+The app will be available at `http://localhost:8080`
 
 ## 🛠️ Technology Stack
 - **Frontend:** React 18 with TypeScript
