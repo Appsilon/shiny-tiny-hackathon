@@ -18,7 +18,7 @@ data_clean <- raw_data %>%
 
 library(dplyr)
 
-data_clean |>
+data_clean = data_clean |>
   dplyr::mutate(
     report_count = as.integer(report_count),
     dplyr::across(
