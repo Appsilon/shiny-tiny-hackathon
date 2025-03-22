@@ -3,7 +3,8 @@ home_ui <- function(id) {
 
     ns <- NS(id)
 
-    tagList(
+    tags$div(
+        class = "main-content",
         fluidRow(
             class = "align-items-center",
             column(

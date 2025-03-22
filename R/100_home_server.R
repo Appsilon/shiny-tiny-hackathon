@@ -117,7 +117,8 @@ home_server <- function(
                         "box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1)",
                         "font-size: 12px",
                         sep = ";"
-                    )
+                    ),
+                    placement = "container"
                 )
             )
         )
