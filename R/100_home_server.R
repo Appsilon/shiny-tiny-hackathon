@@ -5,6 +5,11 @@ home_server <- function(
 
     # ------ REACTIVE ----------------------------------------------------------
 
+    # ------ * Filter years ----------------------------------------------------
+    filter_years <- reactiveVal("all_years")
+    observeEvent(input$all_years, filter_years("all_years"))
+    observeEvent(input$last_10_years, filter_years("last_10_years"))
+
     # ------ * data_wide -------------------------------------------------------
     # Transform data in wide format for the table
     data_wide <- reactive({
@@ -78,6 +83,24 @@ home_server <- function(
     # ------ * Plot ------------------------------------------------------------
     output$plot <- ggiraph::renderGirafe({
         data <- data_list[[input$report_category]]
+        
+        # Get all possible levels for the selected category
+        all_levels <- unique(unlist(lapply(data_list, function(df) {
+            if (input$report_category %in% names(df)) {
+                return(unique(df[[input$report_category]]))
+            }
+            return(NULL)
+        })))
+        
+        # Create factor with ALL possible levels, not just those in current filtered data
+        data[[input$report_category]] <- factor(
+            data[[input$report_category]],
+            levels = all_levels
+        )
+        
+        if (filter_years() == "last_10_years") {
+            data <- data[year >= max(year, na.rm = TRUE) - 10]
+        }
         p <- ggplot(data, aes(
             x = year, 
             y = count, 
@@ -88,7 +111,11 @@ home_server <- function(
             )
         )) +
             ggiraph::geom_col_interactive(position = "stack") +
-            scale_fill_manual(values = custom_palette) +
+            scale_fill_manual(
+                values = custom_palette,
+                # Important: Drop=FALSE ensures all levels stay in the legend
+                drop = FALSE
+            ) +
             scale_y_continuous(
                 labels = scales::label_number(big.mark = ","),
                 expand = expansion(mult = c(0, 0.05))

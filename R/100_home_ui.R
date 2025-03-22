@@ -94,6 +94,22 @@ home_ui <- function(id) {
             ),
             column(
                 width = 6,
+                fluidRow(
+                    column(
+                        width = 12,
+                        class = "text-end",
+                        actionButton(
+                            inputId = ns("all_years"),
+                            label = "All Years",
+                            class = "btn-primary"
+                        ),
+                        actionButton(
+                            inputId = ns("last_10_years"),
+                            label = "Last 10 Years",
+                            class = "btn-primary"
+                        )
+                    )
+                ),
                 ggiraph::girafeOutput(ns("plot"), height = "45vh", width = "100%")
             )
         ),
