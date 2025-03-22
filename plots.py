@@ -20,7 +20,6 @@ def stacked_bar_plot(data, subject):
                  stat='identity', position='stack') +
         scale_x_continuous(breaks=True) +
         labs(
-            title='Number of Reports by Year and {}'.format(subject),
             x='Year',
             y='Reports',
             fill=subject

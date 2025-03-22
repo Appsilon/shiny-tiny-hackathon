@@ -27,7 +27,7 @@ app_ui = ui.page_fillable(
             full_screen=True,
         ),
         ui.card(
-            ui.card_header("x"),
+            ui.card_header(ui.output_text("title_plot")),
             ui.output_plot("plot"),
             full_screen=True,
         ),
@@ -38,39 +38,40 @@ app_ui = ui.page_fillable(
 # Define the server
 def server(input, output, session):
 
-    @reactive.value
-    
+    subject_r = reactive.value("Sex")
+    @reactive.effect
+    @reactive.event(input.subject_report)
+    def _():
+        subject_report = input.subject_report()
+        subject = subject_report[11:]
+        subject_r.set(subject)
 
     @reactive.Calc
     def get_aggregated_data():
-        subject_report = input.subject_report()
-        subject = subject_report[11:]
-        aggregated = data.groupby(['Year', subject]).size().reset_index(name='Reports')
+        aggregated = data.groupby(['Year', subject_r.get()]).size().reset_index(name='Reports')
         return aggregated
 
     @output
     @render.text
     def title():
-        subject_report = input.subject_report()
-        subject = subject_report[11:]
-        return 'Explore the Number of Reports by Year and {}'.format(subject)
+        return 'Explore the Number of Reports by Year and {}'.format(subject_r.get())
 
     @output
     @render.table
     def table():
-        subject_report = input.subject_report()
-        subject = subject_report[11:]
         long_agg_data = get_aggregated_data()
-        wide_agg_data = long_agg_data.pivot(index='Year', columns=subject).reset_index()
+        wide_agg_data = long_agg_data.pivot(index='Year', columns=subject_r.get()).reset_index()
         return wide_agg_data
 
-    
+    @output
+    @render.text
+    def title_plot():
+        return 'See the Number of Reports by Year and {}'.format(subject_r.get())
+
     @output
     @render.plot
     def plot():
-        subject_report = input.subject_report()
-        subject = subject_report[11:]
-        return stacked_bar_plot(get_aggregated_data(), subject)
+        return stacked_bar_plot(get_aggregated_data(), subject_r.get())
 
 # Create and run the app
 app = App(app_ui, server)
