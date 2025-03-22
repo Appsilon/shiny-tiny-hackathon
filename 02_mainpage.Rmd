@@ -1,0 +1,121 @@
+```{r}
+filtered_data <- reactive({
+  faers_simulated |>
+    filter(
+      if (!is.null(input$gender_filter)) Gender %in% input$gender_filter else TRUE,
+      if (!is.null(input$age_filter)) Age_group %in% input$age_filter else TRUE,
+      if (!is.null(input$year_filter)) Year %in% input$year_filter else TRUE,
+      if (!is.null(input$report_type_filter)) Report_type %in% input$report_type_filter else TRUE,
+      if (!is.null(input$reporter_filter)) Reporter %in% input$reporter_filter else TRUE,
+      if (!is.null(input$region_filter)) Region %in% input$region_filter else TRUE,
+      if (!is.null(input$seriousness_filter)) Seriousness %in% input$seriousness_filter else TRUE
+    )
+})
+```
+
+Value boxes {data-width=650}
+-----------------------------------------------------------------------
+
+### Total Reports
+
+```{r}
+renderValueBox({
+  valueBox(
+    value = nrow(filtered_data()),
+    caption = "Total Reports",
+    icon = "fas fa-notes-medical",
+    color = "primary"
+  )
+})
+```
+
+### Serious Reports
+```{r}
+renderValueBox({
+  serious_count <- filtered_data() |>
+    filter(Seriousness == "Serious") |>
+    nrow()
+
+  valueBox(
+    value = serious_count,
+    caption = "Serious Reports (Excluding death)",
+    icon = "fas fa-exclamation-triangle",
+    color = "warning"
+  )
+})
+```
+
+### Death Reports
+```{r}
+renderValueBox({
+  death_count <- filtered_data() |>
+    filter(Seriousness == "Death") |>
+    nrow()
+
+  valueBox(
+    value = death_count,
+    caption = "Death report",
+    icon = "fas fa-skull-crossbones",
+    color = "danger"
+  )
+})
+
+```
+
+Graphics {data-width=55}
+-----------------------------------------------------------------------
+### Plot of case count by year
+```{r}
+renderPlotly({
+  stack_var <- input$summary_view  # Ex: "Gender", "Age_group", etc.
+
+  plot_data <- filtered_data() |>
+    group_by(Year, across(all_of(stack_var))) |>
+    summarise(Count = n(), .groups = "drop")
+
+  plot_ly(
+    data = plot_data,
+    x = ~Year,
+    y = ~Count,
+    color = ~get(stack_var),
+    type = "bar"
+  ) |>
+    layout(
+      barmode = "stack",
+      xaxis = list(title = "Year"),
+      yaxis = list(title = "Number of Reports"),
+      legend = list(title = list(text = stack_var))
+    )
+})
+```
+
+Graphics {data-width=45}
+-----------------------------------------------------------------------
+### Table of case count by year
+
+```{r}
+renderReactable({
+  pivot_var <- input$summary_view
+
+  table_data <- filtered_data() |>
+    group_by(Year, across(all_of(pivot_var))) |>
+    summarise(Count = n(), .groups = "drop") |>
+    tidyr::pivot_wider(
+      names_from = all_of(pivot_var),
+      values_from = Count,
+      values_fill = 0
+    ) |>
+    arrange(Year)
+
+  reactable(
+    table_data,
+    bordered = TRUE,
+    highlight = TRUE,
+    striped = TRUE,
+    defaultColDef = colDef(align = "center"),
+    pagination = FALSE
+  )
+})
+
+
+```
