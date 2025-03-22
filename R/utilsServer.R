@@ -34,7 +34,7 @@ get_plot_columns <- function(selected_chart) {
 #'
 #' @returns A Plotly stacked bar chart.
 #' @export
-stacked_bars <- function(columns_to_use) {
+stacked_bars <- function(columns_to_use, years_to_display) {
   
   # Default column colors
   column_colors <- c(
@@ -66,6 +66,13 @@ stacked_bars <- function(columns_to_use) {
   # Filter the data to include only the specified columns (and 'year')
   data_long <- mock_data %>%
     select(c("year", columns_to_use)) %>%
+    filter(
+      if (years_to_display == "All years") {
+        year %in% 1968:2024
+      } else {
+        between(year, 2015, 2024)
+      }
+    ) %>% 
     pivot_longer(cols = -year, names_to = "category", values_to = "count")  # Convert to long format
   
   # Add default colors to the category if they are not in the dataset

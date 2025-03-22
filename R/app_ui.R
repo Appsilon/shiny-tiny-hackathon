@@ -5,6 +5,7 @@
 #' @import shiny
 #' @import bslib
 #' @importFrom golem add_resource_path activate_js favicon bundle_resources
+#' @importFrom shinyWidgets radioGroupButtons
 #' @importFrom htmltools tagList
 #' @importFrom DT DTOutput
 #' @importFrom plotly plotlyOutput
@@ -41,33 +42,42 @@ app_ui <- function(request) {
                  )
                  # table output in the left column
           ),
-          column(width = 6)
-        ),
-        fluidRow(
-          column(width = 12,
-                 # chart output in the right column
-                 bslib::card(
-                   # Dynamically update the card title based on chart type selection
-                   bslib::card_header(
-                     textOutput("table_title")  # Place the textOutput in the card_header
-                   ),
-                   bslib::card_body(
-                     fluidRow(
-                       column(width = 6,
-                              DTOutput("table")
-                       ),
-                       column(width = 6,
-                              plotlyOutput("stacked_bars")
+          column(width = 6,
+                 # add two radiogroupbuttons next to each other, that say "All years" and "Last 10 years"
+                 shinyWidgets::radioGroupButtons(
+                   inputId = "years",
+                   label = "",
+                   choices = c("All years", "Last 10 years"),
+                   selected = "All years",
+                   direction = "horizontal"
+                 )
+                 
+          ),
+          fluidRow(
+            column(width = 12,
+                   # chart output in the right column
+                   bslib::card(
+                     # Dynamically update the card title based on chart type selection
+                     bslib::card_header(
+                       textOutput("table_title")  # Place the textOutput in the card_header
+                     ),
+                     bslib::card_body(
+                       fluidRow(
+                         column(width = 6,
+                                DTOutput("table")
+                         ),
+                         column(width = 6,
+                                plotlyOutput("stacked_bars")
+                         )
                        )
                      )
                    )
-                 )
-                 
+                   
+            )
           )
         )
       )
-    )
-  )
+    ))
 }
 
 #' Add external Resources to the Application
