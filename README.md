@@ -1,3 +1,10 @@
+# Notes
+Principal aim was to see if AI could create the app with least user input. 
+The LLMs where given the task description and preference to use R + Shiny.
+LLMs used were Perplexity AI with Claude Sonnet, ChatGPT with Deep research and o3 mini, and Deepseek R1.
+After their inital solutions, they were also given 2 xlsx files of the original dashboards and some additional requirements.
+The code from Perplexity AI and Claude Sonnet was then used to create the app.
+
 # Rules
 
 1. Register to the event: [Tiny Shiny AI Hackathon](https://events.ringcentral.com/events/appsilon-s-tiny-shiny-ai-hackathon)
