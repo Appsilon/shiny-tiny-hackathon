@@ -1,6 +1,5 @@
 box::use(
   shiny,
-  bslib,
   reactable,
 )
 

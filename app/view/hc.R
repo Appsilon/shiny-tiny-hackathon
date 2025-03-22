@@ -1,7 +1,5 @@
 box::use(
   shiny,
-  bslib,
-  reactable,
   highcharter,
 )
 
@@ -27,7 +25,6 @@ server <- function(id, df) {
 
     output$stackedChart <- highcharter$renderHighchart({
       shiny$req(df())
-      print(nrow(df()))
       shiny$validate(
         shiny$need(nrow(df() > 0), "No records found for selected filters.")
       )
