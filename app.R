@@ -214,20 +214,22 @@ server <- function(input, output, session) {
     ) %>% formatCurrency("Total_Reports", currency = "", digits = 0)
   })
   
-  # Trend Chart
+  # Trend Chart (stacked bar chart)
   output$trendChart <- renderPlotly({
     data <- faers_data()
     
     plot_ly(data, x = ~Year) %>%
-      add_lines(y = ~Total_Reports, name = "Total Reports", line = list(color = '#1f77b4')) %>%
-      add_lines(y = ~Expedited, name = "Expedited", line = list(color = '#ff7f0e')) %>%
-      add_lines(y = ~Non_Expedited, name = "Non-Expedited", line = list(color = '#2ca02c')) %>%
+      add_bars(y = ~Expedited, name = "Expedited", marker = list(color = '#ff7f0e')) %>%
+      add_bars(y = ~Non_Expedited, name = "Non-Expedited", marker = list(color = '#2ca02c')) %>%
+      add_bars(y = ~Direct, name = "Direct", marker = list(color = '#1f77b4')) %>%
+      add_bars(y = ~BSR, name = "BSR", marker = list(color = '#d62728')) %>%
       layout(
         title = "Reporting Trends Over Time",
         xaxis = list(title = "Year", fixedrange = TRUE),
         yaxis = list(title = "Number of Reports", fixedrange = TRUE),
         hovermode = "x unified",
-        showlegend = TRUE
+        showlegend = TRUE,
+        barmode = 'stack'
       )
   })
   
