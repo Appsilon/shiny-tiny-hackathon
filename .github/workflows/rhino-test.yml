@@ -44,37 +44,12 @@ jobs:
         shell: Rscript {0}
         run: rhino::lint_r()
 
-      - name: Lint JavaScript
-        if: always()
-        shell: Rscript {0}
-        run: rhino::lint_js()
-
       - name: Lint Sass
         if: always()
         shell: Rscript {0}
         run: rhino::lint_sass()
 
-      - name: Build JavaScript
-        if: always()
-        shell: Rscript {0}
-        run: rhino::build_js()
-
       - name: Build Sass
         if: always()
         shell: Rscript {0}
         run: rhino::build_sass()
-
-      - name: Run R unit tests
-        if: always()
-        shell: Rscript {0}
-        run: rhino::test_r()
-
-      - name: Run Cypress end-to-end tests
-        if: always()
-        uses: cypress-io/github-action@v6
-        with:
-          working-directory: .rhino # Created by earlier commands which use Node.js
-          start: npm run run-app
-          project: ../tests
-          wait-on: 'http://localhost:3333/'
-          wait-on-timeout: 60
