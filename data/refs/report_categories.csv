@@ -1,0 +1,7 @@
+label,name
+Report Type,report_type
+Reporter,reporter
+Reporter Region,reporter_region
+Report Seriousness,seriousness
+Age Group,age_group
+Sex,sex

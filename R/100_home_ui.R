@@ -24,6 +24,17 @@ home_ui <- function(id) {
                         showcase = bsicons::bs_icon("x-circle-fill")
                     )
                 )
+            ),
+            column(
+                width = 6,
+                selectInput(
+                    inputId = ns("report_category"),
+                    label = "Reports by",
+                    choices = setNames(
+                        ref_list$report_categories$name,
+                        ref_list$report_categories$label
+                    )
+                )
             )
         ),
         fluidRow(
@@ -33,7 +44,14 @@ home_ui <- function(id) {
             ),
             column(
                 width = 6,
-                ggiraph::ggiraphOutput(ns("plot"))
+                ggiraph::girafeOutput(ns("plot"))
+            )
+        ),
+        fluidRow(
+            column(
+                width = 12,
+                h3("Data as of December 31, 2024"),
+                uiOutput(ns("data_description"))
             )
         )
     )
