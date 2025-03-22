@@ -1,12 +1,11 @@
-import seaborn as sns
-from faicons import icon_svg
-
 from shiny import App, reactive, render, ui
 import pandas as pd
 
 from plots import stacked_bar_plot
 
 data = pd.read_csv("artificial_data.csv")
+min_year = data['Year'].min()
+max_year = data['Year'].max()
 
 subjects = list(data.columns)[1:7]
 reports_by_subjects = ["Reports by " + subject for subject in subjects]
@@ -14,11 +13,11 @@ reports_by_subjects = ["Reports by " + subject for subject in subjects]
 # Define the UI
 app_ui = ui.page_fillable(
     ui.h1("FDA Adverse Events Reporting System (FAERS) Public Dashboard"),
-    ui.div(
-        ui.div(
-            ui.input_select("subject_report", "", reports_by_subjects),
-            style="margin-bottom: 20px;"
-        )
+    ui.layout_column_wrap(
+        ui.card(ui.input_select("subject_report", "", reports_by_subjects)),
+        ui.card(ui.input_slider("year_range", "Select Year Range:", 
+                   min=min_year, max=max_year, value=[min_year, max_year],
+                   step=1, ticks=True, sep=""))
     ),
     ui.layout_columns(
         ui.card(
@@ -33,7 +32,7 @@ app_ui = ui.page_fillable(
             full_screen=True,
         ),
     ),
-    title="x"
+    title="FAERS Report Dashboard"
 )
 
 # Define the server
@@ -48,21 +47,21 @@ def server(input, output, session):
         subject_r.set(subject)
 
     @reactive.Calc
+    def filtered_data():
+        year_min, year_max = input.year_range()
+        return data[(data['Year'] >= year_min) & (data['Year'] <= year_max)]
+
+    @reactive.Calc
     def get_aggregated_data():
-        aggregated = data.groupby(['Year', subject_r.get()]).size().reset_index(name='Reports')
+        df = filtered_data()
+        aggregated = df.groupby(['Year', subject_r.get()]).size().reset_index(name='Reports')
         return aggregated
 
     @output
     @render.text
     def title():
-        return 'Explore the Number of Reports by Year and {}'.format(subject_r.get())
-
-    # @output
-    # @render.table
-    # def table():
-    #     long_agg_data = get_aggregated_data()
-    #     wide_agg_data = long_agg_data.pivot(index='Year', columns=subject_r.get()).reset_index()
-    #     return wide_agg_data
+        year_min, year_max = input.year_range()
+        return f'Reports by Year and {subject_r.get()} ({year_min}-{year_max})'
     
     @output
     @render.data_frame

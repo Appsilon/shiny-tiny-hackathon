@@ -50,3 +50,13 @@ These colors have been selected to be:
 This palette is inspired by professional visualization color schemes used in tools like Tableau and D3.js. "
 
 For implementation, I used a Google search and the plotnine documentation.
+
+## Adding control over the years analyzed
+
+The original dashboard offered to the user a choice between using all the data available or only the data from the last 10 years. Claude supplied me code to modify the app to control the years using a slider input. The data is then filtered with the year range selected by the user, before being aggregated.
+
+Claude also replied succesfully when asked "Can you modify the input slider so that “2009” is displayed rather than “2,019”?". The year display is even better than what I asked!
+
+# Conclusion
+
+I am pleased with how Claude 3.7 Sonnet handled my questions and answered using code and detailed outputs and explanations.
