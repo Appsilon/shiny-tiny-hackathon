@@ -1,61 +1,129 @@
-# Rules
+# FDA Adverse Event Reporting System (FAERS) Dashboard Recreation
+[<img width="2240" alt="Screenshot 2025-03-22 at 18 35 30" src="https://github.com/user-attachments/assets/fd76f043-651b-4bc9-a3d8-0bc5a65e7404" />](https://dgalgom.shinyapps.io/FAERS_simulation_test/)
 
-1. Register to the event: [Tiny Shiny AI Hackathon](https://events.ringcentral.com/events/appsilon-s-tiny-shiny-ai-hackathon)
-2. Create a PR back to this repository from the forked one BEFORE THE EVENT END TIME 7 PM CET.
-3. PR needs to contain a working Shiny application with the task solution and the description of the AI tools used in the development.
+[<img width="2240" alt="Screenshot 2025-03-22 at 18 35 55" src="https://github.com/user-attachments/assets/4ecb9503-a07d-4680-bb89-9d0e0e84b3e2" />](https://dgalgom.shinyapps.io/FAERS_simulation_test/)
 
-# Task
+Welcome to my repository! This project was developed as part of the Appsilon Tiny Shiny Hackathon, a four-hour online challenge where developers showcase their creativity and technical skills by building applications that combine Shiny and AI. Here, I present my solution: a Shiny dashboard that recreates the FDA Adverse Event Reporting System (FAERS) Public Dashboard, with added enhancements for improved functionality and user experience.
 
-All participants have the same task: to recreate FDA Adverse Event Reporting System (FAERS) Public Dashboard. [Application](https://fis.fda.gov/sense/app/95239e26-e0be-42d9-a960-9a5f7f1c25ee/sheet/7a47a261-d58b-4203-a8aa-6d3021737452/state/analysis), [Description](https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers-public-dashboard)
-1. Note that it is not meant to be a pixel-perfect copy. Custom ideas for design, user experience, feature improvements are welcomed and will be taken into consideration during the assessment process.
-2. The data used on the dashboard should be mocked
-3. The task is on purpose too complex to be finalised within the 4 hours time slot. The goal is to use AI-coding tools as a support and showcase the possibilities of the LLM-based development.
+## 🚀 Overview
+The goal of this project was to recreate the FAERS Public Dashboard using R Shiny, while incorporating advanced features such as AI-powered predictions to enhance the user experience. The dashboard allows users to:
 
-![image](https://github.com/user-attachments/assets/0d069db5-992c-4c16-b210-c3e7f8ea2955)
+Filter reports by specific characteristics (e.g., reporter type, event type, date range).
+
+Visualize the data using interactive charts and tabular displays.
+
+Explore predictive insights by leveraging a machine learning model to estimate the probability of adverse events based on user-modulated characteristics.
+
+This project demonstrates my ability to combine Shiny development with AI integration to solve real-world challenges in a time-constrained environment.
+
+## 🛠️ Tools and Technologies Used
+To achieve this, I utilized the following tools and technologies:
+
+ + R Shiny: For building the interactive dashboard.
+
+ + AI Models:
+
+  + Shiny Assistant: For streamlining Shiny app development.
+
+  + ChatGPT (GPT-4): For generating code snippets, debugging, and enhancing the app's logic.
+
+  + Claude 3.7: For brainstorming and refining the app's functionality.
+
+  + DeepSeek R-1: For optimizing code efficiency and performance.
+
+ + R Packages:
+
+  + `shiny`: Core framework for building the app.
+
+  + `DT`: For interactive data tables.
+
+  + `ggplot2`: For creating visualizations.
+
+  + `dplyr`: For data manipulation.
+
+  + `caret` or `tidymodels`: For building the predictive model.
+
+Mocked Data: Simulated datasets to replicate the structure and functionality of the FAERS dashboard.
+
+## 🎯 Key Features
+1. Interactive Filters
+Users can filter the data by:
+
+Reporter Type (e.g., healthcare professional, consumer).
+
+Event Type (e.g., adverse event, product issue).
+
+Date Range (e.g., specific time periods).
+
+2. Data Visualization
+Bar Charts: Show the distribution of adverse events over time.
+
+Pie Charts: Display the proportion of events by category.
+
+Line Charts: Visualize trends in adverse event reporting.
+
+3. Tabular Data Display
+Interactive tables allow users to explore the filtered data in detail.
+
+4. AI-Powered Predictive Insights
+A machine learning model predicts the probability of adverse events based on user-selected characteristics (e.g., age, gender, drug type).
+
+Users can modulate input parameters to see how the predicted probabilities change.
+
+## 🚀 Enhancements Proposed
+While recreating the FAERS dashboard, I identified an opportunity to enhance its functionality by integrating predictive analytics. Here's how:
+
+Predictive Model:
+
+Trained on historical adverse event data to estimate the likelihood of future events.
+
+Allows users to input specific characteristics (e.g., patient demographics, drug details) and receive real-time predictions.
+
+User-Friendly Interface:
+
+Simplified input fields for modulating prediction parameters.
+
+Clear visualizations of predicted probabilities.
+
+Dynamic Updates:
+
+Predictions and visualizations update in real-time as users adjust filters or input parameters.
+
+## 📊 Dashboard Structure
+
+├── Data Processing
+│   ├── FAERS Data Import
+│   ├── Preprocessing
+│   └── Feature Engineering
+├── User Interface
+│   ├── Filtering Panel
+│   ├── Summary Statistics
+│   ├── Visualization Hub
+│   └── Prediction Interface
+└── Predictive Module
+    ├── Model Training
+    ├── Interactive Prediction
+    └── Risk Visualization
 
 
+## 🔍 Hackathon Approach
+With only four hours to complete the challenge, I employed a strategic approach:
 
-# Appsilon’s Tiny Shiny Hackathon: Build, Compete, and Win!
+Rapid Prototyping: Using AI tools to quickly scaffold the application
+Feature Prioritization: Focusing on core FAERS functionality first
+Incremental Enhancement: Adding predictive capabilities once core features were stable
+Continuous Testing: Ensuring functionality throughout development
 
-We are excited to invite you to the Appsilon Tiny Shiny Hackathon, a four-hour online challenge where developers can showcase their creativity and technical skills by building applications that combine Shiny and AI.
 
-Whether you are a seasoned developer or just starting with Shiny, this is a great opportunity to push your limits, learn from others, and gain recognition in the Shiny community.
+## Screenshots
 
-## Why Join?
-This hackathon is not just about coding. It is about innovation, collaboration, and learning. Here is what you can look forward to:
+The brilliant Shiny Assistant
+<img width="2240" alt="Screenshot 2025-03-22 at 17 46 59" src="https://github.com/user-attachments/assets/778add24-fec8-47ce-8bcb-b3d885468e05" />
 
-* Exclusive prizes for top submissions.
-* A feature at ShinyConf 2025, putting your work in front of the global Shiny community.
-* A one-on-one mentoring session with Appsilon’s Head of Technology, Marcin Dubel.
-* If you are passionate about building with Shiny and want to experiment with AI, this is your chance to put your skills to the test.
+Claude 3.7 for optimizing processes
+<img width="2240" alt="Screenshot 2025-03-22 at 17 47 44" src="https://github.com/user-attachments/assets/79d8cbb3-27c1-41ee-95d6-a965c2b0e545" />
 
-## What to Expect
-Taking place on Saturday, March 22, 2025, this hackathon runs for just four hours. You will receive access to a GitHub repository with the challenge description at the start, and from there, it is all about designing, developing, and submitting a working Shiny application.
+ChatGPT to insert FDA US emblem
+<img width="1923" alt="Screenshot 2025-03-22 at 17 48 17" src="https://github.com/user-attachments/assets/5ca998b1-30ed-4bec-b739-95a80010ddf8" />
 
-You can participate solo or team up with a partner. Whether you choose R or Python, the goal is the same. Create an impressive Shiny app that meets the challenge criteria. AI tools like ChatGPT, Copilot, Cursor, and Shiny Assistant are not just allowed. They are encouraged.
 
-## How to Participate
-1. Register for the event.
-2. Make sure you have an active GitHub account.
-3. (Optional) Join the opening call to get important details.
-4. Once the hackathon begins, access the GitHub repository with the challenge.
-5. Fork the repository and start coding.
-6. Submit your pull request before the deadline with your completed app.
-7. How We Will Evaluate Your Work
-8. Submissions will be reviewed by the Hackathon Committee, made up of Appsilon experts. They will be looking at:
-
-  * How well your app meets the challenge objectives.
-  * Any additional features you build.
-  * UI design and user experience.
-  * Code clarity and maintainability.
-
-## Prizes and Recognition
-Winning is not just about prizes. It is about getting your work in front of the right people. Here is what is at stake:
-
-* Top winners will get a one-on-one mentoring session with Appsilon’s Head of Technology.
-* Select participants will be invited to an exclusive roundtable discussion on AI in Shiny development.
-* Top three winners will receive a yearly pro-level subscription to an AI tool of their choice.
-* Top ten winners will each get a 25 dollar Amazon Gift Card.
-
-## Why You Should Join
-This hackathon is a chance to learn, build, and connect. It is about testing ideas, getting feedback, and seeing what is possible when you blend Shiny with AI. Whether you are in it for the challenge, the networking, or the fun, this is an opportunity to grow as a developer while being part of something exciting.
